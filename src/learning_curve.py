@@ -23,6 +23,8 @@ def polynomial_model(degree=1):
     #degree表示多项式的阶数，即多项式中最高次项的阶数
     #例如，输入特征[a,b]，degree=2,则组合特征为[1, a, b, a^2, ab, b^2]
     polynomial_features=PolynomialFeatures(degree=degree,include_bias=False)
+
+    #可以通过normalize参数指定是否对数据进行归一化
     linear_regression=LinearRegression()
 
     pipeline=Pipeline([("polynomial_features",polynomial_features),("linear_regression",linear_regression)])
