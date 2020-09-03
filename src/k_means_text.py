@@ -52,7 +52,7 @@ def text_cluster():
         print()
     
     #对无监督的聚类算法性能进行评估
-    #轮廓系数：b-a/max(a,b)b:
+    #轮廓系数：b-a/max(a,b) 
     #   a:一个样本与其相同聚类的平均距离
     #   b:一个样本与其距离最近的下一个聚类里的点的平均距离
     #值在[-1,1]之间，-1表示完全错误的分类，0表示分类有重叠，1表示完美的聚类
@@ -120,7 +120,7 @@ def cluster_evaluate():
 
     true_label=[0,1,2,3]
     pred_label=[1,1,2,2]
-    #只满足只满足完整性
+    #只满足完整性
     print(metrics.v_measure_score(true_label,pred_label))#0.6666666666666666
 
     true_label=[1,1,2,2]
