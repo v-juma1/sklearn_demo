@@ -1,14 +1,25 @@
+# -*- coding: utf-8 -*-
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+import logging
+import logging.config
+#读取日志配置文件
+logging.config.fileConfig("scikit-learn/conf/logging.conf")
+
+#选择配置在[loggers]中的选项
+logger = logging.getLogger("fileAndConsole")
 import numpy as np
 from sklearn.decomposition import PCA
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import MinMaxScaler
-
 """
 使用PCA对数据进行降维
 """
 
+a = np.array([[3, 2000], [2, 3000], [4, 5000], [5, 8000], [1, 2000]],
+             dtype='float')
 
-a=np.array([[3,2000],[2,3000],[4,5000],[5,8000],[1,2000]],dtype='float')
 
 #使用numpy自定义pca函数
 def pca_fun(a):
@@ -17,31 +28,32 @@ def pca_fun(a):
     #缩放：在以上的基础上，每一维特征除以该维特征的范围(范围：max-min)
 
     #归一化
-    mean=np.mean(a,axis=0)
-    norm=a-mean
+    mean = np.mean(a, axis=0)
+    norm = a - mean
 
     #缩放
-    scope=np.max(norm,axis=0)-np.min(norm,axis=0)
-    norm=norm/scope
+    scope = np.max(norm, axis=0) - np.min(norm, axis=0)
+    norm = norm / scope
     pca_fun(a)
     #对norm的协方差矩阵进行SVD奇异值分解
     #np.dot(norm.T,norm)即 a的转置xa 可以将a从矩阵转化为方阵
     #u中的列向量即为协方差矩阵的特征向量
-    u,s,v=np.linalg.svd(np.dot(norm.T,norm))
+    u, s, v = np.linalg.svd(np.dot(norm.T, norm))
 
     #从u中选取k列（本例中选一列）构成主成分特征矩阵
-    u_reduce=u[:,0].reshape(2,1)
+    u_reduce = u[:, 0].reshape(2, 1)
 
     #使用主成分特征矩阵，对数据进行降维(本例中从二维将到一维)
-    r=np.dot(norm,u_reduce)
+    r = np.dot(norm, u_reduce)
 
     #对降维的数据进行还原
-    z=np.dot(r,u_reduce.T)
-    origin=np.multiply(z,scope)+mean
+    z = np.dot(r, u_reduce.T)
+    origin = np.multiply(z, scope) + mean
+
 
 #使用sklearn进行pca降维
 def sk_pca(a):
-    scaler=MinMaxScaler()
+    scaler = MinMaxScaler()
 
     # n_components=None, 指定降维后的特征维度
     #    最常用的做法是直接指定降维到的维度数目，个大于等于1的整数
@@ -56,29 +68,24 @@ def sk_pca(a):
     #    'arpack' 和randomized的适用场景类似，区别是randomized使用的是scikit-learn自己的SVD实现，而arpack直接使用了scipy库的sparse SVD实现
     #    当svd_solve设置为'arpack'时，保留的成分必须少于特征数，即不能保留所有成分。
     #    'auto'，即PCA类会自己去在前面讲到的三种算法里面去权衡，选择一个合适的SVD算法来降维。一般来说，使用默认值就够了。
-    
+
     # 注意：当设置 n_components == 'mle'时，需要和参数svd_solver一起使用，且svd_solver需要选择 'full' 参数；即pca = PCA(n_components = 'mle',svd_solver='full')
     #    同时要保证输入数据的样本数多于特征数才可执行成功。
-    
+
     #    有两个PCA类的成员值得关注。
     #    第一个是explained_variance_，它代表降维后的各主成分的方差值，方差值越大，则说明越是重要的主成分
     #    第二个是explained_variance_ratio_，它代表降维后的各主成分的方差值占总方差值的比例，这个比例越大，则越是重要的主成分
 
-    p=PCA(n_components=1)
-    pipe=Pipeline([("scaler",scaler),("pca",p)])
-    
+    p = PCA(n_components=1)
+    pipe = Pipeline([("scaler", scaler), ("pca", p)])
+
     #降维结果
-    r=pipe.fit_transform(a)
+    r = pipe.fit_transform(a)
 
     #数据恢复
-    origin=p.inverse_transform(r)
+    origin = p.inverse_transform(r)
 
+    logger.info(origin)
 
-    print(origin)
 
 sk_pca(a)
-
-
-
-
-

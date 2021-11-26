@@ -1,11 +1,22 @@
+# -*- coding: utf-8 -*-
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+import logging
+import logging.config
+#读取日志配置文件
+logging.config.fileConfig("scikit-learn/conf/logging.conf")
+
+#选择配置在[loggers]中的选项
+logger = logging.getLogger("fileAndConsole")
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import svm
 from sklearn.datasets import make_blobs
-
 """
 通过生成的数据了解SVM基本参数
 """
+
 
 #画出支持向量
 def plot_hyperplane(clf, X, y, h=0.02, draw_sv=True, title='hyperplan'):
@@ -20,7 +31,7 @@ def plot_hyperplane(clf, X, y, h=0.02, draw_sv=True, title='hyperplan'):
     plt.ylim(yy.min(), yy.max())
     plt.xticks(())
     plt.yticks(())
-    
+
     Z = clf.predict(np.c_[xx.ravel(), yy.ravel()])
     # Put the result into a color plot
     Z = Z.reshape(xx.shape)
@@ -30,9 +41,9 @@ def plot_hyperplane(clf, X, y, h=0.02, draw_sv=True, title='hyperplan'):
     colors = ['b', 'r', 'c']
     labels = np.unique(y)
     for label in labels:
-        plt.scatter(X[y==label][:, 0], 
-                    X[y==label][:, 1], 
-                    c=colors[label], 
+        plt.scatter(X[y == label][:, 0],
+                    X[y == label][:, 1],
+                    c=colors[label],
                     marker=markers[label])
     if draw_sv:
         sv = clf.support_vectors_
@@ -40,7 +51,7 @@ def plot_hyperplane(clf, X, y, h=0.02, draw_sv=True, title='hyperplan'):
 
 
 #生成数据100个点，分三类
-x,y=make_blobs(n_samples=100,centers=3,random_state=0,cluster_std=0.8)
+x, y = make_blobs(n_samples=100, centers=3, random_state=0, cluster_std=0.8)
 
 # C=1.0 对误分类的惩罚参数，惩罚参数越大，模型的准确率越高，但泛化能力越弱，反之，相当于把错误分类的样本看成噪声点
 # kernel='rbf' 核函数，用来计算映射到高维空间之后的内积（相似度）的一种简便方法
@@ -63,25 +74,25 @@ x,y=make_blobs(n_samples=100,centers=3,random_state=0,cluster_std=0.8)
 # verbose=False 是否启用详细输出
 # max_iter=-1 最大迭代次数，-1表示不限制
 # decision_function_shape='ovr' 取值ovo’, ‘ovr’ or None
-# break_ties=False, 
+# break_ties=False,
 # random_state=None
 
 #选择不同的核来构建四个不同的模型
-clf_linear=svm.SVC(C=1.0,kernel="linear")
-clf_poly=svm.SVC(C=1.0,kernel="poly",degree=3)
-clf_rbf=svm.SVC(C=1.0,kernel="rbf",gamma=0.5)
-clf_rbf1=svm.SVC(C=1.0,kernel="rbf",gamma=0.1)
+clf_linear = svm.SVC(C=1.0, kernel="linear")
+clf_poly = svm.SVC(C=1.0, kernel="poly", degree=3)
+clf_rbf = svm.SVC(C=1.0, kernel="rbf", gamma=0.5)
+clf_rbf1 = svm.SVC(C=1.0, kernel="rbf", gamma=0.1)
 
-clfs=[clf_linear,clf_poly,clf_rbf,clf_rbf1]
+clfs = [clf_linear, clf_poly, clf_rbf, clf_rbf1]
 
 #画出四个模型的分割超平面和支持向量
-titles=['Linear Kernel', 
-          'Polynomial Kernel with Degree=3', 
-          'Gaussian Kernel with $\gamma=0.5$', 
-          'Gaussian Kernel with $\gamma=0.1$']
-plt.figure(figsize=(10,10),dpi=144)
+titles = [
+    'Linear Kernel', 'Polynomial Kernel with Degree=3',
+    'Gaussian Kernel with $\gamma=0.5$', 'Gaussian Kernel with $\gamma=0.1$'
+]
+plt.figure(figsize=(10, 10), dpi=144)
 for clf, i in zip(clfs, range(len(clfs))):
     clf.fit(x, y)
-    plt.subplot(2, 2, i+1)
+    plt.subplot(2, 2, i + 1)
     plot_hyperplane(clf, x, y, title=titles[i])
-plt.show()
+plt.savefig("scikit-learn/log/4-model.png")

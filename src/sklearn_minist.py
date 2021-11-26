@@ -1,11 +1,21 @@
+# -*- coding: utf-8 -*-
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+import logging
+import logging.config
+#读取日志配置文件
+logging.config.fileConfig("scikit-learn/conf/logging.conf")
+
+#选择配置在[loggers]中的选项
+logger = logging.getLogger("fileAndConsole")
 import matplotlib.pyplot as plt
 import joblib
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn import svm
 
-
-digits= datasets.load_digits()
+digits = datasets.load_digits()
 
 # #show minist data
 # data=list(zip(digits.images,digits.target))
@@ -18,7 +28,10 @@ digits= datasets.load_digits()
 # plt.show()
 
 #将数据中的20%作为测试集，剩下的作为训练集
-xtrain,xtest,ytrain,ytest= train_test_split(digits.data,digits.target,test_size=0.20, random_state=2)
+xtrain, xtest, ytrain, ytest = train_test_split(digits.data,
+                                                digits.target,
+                                                test_size=0.20,
+                                                random_state=2)
 
 #使用支持向量机分类
 # C=1.0 对误分类的惩罚参数，惩罚参数越大，模型的准确率越高，但泛化能力越弱，反之，相当于把错误分类的样本看成噪声点
@@ -42,28 +55,20 @@ xtrain,xtest,ytrain,ytest= train_test_split(digits.data,digits.target,test_size=
 # verbose=False 是否启用详细输出
 # max_iter=-1 最大迭代次数，-1表示不限制
 # decision_function_shape='ovr' 取值ovo’, ‘ovr’ or None
-# break_ties=False, 
+# break_ties=False,
 # random_state=None
 
-clf=svm.SVC(C=1.0,gamma=0.001,kernel='rbf')
-clf.fit(xtrain,ytrain)
+clf = svm.SVC(C=1.0, gamma=0.001, kernel='rbf')
+clf.fit(xtrain, ytrain)
 
 # #正确率
 # print(clf.score(xtest,ytest))
 
 #保存模型
-savedir=r"model\digits_svm.pkl"
-joblib.dump(clf,savedir)
+savedir = r"scikit-learn/model/digits_svm.pkl"
+joblib.dump(clf, savedir)
 
 #导入模型，进行预测
-clf= joblib.load(savedir)
-ypred=clf.predict(xtest)
-print(clf.score(xtest,ypred))
-
-
-
-
-
-
-
-
+clf = joblib.load(savedir)
+ypred = clf.predict(xtest)
+logger.info(clf.score(xtest, ypred))
