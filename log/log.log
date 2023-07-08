@@ -1,119 +1,676 @@
-2021-11-27 01:12:07 - k_neighbour_diabetes - 140734903352768 - INFO : [('knn', 0.7147641831852358), ('knn_weights', 0.6770505809979495), ('knn_radius', 0.6497265892002735)]
-2021-11-27 01:15:02 - linearRegression_boston - 140734807252416 - INFO : 0.8600492818188957
-2021-11-27 01:21:09 - PCA_basic - 140734954606016 - INFO : [[ 0.33390904  0.15282575]
- [ 0.30233521  0.11851132]
- [ 0.69766479  0.54815534]
- [ 1.06142055  0.94348493]
- [ 0.10467041 -0.09631069]]
-2021-11-27 01:22:55 - PCA_picture - 140734825590208 - INFO :               precision    recall  f1-score   support
-
-           0       0.33      1.00      0.50         1
-           1       1.00      0.67      0.80         3
-           2       1.00      0.50      0.67         2
-           3       1.00      1.00      1.00         1
-           4       1.00      1.00      1.00         1
-           5       1.00      1.00      1.00         1
-           6       1.00      0.75      0.86         4
-           7       1.00      1.00      1.00         2
-           8       1.00      1.00      1.00         4
-           9       1.00      1.00      1.00         2
-          10       1.00      1.00      1.00         1
-          12       1.00      1.00      1.00         4
-          13       1.00      1.00      1.00         4
-          14       1.00      1.00      1.00         1
-          15       1.00      1.00      1.00         1
-          16       0.75      1.00      0.86         3
-          17       1.00      1.00      1.00         2
-          18       1.00      1.00      1.00         2
-          19       1.00      1.00      1.00         2
-          20       1.00      1.00      1.00         1
-          21       1.00      1.00      1.00         2
-          22       0.75      1.00      0.86         3
-          23       1.00      1.00      1.00         2
-          24       1.00      1.00      1.00         3
-          25       1.00      0.67      0.80         3
-          26       1.00      1.00      1.00         2
-          27       1.00      1.00      1.00         2
-          29       1.00      1.00      1.00         2
-          30       1.00      1.00      1.00         2
-          31       1.00      1.00      1.00         3
-          32       1.00      1.00      1.00         2
-          33       1.00      1.00      1.00         2
-          35       1.00      1.00      1.00         2
-          36       1.00      1.00      1.00         3
-          37       1.00      1.00      1.00         1
-          38       1.00      1.00      1.00         2
-          39       1.00      1.00      1.00         2
-
-    accuracy                           0.95        80
-   macro avg       0.97      0.96      0.96        80
-weighted avg       0.97      0.95      0.95        80
-
-2021-11-27 01:25:42 - sklearn_minist - 140734968602048 - INFO : 1.0
-2021-11-27 01:33:39 - tf-idf_bayes - 140734923316672 - INFO :                           precision    recall  f1-score   support
-
-             alt.atheism       0.90      0.91      0.91       245
-           comp.graphics       0.80      0.90      0.85       298
- comp.os.ms-windows.misc       0.82      0.79      0.80       292
-comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
-   comp.sys.mac.hardware       0.90      0.91      0.91       256
-          comp.windows.x       0.88      0.88      0.88       297
-            misc.forsale       0.87      0.81      0.84       290
-               rec.autos       0.92      0.93      0.92       324
-         rec.motorcycles       0.96      0.96      0.96       294
-      rec.sport.baseball       0.97      0.94      0.96       315
-        rec.sport.hockey       0.96      0.99      0.98       302
-               sci.crypt       0.95      0.96      0.95       297
-         sci.electronics       0.91      0.85      0.88       313
-                 sci.med       0.96      0.96      0.96       277
-               sci.space       0.94      0.97      0.96       305
-  soc.religion.christian       0.93      0.96      0.94       293
-      talk.politics.guns       0.91      0.96      0.93       246
-   talk.politics.mideast       0.96      0.98      0.97       296
-      talk.politics.misc       0.90      0.90      0.90       236
-      talk.religion.misc       0.89      0.78      0.83       171
-
-                accuracy                           0.91      5648
-               macro avg       0.91      0.91      0.91      5648
-            weighted avg       0.91      0.91      0.91      5648
-
-2021-11-27 01:33:39 - tf-idf_bayes - 140734923316672 - INFO : [[224   0   0   0   0   0   0   0   0   0   0   0   0   0   2   5   0   0
-    1  13]
- [  1 267   5   5   2   8   1   1   0   0   0   2   3   2   1   0   0   0
-    0   0]
- [  1  13 230  24   4  10   5   0   0   0   0   1   2   1   0   0   0   0
-    1   0]
- [  0   9  21 242   7   2  10   1   0   0   1   1   7   0   0   0   0   0
-    0   0]
- [  0   1   5   5 233   2   2   2   1   0   0   3   1   0   1   0   0   0
-    0   0]
- [  0  20   6   3   1 260   0   0   0   2   0   1   0   0   2   0   2   0
-    0   0]
- [  0   2   5  12   3   1 235  10   2   3   1   0   7   0   2   0   2   1
-    4   0]
- [  0   1   0   0   1   0   8 300   4   1   0   0   1   2   3   0   2   0
-    1   0]
- [  0   1   0   0   0   2   2   3 283   0   0   0   1   0   0   0   0   0
-    1   1]
- [  0   1   1   0   1   2   1   2   0 297   8   1   0   1   0   0   0   0
-    0   0]
- [  0   0   0   0   0   0   0   0   2   2 298   0   0   0   0   0   0   0
-    0   0]
- [  0   1   2   0   0   1   1   0   0   0   0 284   2   1   0   0   2   1
-    2   0]
- [  0  11   3   5   4   2   4   5   1   1   0   4 266   1   4   0   1   0
-    1   0]
- [  1   1   0   1   0   2   1   0   0   0   0   0   1 266   2   1   0   0
-    1   0]
- [  0   3   0   0   1   1   0   0   0   0   0   1   0   1 296   0   1   0
-    1   0]
- [  3   1   0   1   0   0   0   0   0   0   1   0   0   2   1 280   0   1
-    1   2]
- [  1   0   2   0   0   0   0   0   1   0   0   0   0   0   0   0 236   1
-    4   1]
- [  1   0   0   0   0   1   0   0   0   0   0   0   0   0   0   3   0 290
-    1   0]
- [  2   1   0   0   1   1   0   1   0   0   0   0   0   0   0   1  10   7
-  212   0]
- [ 16   0   0   0   0   0   0   0   0   0   0   0   0   0   0  12   4   1
-    4 134]]
+2023-06-18 16:54:11 - housing_pipeline - 13804 - INFO : hello
+2023-06-18 17:25:17 - housing_pipeline - 9764 - INFO : <class 'list'>
+2023-06-18 17:25:37 - housing_pipeline - 14168 - INFO : ['longitude', 'latitude', 'housing_median_age', 'total_rooms', 'total_bedrooms', 'population', 'households', 'median_income', 'median_house_value', 'ocean_proximity']
+2023-06-18 17:48:29 - housing_pipeline - 13996 - INFO :    longitude  latitude  housing_median_age  total_rooms  total_bedrooms  population  households  median_income  median_house_value ocean_proximity
+0    -122.23     37.88                41.0        880.0           129.0       322.0       126.0         8.3252            452600.0        NEAR BAY
+1    -122.22     37.86                21.0       7099.0          1106.0      2401.0      1138.0         8.3014            358500.0        NEAR BAY
+2    -122.24     37.85                52.0       1467.0           190.0       496.0       177.0         7.2574            352100.0        NEAR BAY
+3    -122.25     37.85                52.0       1274.0           235.0       558.0       219.0         5.6431            341300.0        NEAR BAY
+4    -122.25     37.85                52.0       1627.0           280.0       565.0       259.0         3.8462            342200.0        NEAR BAY
+2023-06-18 18:32:39 - housing_pipeline - 3752 - INFO :        longitude  latitude  housing_median_age  total_rooms  total_bedrooms  population  households  median_income ocean_proximity
+8577     -118.41     33.89                31.0       1428.0           320.0       677.0       331.0         7.2316       <1H OCEAN
+5960     -117.83     34.11                29.0       2671.0           437.0      1484.0       445.0         4.9844          INLAND
+4753     -118.33     34.04                31.0       1090.0           251.0       955.0       239.0         2.9130       <1H OCEAN
+15423    -117.26     33.20                13.0       3163.0           725.0      1675.0       629.0         2.8214       <1H OCEAN
+9788     -120.51     35.91                39.0        768.0           162.0       264.0       118.0         5.3245          INLAND
+2023-06-18 18:32:39 - housing_pipeline - 3752 - INFO : 8577     500001.0
+5960     203000.0
+4753     192500.0
+15423    121900.0
+9788     250000.0
+Name: median_house_value, dtype: float64
+2023-06-18 18:32:39 - housing_pipeline - 3752 - INFO :        longitude  latitude  housing_median_age  total_rooms  total_bedrooms  population  households  median_income ocean_proximity
+17966    -121.98     37.31                32.0       2248.0           460.0      1191.0       419.0         5.6060       <1H OCEAN
+17037    -122.25     37.49                43.0       2607.0           477.0      1225.0       461.0         4.2240      NEAR OCEAN
+7313     -118.19     33.98                33.0        151.0            83.0       380.0        83.0         1.4224       <1H OCEAN
+2639     -124.14     40.59                17.0       2985.0           610.0      1544.0       584.0         2.1780      NEAR OCEAN
+10119    -117.92     33.94                30.0       2506.0           394.0      1255.0       421.0         4.7813       <1H OCEAN
+2023-06-18 18:32:39 - housing_pipeline - 3752 - INFO : 17966    288900.0
+17037    349600.0
+7313     189600.0
+2639      76800.0
+10119    198200.0
+Name: median_house_value, dtype: float64
+2023-06-18 18:45:15 - housing_pipeline - 6464 - INFO : <class 'pandas.core.frame.DataFrame'>
+2023-06-18 18:45:48 - housing_pipeline - 8696 - INFO : <class 'pandas.core.frame.DataFrame'>
+2023-06-18 18:46:19 - housing_pipeline - 12152 - INFO : <class 'pandas.core.frame.DataFrame'>
+2023-06-18 18:49:40 - housing_pipeline - 3004 - INFO : <class 'pandas.core.frame.DataFrame'>
+2023-06-18 18:54:45 - housing_pipeline - 5096 - INFO : <class 'pandas.core.frame.DataFrame'>
+2023-06-18 20:22:33 - housing_pipeline - 7692 - INFO : <class 'pandas.core.frame.DataFrame'>
+2023-06-18 20:52:12 - housing_pipeline - 8324 - INFO : <class 'pandas.core.frame.DataFrame'>
+2023-06-18 20:52:31 - housing_pipeline - 13040 - INFO : <class 'pandas.core.frame.DataFrame'>
+2023-06-18 20:53:22 - housing_pipeline - 3296 - INFO : <class 'pandas.core.frame.DataFrame'>
+2023-06-18 21:50:12 - housing_pipeline - 1392 - INFO : <class 'numpy.ndarray'>
+2023-06-18 22:01:36 - housing_pipeline - 3968 - INFO : [[ 0.58073699 -0.81762236  0.17952267 -0.55771884 -0.51649559 -0.66068886
+  -0.43692985  1.77327111 -0.45834432 -0.09486423  0.16297154  1.
+   0.          0.          0.          0.        ]
+ [ 0.87028331 -0.7144537   0.02047048  0.02701116 -0.23179909  0.06318333
+  -0.13375973  0.58674388  0.22823779  0.02731759 -0.76597894  0.
+   1.          0.          0.          0.        ]
+ [ 0.62067442 -0.74728009  0.17952267 -0.71672023 -0.68439352 -0.41132521
+  -0.68159345 -0.50696051 -0.35809719  0.08994605  0.25797919  1.
+   0.          0.          0.          0.        ]]
+2023-06-22 18:24:26 - housing_pipeline - 15596 - INFO : [[ 0.58073699 -0.81762236  0.17952267 -0.55771884 -0.51649559 -0.66068886
+  -0.43692985  1.77327111 -0.45834432 -0.09486423  0.16297154  1.
+   0.          0.          0.          0.        ]
+ [ 0.87028331 -0.7144537   0.02047048  0.02701116 -0.23179909  0.06318333
+  -0.13375973  0.58674388  0.22823779  0.02731759 -0.76597894  0.
+   1.          0.          0.          0.        ]
+ [ 0.62067442 -0.74728009  0.17952267 -0.71672023 -0.68439352 -0.41132521
+  -0.68159345 -0.50696051 -0.35809719  0.08994605  0.25797919  1.
+   0.          0.          0.          0.        ]]
+2023-06-22 18:36:04 - housing_pipeline - 15308 - INFO : (14448, 16)
+2023-06-22 18:36:44 - housing_pipeline - 2108 - INFO : (14448, 16)
+2023-06-22 18:36:58 - housing_pipeline - 4356 - INFO : (14448, 16)
+2023-06-22 18:36:58 - housing_pipeline - 4356 - INFO : (14448,)
+2023-06-22 18:39:31 - housing_pipeline - 1220 - INFO : (14448, 16)
+2023-06-22 18:39:31 - housing_pipeline - 1220 - INFO : (14448, 1)
+2023-06-22 19:04:39 - housing_pipeline - 1520 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-22 19:11:36 - housing_pipeline - 6576 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-22 19:12:12 - housing_pipeline - 9560 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-22 19:12:12 - housing_pipeline - 9560 - INFO : MSE:0.000000, rmse:0.000000
+2023-06-23 19:04:59 - housing_pipeline - 13552 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-23 19:05:00 - housing_pipeline - 13552 - INFO : MSE:0.000000, rmse:0.000000
+2023-06-23 19:07:16 - housing_pipeline - 12680 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-23 19:07:16 - housing_pipeline - 12680 - INFO : MSE:0.000000, rmse:0.000000
+2023-06-23 19:07:18 - housing_pipeline - 12680 - INFO : scores:[69355.89683199 72023.45156548 72609.95948854 70523.63713431
+ 72668.20089817 71944.11268237 71138.33937607 71061.27499697
+ 70343.40932819 73470.99551648],mean:71513.92778185665,std:1190.0532497959125
+2023-06-23 19:15:53 - housing_pipeline - 6504 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-23 19:15:53 - housing_pipeline - 6504 - INFO : MSE:0.000000, rmse:0.000000
+2023-06-23 19:18:30 - housing_pipeline - 14240 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-23 19:18:31 - housing_pipeline - 14240 - INFO : MSE:0.000000, rmse:0.000000
+2023-06-23 19:19:23 - housing_pipeline - 1668 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-23 19:19:24 - housing_pipeline - 1668 - INFO : MSE:0.000000, rmse:0.000000
+2023-06-23 19:20:03 - housing_pipeline - 12396 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-23 19:20:03 - housing_pipeline - 12396 - INFO : MSE:0.000000, rmse:0.000000
+2023-06-23 19:20:45 - housing_pipeline - 13824 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-23 19:21:27 - housing_pipeline - 1300 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-23 19:22:04 - housing_pipeline - 14012 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-23 19:22:06 - housing_pipeline - 14012 - INFO : scores:[69131.03484092 69968.89758096 72044.26443393 71744.27266033
+ 70294.90502966 72119.13182549 69236.94029362 69757.79902054
+ 69552.16995914 73710.97997789],mean:70756.0395622482,std:1464.6551827218618
+2023-06-23 19:22:31 - housing_pipeline - 4320 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-23 19:22:31 - housing_pipeline - 4320 - INFO : MSE:0.000000, rmse:0.000000
+2023-06-23 19:24:53 - housing_pipeline - 10680 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-23 19:25:18 - housing_pipeline - 4192 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-23 19:25:18 - housing_pipeline - 4192 - INFO : MSE:0.000000, rmse:0.000000
+2023-06-23 19:28:35 - housing_pipeline - 12428 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-23 19:28:37 - housing_pipeline - 12428 - INFO : scores:[69184.43587023 72178.6218389  71720.99650906 69572.39403834
+ 72227.02758156 71428.26055165 72101.45446787 70006.57269814
+ 70000.28879866 73643.65796426],mean:71206.3710318688,std:1367.2922409386751
+2023-06-23 19:30:33 - housing_pipeline - 4244 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-23 19:30:35 - housing_pipeline - 4244 - INFO : scores:[68416.26617765 70697.34059623 71927.74539459 71818.268226
+ 70752.02571969 70914.63462826 71716.47104117 70125.36369035
+ 69933.84237395 72250.41851365],mean:70855.23763615444,std:1101.6048577734025
+2023-06-23 19:31:14 - housing_pipeline - 8100 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-23 19:31:16 - housing_pipeline - 8100 - INFO : scores:[70119.70170727 70869.08496795 72856.53549119 70132.10576581
+ 71889.73503092 70839.08199597 72699.09497385 69789.92281913
+ 70116.20045896 73646.53076186],mean:71295.79939729109,std:1306.5609695881767
+2023-06-23 19:31:37 - housing_pipeline - 7528 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-23 19:31:38 - housing_pipeline - 7528 - INFO : scores:[67957.12348349 70193.39299571 71563.53048836 72655.94218262
+ 72376.75225351 70782.97187486 71456.04100837 69668.52656452
+ 71555.7270176  73519.08511931],mean:71172.90929883296,std:1524.7430099233197
+2023-06-23 19:32:03 - housing_pipeline - 568 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-23 19:32:03 - housing_pipeline - 568 - INFO : MSE:0.000000, rmse:0.000000
+2023-06-23 19:32:55 - housing_pipeline - 12584 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-23 19:32:55 - housing_pipeline - 12584 - INFO : MSE:0.000000, rmse:0.000000
+2023-06-23 20:09:29 - housing_pipeline - 5220 - INFO : MSE:0.000000, rmse:0.000000
+2023-06-23 20:33:58 - housing_pipeline - 14196 - INFO : scores:[68075.60037188 70690.99258245 73183.70067582 73300.28734805
+ 71538.4442675  72006.31884544 71544.89675206 71347.5810569
+ 69778.67638084 71647.01135855],mean:71311.35096394857,std:1461.8021431407165
+2023-06-23 20:34:26 - housing_pipeline - 14260 - INFO : scores:[69838.94779697 70791.10255446 71570.8288397  71215.02571941
+ 70900.04039836 70641.22449264 71332.88421402 70119.88717337
+ 71539.03727088 75333.58922711],mean:71328.25676869237,std:1441.558738524576
+2023-06-23 20:35:01 - housing_pipeline - 10692 - INFO : MSE:0.000000, rmse:0.000000
+2023-06-23 20:39:24 - housing_pipeline - 14108 - INFO : MSE:0.000000, rmse:0.000000
+2023-06-23 20:39:53 - housing_pipeline - 15248 - INFO : scores:[70599.24929204 70794.32383294 72554.05016398 69030.58134034
+ 70919.58270549 72377.50520492 72959.31998479 70698.3976838
+ 71689.29532193 70859.82306329],mean:71248.21285935339,std:1104.9503723945477
+2023-06-23 20:41:50 - housing_pipeline - 14520 - INFO : scores:[65851.80760971 77056.74494539 64126.62164766 70328.71895431
+ 68303.09942861 70916.94402158 70104.24228447 65102.15137703
+ 69723.40940468 71281.95671343],mean:69279.56963868687,std:3547.668819725957
+2023-06-23 20:43:39 - housing_pipeline - 7568 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-06-23 20:47:34 - housing_pipeline - 4496 - INFO : MSE:347483998.903337, rmse:18640.922695
+2023-06-23 20:51:47 - housing_pipeline - 14736 - INFO : scores:[48514.21404788 52421.65967308 46594.61519916 51810.78572173
+ 51871.94375955 50341.35131121 50767.32719846 47617.8349312
+ 50560.69855356 52312.62471834],mean:50281.30551141679,std:1941.7278307992271
+2023-06-23 21:35:35 - housing_pipeline - 15020 - INFO : scikit-learn/model/house_{}.pkl
+2023-06-23 21:36:03 - housing_pipeline - 15128 - INFO : scikit-learn/model/house_RandomForestRegressor.pkl
+2023-06-23 21:39:33 - housing_pipeline - 14020 - INFO : scores:[68604.09711182 73152.69470029 72484.52658004 69591.40323787
+ 71884.3654444  71498.66366913 71266.59007134 70667.2275695
+ 71456.07243805 73595.66902582],mean:71420.13098482454,std:1447.5974542120891
+2023-06-23 21:40:06 - housing_pipeline - 1600 - INFO : scores:[69289.54168779 71064.53152502 71184.47036647 71936.3204088
+ 72365.05115715 70790.49916533 69895.71288647 70602.01664715
+ 71745.16371908 72216.87676958],mean:71109.01843328432,std:950.9395917621293
+2023-06-23 21:40:39 - housing_pipeline - 5552 - INFO : scores:[67185.72941375 71320.59645084 71422.6101526  71703.02624756
+ 71717.92762058 72283.24363083 70848.34628361 69941.7454143
+ 70504.40873554 72665.89360017],mean:70959.35275497867,std:1470.8369570001232
+2023-06-23 21:44:29 - housing_pipeline - 11772 - INFO : scores:[48851.747198   52103.83611755 46808.78574534 51987.2205684
+ 51892.92518351 50580.11753534 50678.67273887 47783.20075249
+ 50813.59570647 52608.45901414],mean:50410.85605601118,std:1869.4911613402112
+2023-07-05 11:05:11 - housing_pipeline - 19360 - INFO : scores:[65851.80760971 77056.74494539 64126.62164766 70328.71895431
+ 68303.09942861 70916.94402158 70104.24228447 65102.15137703
+ 69723.40940468 71281.95671343],mean:69279.56963868687,std:3547.668819725957
+2023-07-05 15:49:03 - housing_pipeline - 17044 - INFO : scores:[48468.07338492 52562.87044825 46418.61010744 52003.23433687
+ 51597.11503877 50248.15152488 50616.90801506 47997.33348358
+ 50137.04730043 52566.47212586],mean:50261.58157660636,std:1966.7059181279158
+2023-07-05 16:39:53 - housing_pipeline - 14332 - INFO : scores:[49267.31155181 52488.11309092 46428.92374786 50672.67810908
+ 50729.60489846 49986.79848177 50613.27379113 47743.35287826
+ 49739.35557316 51089.44929928],mean:49875.88614217263,std:1644.216284773555
+2023-07-05 18:01:56 - housing_regression_pipeline - 5920 - INFO : scores:[48781.09023017 52154.10092495 46044.21974779 51092.34519038
+ 51509.10026662 50551.33409282 50337.93151043 47950.43429983
+ 50654.49134162 52129.68226116],mean:50120.47298657739,std:1862.3196677010026
+2023-07-05 18:50:57 - housing_regression_pipeline - 15548 - INFO : MSE:2479510458.668197, rmse:49794.683036
+2023-07-05 18:50:57 - housing_regression_pipeline - 15548 - INFO : Confidence_interval:[48071.7941581  51459.92152887]
+2023-07-05 21:40:07 - housing_regression_pipeline - 15576 - INFO : MSE:2479510458.668197, rmse:49794.683036
+2023-07-05 21:40:07 - housing_regression_pipeline - 15576 - INFO : Confidence_interval:[48071.7941581  51459.92152887]
+2023-07-05 21:40:36 - housing_regression_pipeline - 17632 - INFO : MSE:2479510458.668197, rmse:49794.683036
+2023-07-05 21:40:36 - housing_regression_pipeline - 17632 - INFO : Confidence_interval:[48071.7941581  51459.92152887]
+2023-07-05 22:06:23 - housing_regression_pipeline - 1368 - INFO : true_label:{288900.0}
+2023-07-05 22:06:23 - housing_regression_pipeline - 1368 - INFO : predicted_label:{[303563.33333333]}
+2023-07-06 11:24:40 - ministData_classifiction_scratch - 17696 - INFO : 0.9993041057759221
+2023-07-06 11:25:29 - ministData_classifiction_scratch - 10336 - INFO : 1.0
+2023-07-06 11:25:38 - ministData_classifiction_scratch - 18232 - INFO : 1.0
+2023-07-06 11:31:03 - ministData_classifiction_scratch - 14364 - INFO : 0.9944444444444445
+2023-07-06 11:33:31 - ministData_classifiction_scratch - 14304 - INFO : [7]
+2023-07-06 11:34:26 - ministData_classifiction_scratch - 3780 - INFO : [7 3 1 8 1 1 5 6 2 7]
+2023-07-06 13:36:08 - ministData_classifiction_scratch - 12400 - INFO : 0.9798190675017397
+2023-07-06 13:36:28 - ministData_classifiction_scratch - 7680 - INFO : 0.9638888888888889
+2023-07-07 16:30:41 - ministData_classifiction_scratch - 13324 - INFO : 0.9798190675017397
+2023-07-07 16:30:41 - ministData_classifiction_scratch - 13324 - INFO : [0.94444444 0.95138889 0.95138889 0.96527778 0.95138889 0.94444444
+ 0.91666667 0.93006993 0.95804196 0.96503497]
+2023-07-07 17:07:06 - ministData_classifiction_scratch - 2956 - INFO : 0.9798190675017397
+2023-07-07 17:07:06 - ministData_classifiction_scratch - 2956 - INFO : [0.94444444 0.95138889 0.95138889 0.96527778 0.95138889 0.94444444
+ 0.91666667 0.93006993 0.95804196 0.96503497]
+2023-07-07 17:08:12 - ministData_classifiction_scratch - 10504 - INFO : 0.9798190675017397
+2023-07-07 17:08:12 - ministData_classifiction_scratch - 10504 - INFO : [0.94444444 0.95138889 0.95138889 0.96527778 0.95138889 0.94444444
+ 0.91666667 0.93006993 0.95804196 0.96503497]
+2023-07-07 17:08:12 - ministData_classifiction_scratch - 10504 - INFO : 0.9444444444444444
+2023-07-07 17:08:12 - ministData_classifiction_scratch - 10504 - INFO : 0.9513888888888888
+2023-07-07 17:08:13 - ministData_classifiction_scratch - 10504 - INFO : 0.9513888888888888
+2023-07-07 17:08:13 - ministData_classifiction_scratch - 10504 - INFO : 0.9652777777777778
+2023-07-07 17:08:13 - ministData_classifiction_scratch - 10504 - INFO : 0.9513888888888888
+2023-07-07 17:08:13 - ministData_classifiction_scratch - 10504 - INFO : 0.9444444444444444
+2023-07-07 17:08:13 - ministData_classifiction_scratch - 10504 - INFO : 0.9166666666666666
+2023-07-07 17:08:13 - ministData_classifiction_scratch - 10504 - INFO : 0.9300699300699301
+2023-07-07 17:08:13 - ministData_classifiction_scratch - 10504 - INFO : 0.958041958041958
+2023-07-07 17:08:13 - ministData_classifiction_scratch - 10504 - INFO : 0.965034965034965
+2023-07-07 17:11:30 - ministData_classifiction_scratch - 4968 - INFO : 0.9798190675017397
+2023-07-07 17:11:30 - ministData_classifiction_scratch - 4968 - INFO : [0.94444444 0.95138889 0.95138889 0.96527778 0.95138889 0.94444444
+ 0.91666667 0.93006993 0.95804196 0.96503497]
+2023-07-07 17:11:30 - ministData_classifiction_scratch - 4968 - INFO : 0.9513888888888888
+2023-07-07 17:11:30 - ministData_classifiction_scratch - 4968 - INFO : 0.9513888888888888
+2023-07-07 17:11:30 - ministData_classifiction_scratch - 4968 - INFO : 0.9442508710801394
+2023-07-07 17:11:30 - ministData_classifiction_scratch - 4968 - INFO : 0.9547038327526133
+2023-07-07 17:11:30 - ministData_classifiction_scratch - 4968 - INFO : 0.9547038327526133
+2023-07-07 17:13:06 - ministData_classifiction_scratch - 17996 - INFO : 0.9798190675017397
+2023-07-07 17:13:06 - ministData_classifiction_scratch - 17996 - INFO : [0.94444444 0.95138889 0.95138889 0.96527778 0.95138889 0.94444444
+ 0.91666667 0.93006993 0.95804196 0.96503497]
+2023-07-07 17:13:06 - ministData_classifiction_scratch - 17996 - INFO : 0.9444444444444444
+2023-07-07 17:13:06 - ministData_classifiction_scratch - 17996 - INFO : 0.9513888888888888
+2023-07-07 17:13:06 - ministData_classifiction_scratch - 17996 - INFO : 0.9513888888888888
+2023-07-07 17:13:06 - ministData_classifiction_scratch - 17996 - INFO : 0.9652777777777778
+2023-07-07 17:13:06 - ministData_classifiction_scratch - 17996 - INFO : 0.9513888888888888
+2023-07-07 17:13:06 - ministData_classifiction_scratch - 17996 - INFO : 0.9444444444444444
+2023-07-07 17:13:06 - ministData_classifiction_scratch - 17996 - INFO : 0.9166666666666666
+2023-07-07 17:13:06 - ministData_classifiction_scratch - 17996 - INFO : 0.9300699300699301
+2023-07-07 17:13:07 - ministData_classifiction_scratch - 17996 - INFO : 0.958041958041958
+2023-07-07 17:13:07 - ministData_classifiction_scratch - 17996 - INFO : 0.965034965034965
+2023-07-07 17:55:55 - ministData_classifiction_scratch - 8364 - INFO : 0.9798190675017397
+2023-07-07 17:55:55 - ministData_classifiction_scratch - 8364 - INFO : [0.94444444 0.95138889 0.95138889 0.96527778 0.95138889 0.94444444
+ 0.91666667 0.93006993 0.95804196 0.96503497]
+2023-07-07 17:55:55 - ministData_classifiction_scratch - 8364 - INFO : 0.9444444444444444
+2023-07-07 17:55:55 - ministData_classifiction_scratch - 8364 - INFO : 0.9513888888888888
+2023-07-07 17:55:55 - ministData_classifiction_scratch - 8364 - INFO : 0.9513888888888888
+2023-07-07 17:55:56 - ministData_classifiction_scratch - 8364 - INFO : 0.9652777777777778
+2023-07-07 17:55:56 - ministData_classifiction_scratch - 8364 - INFO : 0.9513888888888888
+2023-07-07 17:55:56 - ministData_classifiction_scratch - 8364 - INFO : 0.9444444444444444
+2023-07-07 17:55:56 - ministData_classifiction_scratch - 8364 - INFO : 0.9166666666666666
+2023-07-07 17:55:56 - ministData_classifiction_scratch - 8364 - INFO : 0.9300699300699301
+2023-07-07 17:55:56 - ministData_classifiction_scratch - 8364 - INFO : 0.958041958041958
+2023-07-07 17:55:56 - ministData_classifiction_scratch - 8364 - INFO : 0.965034965034965
+2023-07-07 17:57:56 - ministData_classifiction_scratch - 17468 - INFO : 0.9798190675017397
+2023-07-07 17:57:56 - ministData_classifiction_scratch - 17468 - INFO : [0.94444444 0.95138889 0.95138889 0.96527778 0.95138889 0.94444444
+ 0.91666667 0.93006993 0.95804196 0.96503497]
+2023-07-07 17:57:56 - ministData_classifiction_scratch - 17468 - INFO : 0.9444444444444444
+2023-07-07 17:57:56 - ministData_classifiction_scratch - 17468 - INFO : 0.9513888888888888
+2023-07-07 17:57:56 - ministData_classifiction_scratch - 17468 - INFO : 0.9513888888888888
+2023-07-07 17:57:56 - ministData_classifiction_scratch - 17468 - INFO : 0.9652777777777778
+2023-07-07 17:57:56 - ministData_classifiction_scratch - 17468 - INFO : 0.9513888888888888
+2023-07-07 17:57:56 - ministData_classifiction_scratch - 17468 - INFO : 0.9444444444444444
+2023-07-07 17:57:56 - ministData_classifiction_scratch - 17468 - INFO : 0.9166666666666666
+2023-07-07 17:57:57 - ministData_classifiction_scratch - 17468 - INFO : 0.9300699300699301
+2023-07-07 17:57:57 - ministData_classifiction_scratch - 17468 - INFO : 0.958041958041958
+2023-07-07 17:57:57 - ministData_classifiction_scratch - 17468 - INFO : 0.965034965034965
+2023-07-07 17:57:57 - ministData_classifiction_scratch - 17468 - INFO : [[145   0   0   0   0   0   0   0   0   1]
+ [  2 133   1   0   2   1   2   1  13   5]
+ [  0   0 132   0   0   0   0   0   0   0]
+ [  0   1   0 150   0   1   0   2   7   2]
+ [  0   0   0   0 137   0   0   0   0   0]
+ [  1   0   0   2   0 142   1   0   0   1]
+ [  0   0   0   0   0   1 141   0   1   0]
+ [  0   2   0   0   1   2   0 142   2   3]
+ [  0   2   0   3   2   0   1   0 114   5]
+ [  0   1   0   0   0   1   0   2   0 126]]
+2023-07-07 18:57:25 - ministData_classifiction_scratch - 3112 - INFO : 0.9638888888888889
+2023-07-07 19:04:06 - ministData_classifiction_scratch - 16960 - INFO : 0.9638888888888889
+2023-07-07 19:04:06 - ministData_classifiction_scratch - 16960 - INFO : 0.9636553918398146
+2023-07-07 19:04:06 - ministData_classifiction_scratch - 16960 - INFO : 0.9647223928473927
+2023-07-07 19:04:06 - ministData_classifiction_scratch - 16960 - INFO : 0.9631300064391093
+2023-07-07 19:35:05 - ministData_classifiction_scratch - 18388 - INFO : 0.9798190675017397
+2023-07-07 19:35:06 - ministData_classifiction_scratch - 18388 - INFO : [0.94444444 0.95138889 0.95138889 0.96527778 0.95138889 0.94444444
+ 0.91666667 0.93006993 0.95804196 0.96503497]
+2023-07-07 19:35:06 - ministData_classifiction_scratch - 18388 - INFO : 0.9444444444444444
+2023-07-07 19:35:06 - ministData_classifiction_scratch - 18388 - INFO : 0.9513888888888888
+2023-07-07 19:35:06 - ministData_classifiction_scratch - 18388 - INFO : 0.9513888888888888
+2023-07-07 19:35:06 - ministData_classifiction_scratch - 18388 - INFO : 0.9652777777777778
+2023-07-07 19:35:06 - ministData_classifiction_scratch - 18388 - INFO : 0.9513888888888888
+2023-07-07 19:35:06 - ministData_classifiction_scratch - 18388 - INFO : 0.9444444444444444
+2023-07-07 19:35:06 - ministData_classifiction_scratch - 18388 - INFO : 0.9166666666666666
+2023-07-07 19:35:06 - ministData_classifiction_scratch - 18388 - INFO : 0.9300699300699301
+2023-07-07 19:35:06 - ministData_classifiction_scratch - 18388 - INFO : 0.958041958041958
+2023-07-07 19:35:06 - ministData_classifiction_scratch - 18388 - INFO : 0.965034965034965
+2023-07-07 19:35:07 - ministData_classifiction_scratch - 18388 - INFO : [[145   0   0   0   0   0   0   0   0   1]
+ [  2 133   1   0   2   1   2   1  13   5]
+ [  0   0 132   0   0   0   0   0   0   0]
+ [  0   1   0 150   0   1   0   2   7   2]
+ [  0   0   0   0 137   0   0   0   0   0]
+ [  1   0   0   2   0 142   1   0   0   1]
+ [  0   0   0   0   0   1 141   0   1   0]
+ [  0   2   0   0   1   2   0 142   2   3]
+ [  0   2   0   3   2   0   1   0 114   5]
+ [  0   1   0   0   0   1   0   2   0 126]]
+2023-07-07 19:36:10 - ministData_classifiction_scratch - 4344 - INFO : 0.9798190675017397
+2023-07-07 19:36:11 - ministData_classifiction_scratch - 4344 - INFO : [0.94444444 0.95138889 0.95138889 0.96527778 0.95138889 0.94444444
+ 0.91666667 0.93006993 0.95804196 0.96503497]
+2023-07-07 19:36:11 - ministData_classifiction_scratch - 4344 - INFO : 0.9444444444444444
+2023-07-07 19:36:11 - ministData_classifiction_scratch - 4344 - INFO : 0.9513888888888888
+2023-07-07 19:36:11 - ministData_classifiction_scratch - 4344 - INFO : 0.9513888888888888
+2023-07-07 19:36:11 - ministData_classifiction_scratch - 4344 - INFO : 0.9652777777777778
+2023-07-07 19:36:11 - ministData_classifiction_scratch - 4344 - INFO : 0.9513888888888888
+2023-07-07 19:36:11 - ministData_classifiction_scratch - 4344 - INFO : 0.9444444444444444
+2023-07-07 19:36:11 - ministData_classifiction_scratch - 4344 - INFO : 0.9166666666666666
+2023-07-07 19:36:11 - ministData_classifiction_scratch - 4344 - INFO : 0.9300699300699301
+2023-07-07 19:36:11 - ministData_classifiction_scratch - 4344 - INFO : 0.958041958041958
+2023-07-07 19:36:11 - ministData_classifiction_scratch - 4344 - INFO : 0.965034965034965
+2023-07-07 19:36:12 - ministData_classifiction_scratch - 4344 - INFO : [[145   0   0   0   0   0   0   0   0   1]
+ [  2 133   1   0   2   1   2   1  13   5]
+ [  0   0 132   0   0   0   0   0   0   0]
+ [  0   1   0 150   0   1   0   2   7   2]
+ [  0   0   0   0 137   0   0   0   0   0]
+ [  1   0   0   2   0 142   1   0   0   1]
+ [  0   0   0   0   0   1 141   0   1   0]
+ [  0   2   0   0   1   2   0 142   2   3]
+ [  0   2   0   3   2   0   1   0 114   5]
+ [  0   1   0   0   0   1   0   2   0 126]]
+2023-07-07 19:37:47 - ministData_classifiction_scratch - 17440 - INFO : 0.9798190675017397
+2023-07-07 19:37:48 - ministData_classifiction_scratch - 17440 - INFO : [0.94444444 0.95138889 0.95138889 0.96527778 0.95138889 0.94444444
+ 0.91666667 0.93006993 0.95804196 0.96503497]
+2023-07-07 19:37:48 - ministData_classifiction_scratch - 17440 - INFO : 0.9444444444444444
+2023-07-07 19:37:48 - ministData_classifiction_scratch - 17440 - INFO : 0.9513888888888888
+2023-07-07 19:37:48 - ministData_classifiction_scratch - 17440 - INFO : 0.9513888888888888
+2023-07-07 19:37:48 - ministData_classifiction_scratch - 17440 - INFO : 0.9652777777777778
+2023-07-07 19:37:48 - ministData_classifiction_scratch - 17440 - INFO : 0.9513888888888888
+2023-07-07 19:37:48 - ministData_classifiction_scratch - 17440 - INFO : 0.9444444444444444
+2023-07-07 19:37:48 - ministData_classifiction_scratch - 17440 - INFO : 0.9166666666666666
+2023-07-07 19:37:48 - ministData_classifiction_scratch - 17440 - INFO : 0.9300699300699301
+2023-07-07 19:37:48 - ministData_classifiction_scratch - 17440 - INFO : 0.958041958041958
+2023-07-07 19:37:48 - ministData_classifiction_scratch - 17440 - INFO : 0.965034965034965
+2023-07-07 19:37:48 - ministData_classifiction_scratch - 17440 - INFO : [[145   0   0   0   0   0   0   0   0   1]
+ [  2 133   1   0   2   1   2   1  13   5]
+ [  0   0 132   0   0   0   0   0   0   0]
+ [  0   1   0 150   0   1   0   2   7   2]
+ [  0   0   0   0 137   0   0   0   0   0]
+ [  1   0   0   2   0 142   1   0   0   1]
+ [  0   0   0   0   0   1 141   0   1   0]
+ [  0   2   0   0   1   2   0 142   2   3]
+ [  0   2   0   3   2   0   1   0 114   5]
+ [  0   1   0   0   0   1   0   2   0 126]]
+2023-07-07 19:38:14 - ministData_classifiction_scratch - 14260 - INFO : 0.9798190675017397
+2023-07-07 19:38:14 - ministData_classifiction_scratch - 14260 - INFO : [0.94444444 0.95138889 0.95138889 0.96527778 0.95138889 0.94444444
+ 0.91666667 0.93006993 0.95804196 0.96503497]
+2023-07-07 19:38:14 - ministData_classifiction_scratch - 14260 - INFO : 0.9444444444444444
+2023-07-07 19:38:14 - ministData_classifiction_scratch - 14260 - INFO : 0.9513888888888888
+2023-07-07 19:38:14 - ministData_classifiction_scratch - 14260 - INFO : 0.9513888888888888
+2023-07-07 19:38:14 - ministData_classifiction_scratch - 14260 - INFO : 0.9652777777777778
+2023-07-07 19:38:14 - ministData_classifiction_scratch - 14260 - INFO : 0.9513888888888888
+2023-07-07 19:38:14 - ministData_classifiction_scratch - 14260 - INFO : 0.9444444444444444
+2023-07-07 19:38:15 - ministData_classifiction_scratch - 14260 - INFO : 0.9166666666666666
+2023-07-07 19:38:15 - ministData_classifiction_scratch - 14260 - INFO : 0.9300699300699301
+2023-07-07 19:38:15 - ministData_classifiction_scratch - 14260 - INFO : 0.958041958041958
+2023-07-07 19:38:15 - ministData_classifiction_scratch - 14260 - INFO : 0.965034965034965
+2023-07-07 19:38:15 - ministData_classifiction_scratch - 14260 - INFO : [[145   0   0   0   0   0   0   0   0   1]
+ [  2 133   1   0   2   1   2   1  13   5]
+ [  0   0 132   0   0   0   0   0   0   0]
+ [  0   1   0 150   0   1   0   2   7   2]
+ [  0   0   0   0 137   0   0   0   0   0]
+ [  1   0   0   2   0 142   1   0   0   1]
+ [  0   0   0   0   0   1 141   0   1   0]
+ [  0   2   0   0   1   2   0 142   2   3]
+ [  0   2   0   3   2   0   1   0 114   5]
+ [  0   1   0   0   0   1   0   2   0 126]]
+2023-07-07 19:50:44 - ministData_classifiction_scratch - 15228 - INFO : 0.9798190675017397
+2023-07-07 19:50:44 - ministData_classifiction_scratch - 15228 - INFO : [0.94444444 0.95138889 0.95138889 0.96527778 0.95138889 0.94444444
+ 0.91666667 0.93006993 0.95804196 0.96503497]
+2023-07-07 19:50:44 - ministData_classifiction_scratch - 15228 - INFO : 0.9444444444444444
+2023-07-07 19:50:44 - ministData_classifiction_scratch - 15228 - INFO : 0.9513888888888888
+2023-07-07 19:50:44 - ministData_classifiction_scratch - 15228 - INFO : 0.9513888888888888
+2023-07-07 19:50:44 - ministData_classifiction_scratch - 15228 - INFO : 0.9652777777777778
+2023-07-07 19:50:45 - ministData_classifiction_scratch - 15228 - INFO : 0.9513888888888888
+2023-07-07 19:50:45 - ministData_classifiction_scratch - 15228 - INFO : 0.9444444444444444
+2023-07-07 19:50:45 - ministData_classifiction_scratch - 15228 - INFO : 0.9166666666666666
+2023-07-07 19:50:45 - ministData_classifiction_scratch - 15228 - INFO : 0.9300699300699301
+2023-07-07 19:50:45 - ministData_classifiction_scratch - 15228 - INFO : 0.958041958041958
+2023-07-07 19:50:45 - ministData_classifiction_scratch - 15228 - INFO : 0.965034965034965
+2023-07-07 19:50:45 - ministData_classifiction_scratch - 15228 - INFO : [[145   0   0   0   0   0   0   0   0   1]
+ [  2 133   1   0   2   1   2   1  13   5]
+ [  0   0 132   0   0   0   0   0   0   0]
+ [  0   1   0 150   0   1   0   2   7   2]
+ [  0   0   0   0 137   0   0   0   0   0]
+ [  1   0   0   2   0 142   1   0   0   1]
+ [  0   0   0   0   0   1 141   0   1   0]
+ [  0   2   0   0   1   2   0 142   2   3]
+ [  0   2   0   3   2   0   1   0 114   5]
+ [  0   1   0   0   0   1   0   2   0 126]]
+2023-07-07 19:52:41 - ministData_classifiction_scratch - 16652 - INFO : 0.9798190675017397
+2023-07-07 19:52:42 - ministData_classifiction_scratch - 16652 - INFO : [0.94444444 0.95138889 0.95138889 0.96527778 0.95138889 0.94444444
+ 0.91666667 0.93006993 0.95804196 0.96503497]
+2023-07-07 19:52:42 - ministData_classifiction_scratch - 16652 - INFO : 0.9444444444444444
+2023-07-07 19:52:42 - ministData_classifiction_scratch - 16652 - INFO : 0.9513888888888888
+2023-07-07 19:52:42 - ministData_classifiction_scratch - 16652 - INFO : 0.9513888888888888
+2023-07-07 19:52:42 - ministData_classifiction_scratch - 16652 - INFO : 0.9652777777777778
+2023-07-07 19:52:42 - ministData_classifiction_scratch - 16652 - INFO : 0.9513888888888888
+2023-07-07 19:52:42 - ministData_classifiction_scratch - 16652 - INFO : 0.9444444444444444
+2023-07-07 19:52:42 - ministData_classifiction_scratch - 16652 - INFO : 0.9166666666666666
+2023-07-07 19:52:42 - ministData_classifiction_scratch - 16652 - INFO : 0.9300699300699301
+2023-07-07 19:52:42 - ministData_classifiction_scratch - 16652 - INFO : 0.958041958041958
+2023-07-07 19:52:42 - ministData_classifiction_scratch - 16652 - INFO : 0.965034965034965
+2023-07-07 19:52:43 - ministData_classifiction_scratch - 16652 - INFO : [[145   0   0   0   0   0   0   0   0   1]
+ [  2 133   1   0   2   1   2   1  13   5]
+ [  0   0 132   0   0   0   0   0   0   0]
+ [  0   1   0 150   0   1   0   2   7   2]
+ [  0   0   0   0 137   0   0   0   0   0]
+ [  1   0   0   2   0 142   1   0   0   1]
+ [  0   0   0   0   0   1 141   0   1   0]
+ [  0   2   0   0   1   2   0 142   2   3]
+ [  0   2   0   3   2   0   1   0 114   5]
+ [  0   1   0   0   0   1   0   2   0 126]]
+2023-07-07 19:53:03 - ministData_classifiction_scratch - 9156 - INFO : 0.9798190675017397
+2023-07-07 19:53:03 - ministData_classifiction_scratch - 9156 - INFO : [0.94444444 0.95138889 0.95138889 0.96527778 0.95138889 0.94444444
+ 0.91666667 0.93006993 0.95804196 0.96503497]
+2023-07-07 19:53:03 - ministData_classifiction_scratch - 9156 - INFO : 0.9444444444444444
+2023-07-07 19:53:03 - ministData_classifiction_scratch - 9156 - INFO : 0.9513888888888888
+2023-07-07 19:53:03 - ministData_classifiction_scratch - 9156 - INFO : 0.9513888888888888
+2023-07-07 19:53:03 - ministData_classifiction_scratch - 9156 - INFO : 0.9652777777777778
+2023-07-07 19:53:03 - ministData_classifiction_scratch - 9156 - INFO : 0.9513888888888888
+2023-07-07 19:53:03 - ministData_classifiction_scratch - 9156 - INFO : 0.9444444444444444
+2023-07-07 19:53:04 - ministData_classifiction_scratch - 9156 - INFO : 0.9166666666666666
+2023-07-07 19:53:04 - ministData_classifiction_scratch - 9156 - INFO : 0.9300699300699301
+2023-07-07 19:53:04 - ministData_classifiction_scratch - 9156 - INFO : 0.958041958041958
+2023-07-07 19:53:04 - ministData_classifiction_scratch - 9156 - INFO : 0.965034965034965
+2023-07-07 19:53:04 - ministData_classifiction_scratch - 9156 - INFO : [[145   0   0   0   0   0   0   0   0   1]
+ [  2 133   1   0   2   1   2   1  13   5]
+ [  0   0 132   0   0   0   0   0   0   0]
+ [  0   1   0 150   0   1   0   2   7   2]
+ [  0   0   0   0 137   0   0   0   0   0]
+ [  1   0   0   2   0 142   1   0   0   1]
+ [  0   0   0   0   0   1 141   0   1   0]
+ [  0   2   0   0   1   2   0 142   2   3]
+ [  0   2   0   3   2   0   1   0 114   5]
+ [  0   1   0   0   0   1   0   2   0 126]]
+2023-07-07 19:53:20 - ministData_classifiction_scratch - 16488 - INFO : 0.9798190675017397
+2023-07-07 19:53:21 - ministData_classifiction_scratch - 16488 - INFO : [0.94444444 0.95138889 0.95138889 0.96527778 0.95138889 0.94444444
+ 0.91666667 0.93006993 0.95804196 0.96503497]
+2023-07-07 19:53:21 - ministData_classifiction_scratch - 16488 - INFO : 0.9444444444444444
+2023-07-07 19:53:21 - ministData_classifiction_scratch - 16488 - INFO : 0.9513888888888888
+2023-07-07 19:53:21 - ministData_classifiction_scratch - 16488 - INFO : 0.9513888888888888
+2023-07-07 19:53:21 - ministData_classifiction_scratch - 16488 - INFO : 0.9652777777777778
+2023-07-07 19:53:21 - ministData_classifiction_scratch - 16488 - INFO : 0.9513888888888888
+2023-07-07 19:53:21 - ministData_classifiction_scratch - 16488 - INFO : 0.9444444444444444
+2023-07-07 19:53:21 - ministData_classifiction_scratch - 16488 - INFO : 0.9166666666666666
+2023-07-07 19:53:21 - ministData_classifiction_scratch - 16488 - INFO : 0.9300699300699301
+2023-07-07 19:53:21 - ministData_classifiction_scratch - 16488 - INFO : 0.958041958041958
+2023-07-07 19:53:21 - ministData_classifiction_scratch - 16488 - INFO : 0.965034965034965
+2023-07-07 19:53:22 - ministData_classifiction_scratch - 16488 - INFO : [[145   0   0   0   0   0   0   0   0   1]
+ [  2 133   1   0   2   1   2   1  13   5]
+ [  0   0 132   0   0   0   0   0   0   0]
+ [  0   1   0 150   0   1   0   2   7   2]
+ [  0   0   0   0 137   0   0   0   0   0]
+ [  1   0   0   2   0 142   1   0   0   1]
+ [  0   0   0   0   0   1 141   0   1   0]
+ [  0   2   0   0   1   2   0 142   2   3]
+ [  0   2   0   3   2   0   1   0 114   5]
+ [  0   1   0   0   0   1   0   2   0 126]]
+2023-07-08 15:46:22 - ministData_classifiction_scratch - 17596 - INFO : {'alpha': 0.001, 'penalty': 'l1'}
+2023-07-08 15:46:22 - ministData_classifiction_scratch - 17596 - INFO : 0.9554827117327118
+2023-07-08 15:48:28 - ministData_classifiction_scratch - 19212 - INFO : {'alpha': 0.001, 'max_iter': 500, 'penalty': 'l1'}
+2023-07-08 15:48:28 - ministData_classifiction_scratch - 19212 - INFO : 0.9554827117327118
+2023-07-08 15:50:20 - ministData_classifiction_scratch - 11420 - INFO : {'alpha': 0.001, 'max_iter': 500, 'penalty': 'l1'}
+2023-07-08 15:50:20 - ministData_classifiction_scratch - 11420 - INFO : 0.9554827117327118
+2023-07-08 15:51:12 - ministData_classifiction_scratch - 12976 - INFO : {'alpha': 0.001, 'penalty': 'l1'}
+2023-07-08 15:51:12 - ministData_classifiction_scratch - 12976 - INFO : 0.9554827117327118
+2023-07-08 15:58:07 - ministData_classifiction_scratch - 18560 - INFO : 最佳参数：
+2023-07-08 16:00:38 - ministData_classifiction_scratch - 18880 - INFO : 最佳参数:{{'alpha': 0.001, 'penalty': 'l1'}}
+2023-07-08 16:03:00 - ministData_classifiction_scratch - 13104 - INFO : 最佳参数:{{'alpha': 0.001, 'penalty': 'l1'}}
+2023-07-08 16:03:00 - ministData_classifiction_scratch - 13104 - INFO : 模型平均accuracy:{0.9478146853146854}
+2023-07-08 16:27:47 - ministData_classifiction_scratch - 12196 - INFO : 最佳参数:{{'alpha': 0.001, 'penalty': 'l1'}}
+2023-07-08 16:27:47 - ministData_classifiction_scratch - 12196 - INFO : 模型平均accuracy:{0.9478146853146854}
+2023-07-08 16:36:10 - ministData_classifiction_scratch - 11476 - INFO : 最佳参数:{{'alpha': 0.0001, 'penalty': 'l1'}}
+2023-07-08 16:36:10 - ministData_classifiction_scratch - 11476 - INFO : 模型平均accuracy:{0.9443473193473194}
+2023-07-08 17:23:15 - ministData_classifiction_scratch - 12260 - INFO : 最佳参数:{{'alpha': 0.0001, 'penalty': 'elasticnet'}}
+2023-07-08 17:23:16 - ministData_classifiction_scratch - 12260 - INFO : 模型平均accuracy:{0.9561625874125873}
+2023-07-08 17:26:15 - ministData_classifiction_scratch - 18896 - INFO : 最佳参数:{{'alpha': 0.0001, 'penalty': 'l1'}}
+2023-07-08 17:26:15 - ministData_classifiction_scratch - 18896 - INFO : 模型平均accuracy:{0.9492132867132866}
+2023-07-08 17:28:27 - ministData_classifiction_scratch - 16200 - INFO : 最佳参数:{{'alpha': 0.01, 'penalty': 'l2'}}
+2023-07-08 17:28:27 - ministData_classifiction_scratch - 16200 - INFO : 类型:{<class 'dict'>}
+2023-07-08 17:28:28 - ministData_classifiction_scratch - 16200 - INFO : 模型平均accuracy:{0.950592463092463}
+2023-07-08 17:49:52 - ministData_classifiction_scratch - 18252 - INFO : 最佳参数:{{'alpha': 0.01, 'penalty': 'l2'}}
+2023-07-08 17:49:52 - ministData_classifiction_scratch - 18252 - INFO : 模型平均accuracy:{0.9492132867132866}
+2023-07-08 17:55:40 - ministData_classifiction_scratch - 13784 - INFO : 最佳参数:{{'alpha': 0.0001, 'penalty': 'l1'}}
+2023-07-08 17:55:40 - ministData_classifiction_scratch - 13784 - INFO : 模型平均accuracy:{0.9485285547785546}
+2023-07-08 17:55:40 - ministData_classifiction_scratch - 13784 - INFO : 0.988169798190675
+2023-07-08 17:55:41 - ministData_classifiction_scratch - 13784 - INFO : [[145   0   0   0   1   0   0   0   0   0]
+ [  0 131   0   0   0   1   0   1   7   3]
+ [  0   1 132   1   0   0   0   0   1   0]
+ [  0   1   0 147   0   0   0   1   2   1]
+ [  2   1   0   0 136   0   1   1   1   1]
+ [  1   0   0   2   0 141   0   0   2   1]
+ [  0   1   0   0   1   1 143   0   2   0]
+ [  0   0   0   1   1   1   0 142   1   0]
+ [  0   3   1   3   2   1   1   0 121   3]
+ [  0   1   0   1   1   3   0   2   0 134]]
+2023-07-08 17:56:12 - ministData_classifiction_scratch - 16236 - INFO : 0.9611111111111111
+2023-07-08 17:56:12 - ministData_classifiction_scratch - 16236 - INFO : 0.9607175718695787
+2023-07-08 17:56:12 - ministData_classifiction_scratch - 16236 - INFO : 0.9616031606583932
+2023-07-08 17:56:12 - ministData_classifiction_scratch - 16236 - INFO : 0.9599417690279687
+2023-07-08 17:56:27 - ministData_classifiction_scratch - 14504 - INFO : [7 3 1 8 1 1 5 6 2 7]
+2023-07-08 17:57:26 - ministData_classifiction_scratch - 8840 - INFO : 最佳参数:{{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}}
+2023-07-08 17:57:26 - ministData_classifiction_scratch - 8840 - INFO : 模型平均accuracy:{0.9867861305361305}
+2023-07-08 17:57:27 - ministData_classifiction_scratch - 8840 - INFO : 1.0
+2023-07-08 17:57:27 - ministData_classifiction_scratch - 8840 - INFO : [[148   0   0   0   0   0   0   0   0   0]
+ [  0 139   0   0   0   0   0   0   2   0]
+ [  0   0 133   0   0   0   0   0   0   0]
+ [  0   0   0 152   0   0   0   0   1   0]
+ [  0   0   0   0 142   0   0   0   0   0]
+ [  0   0   0   1   0 145   0   0   0   2]
+ [  0   0   0   0   0   1 145   0   0   0]
+ [  0   0   0   1   0   0   0 146   0   0]
+ [  0   0   0   1   0   0   0   0 134   1]
+ [  0   0   0   0   0   2   0   1   0 140]]
+2023-07-08 17:58:07 - ministData_classifiction_scratch - 16656 - INFO : 0.9916666666666667
+2023-07-08 17:58:07 - ministData_classifiction_scratch - 16656 - INFO : 0.9915603402445508
+2023-07-08 17:58:07 - ministData_classifiction_scratch - 16656 - INFO : 0.9916534181240063
+2023-07-08 17:58:07 - ministData_classifiction_scratch - 16656 - INFO : 0.9915260787736763
+2023-07-08 17:58:19 - ministData_classifiction_scratch - 10912 - INFO : [7 3 1 8 1 1 5 6 2 7]
+2023-07-08 18:00:32 - ministData_classifiction_scratch - 13668 - INFO : 最佳参数:{{'alpha': 0.001, 'penalty': 'elasticnet'}}
+2023-07-08 18:00:32 - ministData_classifiction_scratch - 13668 - INFO : 模型平均accuracy:{0.9353049728049727}
+2023-07-08 18:00:32 - ministData_classifiction_scratch - 13668 - INFO : 0.9721642310368824
+2023-07-08 18:00:33 - ministData_classifiction_scratch - 13668 - INFO : [[146   0   0   0   0   0   0   0   0   0]
+ [  0 128   1   0   0   0   0   1   7   1]
+ [  0   0 132   0   0   0   0   0   1   0]
+ [  0   0   0 148   0   0   0   1   2   3]
+ [  2   0   0   0 138   0   1   1   0   0]
+ [  0   0   0   0   0 141   0   0   1   2]
+ [  0   2   0   0   0   1 143   0   1   0]
+ [  0   0   0   1   1   1   0 143   1   1]
+ [  0   8   0   4   2   1   1   0 124   2]
+ [  0   1   0   2   1   4   0   1   0 134]]
+2023-07-08 18:01:44 - ministData_classifiction_scratch - 15332 - INFO : 最佳参数:{{'alpha': 0.0001, 'penalty': 'elasticnet'}}
+2023-07-08 18:01:45 - ministData_classifiction_scratch - 15332 - INFO : 模型平均accuracy:{0.9450466200466201}
+2023-07-08 18:01:45 - ministData_classifiction_scratch - 15332 - INFO : 0.9819067501739736
+2023-07-08 18:01:46 - ministData_classifiction_scratch - 15332 - INFO : [[146   0   0   0   1   0   0   0   0   1]
+ [  0 134   2   0   2   2   1   2  13   4]
+ [  0   0 129   0   0   0   0   0   1   0]
+ [  0   3   0 148   0   1   0   0   4   0]
+ [  1   0   0   0 136   0   0   1   1   0]
+ [  1   0   0   1   0 142   2   0   2   2]
+ [  0   0   0   0   0   1 141   0   1   0]
+ [  0   0   1   1   1   1   0 142   0   2]
+ [  0   1   1   5   1   0   1   0 114   2]
+ [  0   1   0   0   1   1   0   2   1 132]]
+2023-07-08 18:08:19 - ministData_classifiction_scratch - 10168 - INFO : 最佳参数:{{'alpha': 0.001, 'penalty': 'elasticnet'}}
+2023-07-08 18:08:20 - ministData_classifiction_scratch - 10168 - INFO : 模型平均accuracy:{0.9435994560994561}
+2023-07-08 18:08:20 - ministData_classifiction_scratch - 10168 - INFO : 0.9812108559498957
+2023-07-08 18:08:21 - ministData_classifiction_scratch - 10168 - INFO : [[144   0   0   0   1   0   0   0   0   0]
+ [  0 135   0   0   1   0   2   0   8   3]
+ [  0   1 142   1   0   0   0   0   0   0]
+ [  0   2   1 141   0   0   0   0   3   3]
+ [  1   0   0   0 130   0   1   0   0   0]
+ [  0   1   0   2   0 130   0   0   0   2]
+ [  0   0   0   0   0   0 141   0   0   0]
+ [  0   0   0   1   1   1   0 143   0   2]
+ [  0  13   1   3   2   2   2   1 132   6]
+ [  0   2   0   1   0   2   0   1   1 124]]
+2023-07-08 18:15:14 - ministData_classifiction_scratch - 18956 - INFO : 0.9611111111111111
+2023-07-08 18:15:14 - ministData_classifiction_scratch - 18956 - INFO : 0.9611998027439205
+2023-07-08 18:15:14 - ministData_classifiction_scratch - 18956 - INFO : 0.9610217481997425
+2023-07-08 18:15:14 - ministData_classifiction_scratch - 18956 - INFO : 0.9604869250053355
+2023-07-08 18:15:47 - ministData_classifiction_scratch - 15252 - INFO : 最佳参数:{{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}}
+2023-07-08 18:15:47 - ministData_classifiction_scratch - 15252 - INFO : 模型平均accuracy:{0.9888694638694637}
+2023-07-08 18:15:47 - ministData_classifiction_scratch - 15252 - INFO : 1.0
+2023-07-08 18:15:48 - ministData_classifiction_scratch - 15252 - INFO : [[145   0   0   0   0   0   0   0   0   0]
+ [  0 154   0   0   0   0   1   0   2   1]
+ [  0   0 144   1   0   0   0   0   0   0]
+ [  0   0   0 148   0   0   0   0   0   1]
+ [  0   0   0   0 135   0   0   0   0   0]
+ [  0   0   0   0   0 132   0   0   0   2]
+ [  0   0   0   0   0   0 145   0   0   0]
+ [  0   0   0   0   0   0   0 145   0   0]
+ [  0   0   0   0   0   0   0   0 142   0]
+ [  0   0   0   0   0   3   0   0   0 136]]
+2023-07-08 18:16:22 - ministData_classifiction_scratch - 2208 - INFO : 0.9861111111111112
+2023-07-08 18:16:22 - ministData_classifiction_scratch - 2208 - INFO : 0.9876143790849673
+2023-07-08 18:16:22 - ministData_classifiction_scratch - 2208 - INFO : 0.9861566541510222
+2023-07-08 18:16:22 - ministData_classifiction_scratch - 2208 - INFO : 0.9868050255206742
+2023-07-08 19:17:15 - houseData_regression_pipeline - 18472 - INFO : 最佳参数:{{'max_features': 8, 'n_estimators': 30}}
+2023-07-08 19:18:57 - houseData_regression_pipeline - 11556 - INFO : 最佳参数:{{'max_features': 6, 'n_estimators': 30}}
+2023-07-08 19:20:54 - houseData_regression_pipeline - 12608 - INFO : 最佳参数:{{'max_features': 6, 'n_estimators': 30}}
+2023-07-08 19:22:15 - houseData_regression_pipeline - 12608 - INFO : 模型mean_score:{50756.537311310865}
+2023-07-08 19:22:18 - houseData_regression_pipeline - 12608 - INFO : MSE:365725553.814918, rmse:19123.952359
+2023-07-08 19:25:38 - houseData_regression_pipeline - 17380 - INFO : 最佳参数:{{'max_features': 8, 'n_estimators': 30}}
+2023-07-08 19:27:03 - houseData_regression_pipeline - 17380 - INFO : 最佳参数模型mean_score:{50692.08162259714}
+2023-07-08 19:27:07 - houseData_regression_pipeline - 17380 - INFO : MSE:377168176.812097, rmse:19420.818129
+2023-07-08 19:30:48 - ministData_classifiction_scratch - 9052 - INFO : 最佳参数:{{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}}
+2023-07-08 19:32:17 - ministData_classifiction_scratch - 9052 - INFO : 最佳参数模型平均accuracy:{0.9916569541569542}
+2023-07-08 19:32:17 - ministData_classifiction_scratch - 9052 - INFO : 1.0
+2023-07-08 19:32:18 - ministData_classifiction_scratch - 9052 - INFO : [[145   0   0   0   0   0   0   0   0   0]
+ [  0 154   0   0   0   0   1   0   2   1]
+ [  0   0 144   1   0   0   0   0   0   0]
+ [  0   0   0 148   0   0   0   0   0   1]
+ [  0   0   0   0 135   0   0   0   0   0]
+ [  0   0   0   0   0 132   0   0   0   2]
+ [  0   0   0   0   0   0 145   0   0   0]
+ [  0   0   0   0   0   0   0 145   0   0]
+ [  0   0   0   0   0   0   0   0 142   0]
+ [  0   0   0   0   0   3   0   0   0 136]]
+2023-07-08 19:33:01 - ministData_classifiction_scratch - 14832 - INFO : 0.9861111111111112
+2023-07-08 19:33:01 - ministData_classifiction_scratch - 14832 - INFO : 0.9876143790849673
+2023-07-08 19:33:01 - ministData_classifiction_scratch - 14832 - INFO : 0.9861566541510222
+2023-07-08 19:33:01 - ministData_classifiction_scratch - 14832 - INFO : 0.9868050255206742
+2023-07-08 19:33:44 - ministData_classifiction_scratch - 13188 - INFO : 最佳参数:{{'gamma': 'scale', 'kernel': 'poly'}}
+2023-07-08 19:34:12 - ministData_classifiction_scratch - 13188 - INFO : 最佳参数模型平均accuracy:{0.9888743201243202}
+2023-07-08 19:34:12 - ministData_classifiction_scratch - 13188 - INFO : 0.9979123173277662
+2023-07-08 19:34:12 - ministData_classifiction_scratch - 13188 - INFO : [[144   0   0   0   0   0   0   0   0   0]
+ [  0 154   0   0   0   0   1   0   3   0]
+ [  0   0 144   0   0   0   0   0   0   0]
+ [  0   0   0 147   0   0   0   0   0   1]
+ [  1   0   0   0 135   0   0   0   0   0]
+ [  0   0   0   0   0 132   0   0   0   2]
+ [  0   0   0   0   0   0 144   0   0   0]
+ [  0   0   0   1   0   0   0 145   0   0]
+ [  0   0   0   1   0   0   1   0 141   0]
+ [  0   0   0   0   0   3   0   0   0 137]]
+2023-07-08 19:36:03 - houseData_regression_pipeline - 14956 - INFO : 最佳参数:{{'max_features': 6, 'n_estimators': 30}}
+2023-07-08 19:39:42 - houseData_regression_pipeline - 14956 - INFO : 最佳参数模型mean_score:{50414.58802302332}
+2023-07-08 19:39:45 - houseData_regression_pipeline - 14956 - INFO : MSE:373610854.948724, rmse:19329.015882
+2023-07-08 19:43:13 - houseData_regression_pipeline - 13044 - INFO : 最佳参数:{{'max_features': 8, 'n_estimators': 30}}
+2023-07-08 19:43:25 - houseData_regression_pipeline - 13044 - INFO : 最佳参数模型mean_score:{50197.01502133384}
+2023-07-08 19:43:28 - houseData_regression_pipeline - 13044 - INFO : MSE:375037075.768089, rmse:19365.874000
+2023-07-08 19:44:43 - ministData_classifiction_scratch - 8220 - INFO : 最佳参数:{{'gamma': 'scale', 'kernel': 'poly'}}
+2023-07-08 19:44:44 - ministData_classifiction_scratch - 8220 - INFO : 最佳参数模型平均accuracy:{0.9902632090132091}
+2023-07-08 19:44:44 - ministData_classifiction_scratch - 8220 - INFO : 0.9979123173277662
+2023-07-08 19:44:44 - ministData_classifiction_scratch - 8220 - INFO : [[144   0   0   0   0   0   0   0   0   0]
+ [  0 154   0   0   0   0   1   0   3   0]
+ [  0   0 144   0   0   0   0   0   0   0]
+ [  0   0   0 147   0   0   0   0   0   1]
+ [  1   0   0   0 135   0   0   0   0   0]
+ [  0   0   0   0   0 132   0   0   0   2]
+ [  0   0   0   0   0   0 144   0   0   0]
+ [  0   0   0   1   0   0   0 145   0   0]
+ [  0   0   0   1   0   0   1   0 141   0]
+ [  0   0   0   0   0   3   0   0   0 137]]
+2023-07-08 19:45:28 - houseData_regression_pipeline - 11524 - INFO : MSE:2479981620.061411, rmse:49799.413853
+2023-07-08 19:45:28 - houseData_regression_pipeline - 11524 - INFO : Confidence_interval:[48084.12575788 51457.55620143]
+2023-07-08 19:45:28 - houseData_regression_pipeline - 11524 - INFO : true_label:{17966    288900.0
+17037    349600.0
+7313     189600.0
+2639      76800.0
+10119    198200.0
+8222      87500.0
+4019     311700.0
+10541    454100.0
+10927    160600.0
+5372     340400.0
+Name: median_house_value, dtype: float64}
+2023-07-08 19:45:28 - houseData_regression_pipeline - 11524 - INFO : predicted_label:{[301323.33333333 278893.33333333 150106.66666667  82786.66666667
+ 240203.33333333 289530.         371483.6        289976.73333333
+ 173656.66666667 440537.03333333]}
+2023-07-08 19:48:54 - houseData_regression_pipeline - 15044 - INFO : MSE:2479981620.061411, rmse:49799.413853
+2023-07-08 19:48:54 - houseData_regression_pipeline - 15044 - INFO : Confidence_interval:[48084.12575788 51457.55620143]
+2023-07-08 19:48:54 - houseData_regression_pipeline - 15044 - INFO : true_label vs predicted_label
+2023-07-08 19:48:54 - houseData_regression_pipeline - 15044 - INFO : {288900.0},{301323.3333333333}
+2023-07-08 19:48:54 - houseData_regression_pipeline - 15044 - INFO : {349600.0},{278893.3333333333}
+2023-07-08 19:48:54 - houseData_regression_pipeline - 15044 - INFO : {189600.0},{150106.66666666666}
+2023-07-08 19:48:54 - houseData_regression_pipeline - 15044 - INFO : {76800.0},{82786.66666666667}
+2023-07-08 19:48:54 - houseData_regression_pipeline - 15044 - INFO : {198200.0},{240203.33333333334}
+2023-07-08 19:48:54 - houseData_regression_pipeline - 15044 - INFO : {87500.0},{289530.0}
+2023-07-08 19:48:54 - houseData_regression_pipeline - 15044 - INFO : {311700.0},{371483.6}
+2023-07-08 19:48:54 - houseData_regression_pipeline - 15044 - INFO : {454100.0},{289976.73333333334}
+2023-07-08 19:48:54 - houseData_regression_pipeline - 15044 - INFO : {160600.0},{173656.66666666666}
+2023-07-08 19:48:54 - houseData_regression_pipeline - 15044 - INFO : {340400.0},{440537.0333333333}
+2023-07-08 19:49:58 - houseData_regression_pipeline - 9516 - INFO : predicted_label:{[301323.33333333 278893.33333333 150106.66666667  82786.66666667
+ 240203.33333333 289530.         371483.6        289976.73333333
+ 173656.66666667 440537.03333333]}
+2023-07-08 20:05:58 - houseData_regression_pipeline - 15652 - INFO : 最佳参数:{{'lr__fit_intercept': True, 'pf__degree': 1}}
+2023-07-08 20:05:58 - houseData_regression_pipeline - 15652 - INFO : 最佳参数模型mean_score:{69342.67601675255}
+2023-07-08 20:05:58 - houseData_regression_pipeline - 15652 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-07-08 20:08:09 - houseData_regression_pipeline - 10328 - INFO : MSE:4555304276.295716, rmse:67492.994276
+2023-07-08 20:08:09 - houseData_regression_pipeline - 10328 - INFO : Confidence_interval:[65656.15583884 69281.15005582]
+2023-07-08 20:08:09 - houseData_regression_pipeline - 10328 - INFO : true_label vs predicted_label
+2023-07-08 20:08:09 - houseData_regression_pipeline - 10328 - INFO : {288900.0},{311326.62983736617}
+2023-07-08 20:08:09 - houseData_regression_pipeline - 10328 - INFO : {349600.0},{275537.0331466085}
+2023-07-08 20:08:09 - houseData_regression_pipeline - 10328 - INFO : {189600.0},{160059.23368184333}
+2023-07-08 20:08:09 - houseData_regression_pipeline - 10328 - INFO : {76800.0},{143200.55113317876}
+2023-07-08 20:08:09 - houseData_regression_pipeline - 10328 - INFO : {198200.0},{243920.30737441595}
+2023-07-08 20:08:09 - houseData_regression_pipeline - 10328 - INFO : {87500.0},{266945.8063720683}
+2023-07-08 20:08:09 - houseData_regression_pipeline - 10328 - INFO : {311700.0},{288962.4209441051}
+2023-07-08 20:08:09 - houseData_regression_pipeline - 10328 - INFO : {454100.0},{289806.954353738}
+2023-07-08 20:08:09 - houseData_regression_pipeline - 10328 - INFO : {160600.0},{155984.05118924027}
+2023-07-08 20:08:09 - houseData_regression_pipeline - 10328 - INFO : {340400.0},{333834.095391947}
+2023-07-08 20:09:02 - houseData_regression_pipeline - 9600 - INFO : 最佳参数:{{'lr__fit_intercept': True, 'pf__degree': 1}}
+2023-07-08 20:09:03 - houseData_regression_pipeline - 9600 - INFO : 最佳参数模型mean_score:{69342.67601675255}
+2023-07-08 20:09:03 - houseData_regression_pipeline - 9600 - INFO : MSE:4715746728.186327, rmse:68671.294790
+2023-07-08 20:09:18 - houseData_regression_pipeline - 18848 - INFO : predicted_label:{[311326.62983737 275537.03314661 160059.23368184 143200.55113318
+ 243920.30737442 266945.80637207 288962.42094411 289806.95435374
+ 155984.05118924 333834.09539195]}
