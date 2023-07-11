@@ -14,6 +14,7 @@ import pandas as pd
 import numpy as np
 import joblib
 from scipy import stats
+import matplotlib.pyplot as plt
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler, OneHotEncoder, PolynomialFeatures
 from sklearn.impute import SimpleImputer
@@ -215,7 +216,7 @@ def run(model_name, task):
         ]
         model_path = "scikit-learn/model/house_RandomForestRegressor.pkl"
 
-    if model_name == "LinearRegression":
+    elif model_name == "LinearRegression":
 
         #使用Pipeline对象时，需要给每个步骤指定一个名称
         polynomial_features = PolynomialFeatures()
@@ -239,14 +240,15 @@ def run(model_name, task):
         pre_model.set_params(**best_params)
         model.train(pre_model, clean_train_data, train_label)
 
-    if task == "test":
+    elif task == "test":
         model.test(clean_test_data, test_label)
 
-    if task == "predict":
+    elif task == "predict":
         model.predict(clean_test_data[0:10])
 
 
 if __name__ == '__main__':
+
     #run("RandomForest", "train")
     #run("RandomForest", "test")
     #run("RandomForest", "predict")

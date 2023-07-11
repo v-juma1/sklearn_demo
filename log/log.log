@@ -674,3 +674,523 @@ Name: median_house_value, dtype: float64}
 2023-07-08 20:09:18 - houseData_regression_pipeline - 18848 - INFO : predicted_label:{[311326.62983737 275537.03314661 160059.23368184 143200.55113318
  243920.30737442 266945.80637207 288962.42094411 289806.95435374
  155984.05118924 333834.09539195]}
+2023-07-09 17:23:11 - houseData_regression_pipeline - 2904 - INFO : predicted_label:{[311326.62983737 275537.03314661 160059.23368184 143200.55113318
+ 243920.30737442 266945.80637207 288962.42094411 289806.95435374
+ 155984.05118924 333834.09539195]}
+2023-07-10 16:27:55 - houseData_regression_pipeline - 5952 - INFO : predicted_label:{[311326.62983737 275537.03314661 160059.23368184 143200.55113318
+ 243920.30737442 266945.80637207 288962.42094411 289806.95435374
+ 155984.05118924 333834.09539195]}
+2023-07-10 17:05:23 - sinData_linearRegression_pipeline - 4740 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures()),
+                ('linear_regression', LinearRegression())])
+2023-07-10 17:05:23 - sinData_linearRegression_pipeline - 4740 - INFO : params:degree=2
+2023-07-10 17:05:23 - sinData_linearRegression_pipeline - 4740 - INFO : train_score:0.1413036333990031
+2023-07-10 17:05:23 - sinData_linearRegression_pipeline - 4740 - INFO : mse:0.47009144040323414
+2023-07-10 17:05:23 - sinData_linearRegression_pipeline - 4740 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=3)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 17:05:23 - sinData_linearRegression_pipeline - 4740 - INFO : params:degree=3
+2023-07-10 17:05:23 - sinData_linearRegression_pipeline - 4740 - INFO : train_score:0.263445176621825
+2023-07-10 17:05:23 - sinData_linearRegression_pipeline - 4740 - INFO : mse:0.40322532075960693
+2023-07-10 17:05:23 - sinData_linearRegression_pipeline - 4740 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=5)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 17:05:23 - sinData_linearRegression_pipeline - 4740 - INFO : params:degree=5
+2023-07-10 17:05:23 - sinData_linearRegression_pipeline - 4740 - INFO : train_score:0.8621495721166693
+2023-07-10 17:05:23 - sinData_linearRegression_pipeline - 4740 - INFO : mse:0.07546591405805753
+2023-07-10 17:05:23 - sinData_linearRegression_pipeline - 4740 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=10)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 17:05:23 - sinData_linearRegression_pipeline - 4740 - INFO : params:degree=10
+2023-07-10 17:05:23 - sinData_linearRegression_pipeline - 4740 - INFO : train_score:0.9658910908241916
+2023-07-10 17:05:23 - sinData_linearRegression_pipeline - 4740 - INFO : mse:0.018672847433264368
+2023-07-10 17:56:50 - sinData_linearRegression_pipeline - 15728 - INFO : model
+2023-07-10 17:56:50 - sinData_linearRegression_pipeline - 15728 - INFO : params
+2023-07-10 18:52:08 - sinData_linearRegression_pipeline - 4172 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures()),
+                ('linear_regression', LinearRegression())])
+2023-07-10 18:52:08 - sinData_linearRegression_pipeline - 4172 - INFO : params:degree=2
+2023-07-10 18:52:08 - sinData_linearRegression_pipeline - 4172 - INFO : train_score:0.13645705557083232
+2023-07-10 18:52:08 - sinData_linearRegression_pipeline - 4172 - INFO : mse:0.4584859568973956
+2023-07-10 18:52:08 - sinData_linearRegression_pipeline - 4172 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=3)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 18:52:08 - sinData_linearRegression_pipeline - 4172 - INFO : params:degree=3
+2023-07-10 18:52:08 - sinData_linearRegression_pipeline - 4172 - INFO : train_score:0.2499718610236359
+2023-07-10 18:52:08 - sinData_linearRegression_pipeline - 4172 - INFO : mse:0.3982168706454618
+2023-07-10 18:52:08 - sinData_linearRegression_pipeline - 4172 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=5)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 18:52:08 - sinData_linearRegression_pipeline - 4172 - INFO : params:degree=5
+2023-07-10 18:52:08 - sinData_linearRegression_pipeline - 4172 - INFO : train_score:0.8524714124977165
+2023-07-10 18:52:08 - sinData_linearRegression_pipeline - 4172 - INFO : mse:0.07832822449312912
+2023-07-10 18:52:08 - sinData_linearRegression_pipeline - 4172 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=10)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 18:52:08 - sinData_linearRegression_pipeline - 4172 - INFO : params:degree=10
+2023-07-10 18:52:08 - sinData_linearRegression_pipeline - 4172 - INFO : train_score:0.9614274699067268
+2023-07-10 18:52:08 - sinData_linearRegression_pipeline - 4172 - INFO : mse:0.020479541271057878
+2023-07-10 18:52:22 - sinData_linearRegression_pipeline - 10896 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures()),
+                ('linear_regression', LinearRegression())])
+2023-07-10 18:52:22 - sinData_linearRegression_pipeline - 10896 - INFO : params:degree=2
+2023-07-10 18:52:22 - sinData_linearRegression_pipeline - 10896 - INFO : train_score:0.13945467788667898
+2023-07-10 18:52:22 - sinData_linearRegression_pipeline - 10896 - INFO : mse:0.45728205664504795
+2023-07-10 18:52:22 - sinData_linearRegression_pipeline - 10896 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=3)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 18:52:22 - sinData_linearRegression_pipeline - 10896 - INFO : params:degree=3
+2023-07-10 18:52:22 - sinData_linearRegression_pipeline - 10896 - INFO : train_score:0.24741735750053684
+2023-07-10 18:52:22 - sinData_linearRegression_pipeline - 10896 - INFO : mse:0.3999121600154384
+2023-07-10 18:52:22 - sinData_linearRegression_pipeline - 10896 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=5)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 18:52:22 - sinData_linearRegression_pipeline - 10896 - INFO : params:degree=5
+2023-07-10 18:52:22 - sinData_linearRegression_pipeline - 10896 - INFO : train_score:0.8514875621675243
+2023-07-10 18:52:22 - sinData_linearRegression_pipeline - 10896 - INFO : mse:0.0789174855342033
+2023-07-10 18:52:22 - sinData_linearRegression_pipeline - 10896 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=10)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 18:52:22 - sinData_linearRegression_pipeline - 10896 - INFO : params:degree=10
+2023-07-10 18:52:22 - sinData_linearRegression_pipeline - 10896 - INFO : train_score:0.9627863536564163
+2023-07-10 18:52:22 - sinData_linearRegression_pipeline - 10896 - INFO : mse:0.01977482451878872
+2023-07-10 18:53:43 - sinData_linearRegression_pipeline - 9652 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures()),
+                ('linear_regression', LinearRegression())])
+2023-07-10 18:53:43 - sinData_linearRegression_pipeline - 9652 - INFO : params:degree=2
+2023-07-10 18:53:43 - sinData_linearRegression_pipeline - 9652 - INFO : train_score:0.13475542485137182
+2023-07-10 18:53:43 - sinData_linearRegression_pipeline - 9652 - INFO : mse:0.45949877266273964
+2023-07-10 18:53:43 - sinData_linearRegression_pipeline - 9652 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=3)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 18:53:43 - sinData_linearRegression_pipeline - 9652 - INFO : params:degree=3
+2023-07-10 18:53:43 - sinData_linearRegression_pipeline - 9652 - INFO : train_score:0.24124736857978146
+2023-07-10 18:53:43 - sinData_linearRegression_pipeline - 9652 - INFO : mse:0.40294491627679435
+2023-07-10 18:53:43 - sinData_linearRegression_pipeline - 9652 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=5)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 18:53:43 - sinData_linearRegression_pipeline - 9652 - INFO : params:degree=5
+2023-07-10 18:53:43 - sinData_linearRegression_pipeline - 9652 - INFO : train_score:0.8680908056835536
+2023-07-10 18:53:43 - sinData_linearRegression_pipeline - 9652 - INFO : mse:0.07005199989948073
+2023-07-10 18:53:43 - sinData_linearRegression_pipeline - 9652 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=1)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 18:53:43 - sinData_linearRegression_pipeline - 9652 - INFO : params:degree=1
+2023-07-10 18:53:43 - sinData_linearRegression_pipeline - 9652 - INFO : train_score:0.13291615816041413
+2023-07-10 18:53:43 - sinData_linearRegression_pipeline - 9652 - INFO : mse:0.46047553785881074
+2023-07-10 19:08:34 - sinData_linearRegression_pipeline - 6192 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures()),
+                ('linear_regression', LinearRegression())])
+2023-07-10 19:08:34 - sinData_linearRegression_pipeline - 6192 - INFO : params:degree=2
+2023-07-10 19:08:34 - sinData_linearRegression_pipeline - 6192 - INFO : train_score:0.1619171729976564
+2023-07-10 19:08:34 - sinData_linearRegression_pipeline - 6192 - INFO : mse:0.4448900585935965
+2023-07-10 19:08:34 - sinData_linearRegression_pipeline - 6192 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=3)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 19:08:34 - sinData_linearRegression_pipeline - 6192 - INFO : params:degree=3
+2023-07-10 19:08:34 - sinData_linearRegression_pipeline - 6192 - INFO : train_score:0.3137103396160912
+2023-07-10 19:08:34 - sinData_linearRegression_pipeline - 6192 - INFO : mse:0.36431178086831606
+2023-07-10 19:08:34 - sinData_linearRegression_pipeline - 6192 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=5)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 19:08:34 - sinData_linearRegression_pipeline - 6192 - INFO : params:degree=5
+2023-07-10 19:08:34 - sinData_linearRegression_pipeline - 6192 - INFO : train_score:0.878597978471845
+2023-07-10 19:08:34 - sinData_linearRegression_pipeline - 6192 - INFO : mse:0.0644453635498379
+2023-07-10 19:08:34 - sinData_linearRegression_pipeline - 6192 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=1)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 19:08:34 - sinData_linearRegression_pipeline - 6192 - INFO : params:degree=1
+2023-07-10 19:08:34 - sinData_linearRegression_pipeline - 6192 - INFO : train_score:0.15767744017421603
+2023-07-10 19:08:34 - sinData_linearRegression_pipeline - 6192 - INFO : mse:0.4471406893468696
+2023-07-10 19:09:16 - sinData_linearRegression_pipeline - 1796 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures()),
+                ('linear_regression', LinearRegression())])
+2023-07-10 19:09:16 - sinData_linearRegression_pipeline - 1796 - INFO : params:degree=2
+2023-07-10 19:09:16 - sinData_linearRegression_pipeline - 1796 - INFO : train_score:0.1322885279541932
+2023-07-10 19:09:16 - sinData_linearRegression_pipeline - 1796 - INFO : mse:0.4420724887782773
+2023-07-10 19:09:16 - sinData_linearRegression_pipeline - 1796 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=3)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 19:09:16 - sinData_linearRegression_pipeline - 1796 - INFO : params:degree=3
+2023-07-10 19:09:16 - sinData_linearRegression_pipeline - 1796 - INFO : train_score:0.24889405185476854
+2023-07-10 19:09:16 - sinData_linearRegression_pipeline - 1796 - INFO : mse:0.38266553633302836
+2023-07-10 19:09:16 - sinData_linearRegression_pipeline - 1796 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=5)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 19:09:16 - sinData_linearRegression_pipeline - 1796 - INFO : params:degree=5
+2023-07-10 19:09:16 - sinData_linearRegression_pipeline - 1796 - INFO : train_score:0.8731471027598979
+2023-07-10 19:09:16 - sinData_linearRegression_pipeline - 1796 - INFO : mse:0.06462767613231071
+2023-07-10 19:09:16 - sinData_linearRegression_pipeline - 1796 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=10)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 19:09:16 - sinData_linearRegression_pipeline - 1796 - INFO : params:degree=10
+2023-07-10 19:09:16 - sinData_linearRegression_pipeline - 1796 - INFO : train_score:0.9684078865358572
+2023-07-10 19:09:16 - sinData_linearRegression_pipeline - 1796 - INFO : mse:0.016095216756707862
+2023-07-10 19:10:02 - sinData_linearRegression_pipeline - 11712 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures()),
+                ('linear_regression', LinearRegression())])
+2023-07-10 19:10:02 - sinData_linearRegression_pipeline - 11712 - INFO : params:degree=2
+2023-07-10 19:10:02 - sinData_linearRegression_pipeline - 11712 - INFO : train_score:0.14277295662685519
+2023-07-10 19:10:02 - sinData_linearRegression_pipeline - 11712 - INFO : mse:0.4420582051860001
+2023-07-10 19:10:02 - sinData_linearRegression_pipeline - 11712 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=3)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 19:10:02 - sinData_linearRegression_pipeline - 11712 - INFO : params:degree=3
+2023-07-10 19:10:02 - sinData_linearRegression_pipeline - 11712 - INFO : train_score:0.2734675178867485
+2023-07-10 19:10:02 - sinData_linearRegression_pipeline - 11712 - INFO : mse:0.3746611210357147
+2023-07-10 19:10:02 - sinData_linearRegression_pipeline - 11712 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=5)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 19:10:02 - sinData_linearRegression_pipeline - 11712 - INFO : params:degree=5
+2023-07-10 19:10:02 - sinData_linearRegression_pipeline - 11712 - INFO : train_score:0.8693160980078931
+2023-07-10 19:10:02 - sinData_linearRegression_pipeline - 11712 - INFO : mse:0.06739158733725
+2023-07-10 19:10:02 - sinData_linearRegression_pipeline - 11712 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=10)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 19:10:02 - sinData_linearRegression_pipeline - 11712 - INFO : params:degree=10
+2023-07-10 19:10:02 - sinData_linearRegression_pipeline - 11712 - INFO : train_score:0.9670424363507191
+2023-07-10 19:10:02 - sinData_linearRegression_pipeline - 11712 - INFO : mse:0.01699568573662302
+2023-07-10 19:18:13 - sinData_linearRegression_pipeline - 15304 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures()),
+                ('linear_regression', LinearRegression())])
+2023-07-10 19:18:13 - sinData_linearRegression_pipeline - 15304 - INFO : params:degree=2
+2023-07-10 19:18:13 - sinData_linearRegression_pipeline - 15304 - INFO : train_score:0.13919647996811657
+2023-07-10 19:18:13 - sinData_linearRegression_pipeline - 15304 - INFO : mse:0.47205165633996365
+2023-07-10 19:18:13 - sinData_linearRegression_pipeline - 15304 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=3)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 19:18:13 - sinData_linearRegression_pipeline - 15304 - INFO : params:degree=3
+2023-07-10 19:18:13 - sinData_linearRegression_pipeline - 15304 - INFO : train_score:0.2678442761926013
+2023-07-10 19:18:13 - sinData_linearRegression_pipeline - 15304 - INFO : mse:0.40150314686127936
+2023-07-10 19:18:13 - sinData_linearRegression_pipeline - 15304 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=5)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 19:18:13 - sinData_linearRegression_pipeline - 15304 - INFO : params:degree=5
+2023-07-10 19:18:13 - sinData_linearRegression_pipeline - 15304 - INFO : train_score:0.8665016317366507
+2023-07-10 19:18:13 - sinData_linearRegression_pipeline - 15304 - INFO : mse:0.07320848996419334
+2023-07-10 19:18:13 - sinData_linearRegression_pipeline - 15304 - INFO : model:Pipeline(steps=[('polynomial_feature', PolynomialFeatures(degree=10)),
+                ('linear_regression', LinearRegression())])
+2023-07-10 19:18:13 - sinData_linearRegression_pipeline - 15304 - INFO : params:degree=10
+2023-07-10 19:18:13 - sinData_linearRegression_pipeline - 15304 - INFO : train_score:0.9629863113956563
+2023-07-10 19:18:13 - sinData_linearRegression_pipeline - 15304 - INFO : mse:0.0202977480996882
+2023-07-11 16:13:01 - sinData_linearRegression_pipeline - 6924 - INFO : model:Ridge(alpha=0, solver='cholesky')
+2023-07-11 16:13:01 - sinData_linearRegression_pipeline - 6924 - INFO : params:alpha=0
+2023-07-11 16:13:01 - sinData_linearRegression_pipeline - 6924 - INFO : train_score:0.14971688132080796
+2023-07-11 16:13:01 - sinData_linearRegression_pipeline - 6924 - INFO : mse:0.48600696296352053
+2023-07-11 16:13:01 - sinData_linearRegression_pipeline - 6924 - INFO : model:Ridge(alpha=1, solver='cholesky')
+2023-07-11 16:13:01 - sinData_linearRegression_pipeline - 6924 - INFO : params:alpha=1
+2023-07-11 16:13:01 - sinData_linearRegression_pipeline - 6924 - INFO : train_score:0.14971686634183068
+2023-07-11 16:13:01 - sinData_linearRegression_pipeline - 6924 - INFO : mse:0.4860069715252421
+2023-07-11 16:13:01 - sinData_linearRegression_pipeline - 6924 - INFO : model:Ridge(alpha=5, solver='cholesky')
+2023-07-11 16:13:01 - sinData_linearRegression_pipeline - 6924 - INFO : params:alpha=5
+2023-07-11 16:13:01 - sinData_linearRegression_pipeline - 6924 - INFO : train_score:0.14971650779216172
+2023-07-11 16:13:01 - sinData_linearRegression_pipeline - 6924 - INFO : mse:0.4860071764659634
+2023-07-11 16:13:01 - sinData_linearRegression_pipeline - 6924 - INFO : model:Ridge(alpha=10, solver='cholesky')
+2023-07-11 16:13:01 - sinData_linearRegression_pipeline - 6924 - INFO : params:alpha=10
+2023-07-11 16:13:01 - sinData_linearRegression_pipeline - 6924 - INFO : train_score:0.14971539191504712
+2023-07-11 16:13:01 - sinData_linearRegression_pipeline - 6924 - INFO : mse:0.4860078142818104
+2023-07-11 16:21:16 - sinData_linearRegression_pipeline - 9332 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_reg', Ridge(alpha=0, solver='cholesky'))])
+2023-07-11 16:21:16 - sinData_linearRegression_pipeline - 9332 - INFO : params:alpha=0
+2023-07-11 16:21:16 - sinData_linearRegression_pipeline - 9332 - INFO : train_score:0.9627393245761351
+2023-07-11 16:21:16 - sinData_linearRegression_pipeline - 9332 - INFO : mse:0.020340016912822736
+2023-07-11 16:21:16 - sinData_linearRegression_pipeline - 9332 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_reg', Ridge(alpha=1, solver='cholesky'))])
+2023-07-11 16:21:16 - sinData_linearRegression_pipeline - 9332 - INFO : params:alpha=1
+2023-07-11 16:21:16 - sinData_linearRegression_pipeline - 9332 - INFO : train_score:0.7417084005433201
+2023-07-11 16:21:16 - sinData_linearRegression_pipeline - 9332 - INFO : mse:0.14099732336102555
+2023-07-11 16:21:16 - sinData_linearRegression_pipeline - 9332 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_reg', Ridge(alpha=5, solver='cholesky'))])
+2023-07-11 16:21:16 - sinData_linearRegression_pipeline - 9332 - INFO : params:alpha=5
+2023-07-11 16:21:16 - sinData_linearRegression_pipeline - 9332 - INFO : train_score:0.5953678466071031
+2023-07-11 16:21:16 - sinData_linearRegression_pipeline - 9332 - INFO : mse:0.22088233103289537
+2023-07-11 16:21:16 - sinData_linearRegression_pipeline - 9332 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_reg', Ridge(alpha=10, solver='cholesky'))])
+2023-07-11 16:21:16 - sinData_linearRegression_pipeline - 9332 - INFO : params:alpha=10
+2023-07-11 16:21:16 - sinData_linearRegression_pipeline - 9332 - INFO : train_score:0.5006106394579255
+2023-07-11 16:21:16 - sinData_linearRegression_pipeline - 9332 - INFO : mse:0.272608800671491
+2023-07-11 16:22:56 - sinData_linearRegression_pipeline - 9248 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_reg', Ridge(alpha=0, solver='cholesky'))])
+2023-07-11 16:22:56 - sinData_linearRegression_pipeline - 9248 - INFO : params:alpha=0
+2023-07-11 16:22:56 - sinData_linearRegression_pipeline - 9248 - INFO : train_score:0.9610755553250855
+2023-07-11 16:22:56 - sinData_linearRegression_pipeline - 9248 - INFO : mse:0.020213240725165185
+2023-07-11 16:22:56 - sinData_linearRegression_pipeline - 9248 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_reg', Ridge(alpha=0.5, solver='cholesky'))])
+2023-07-11 16:22:56 - sinData_linearRegression_pipeline - 9248 - INFO : params:alpha=0.5
+2023-07-11 16:22:56 - sinData_linearRegression_pipeline - 9248 - INFO : train_score:0.8100461904661891
+2023-07-11 16:22:56 - sinData_linearRegression_pipeline - 9248 - INFO : mse:0.09864192311120042
+2023-07-11 16:22:56 - sinData_linearRegression_pipeline - 9248 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_reg', Ridge(alpha=1, solver='cholesky'))])
+2023-07-11 16:22:56 - sinData_linearRegression_pipeline - 9248 - INFO : params:alpha=1
+2023-07-11 16:22:56 - sinData_linearRegression_pipeline - 9248 - INFO : train_score:0.7551839493731838
+2023-07-11 16:22:56 - sinData_linearRegression_pipeline - 9248 - INFO : mse:0.1271315700463471
+2023-07-11 16:22:56 - sinData_linearRegression_pipeline - 9248 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_reg', Ridge(alpha=10, solver='cholesky'))])
+2023-07-11 16:22:56 - sinData_linearRegression_pipeline - 9248 - INFO : params:alpha=10
+2023-07-11 16:22:56 - sinData_linearRegression_pipeline - 9248 - INFO : train_score:0.5104386420139806
+2023-07-11 16:22:56 - sinData_linearRegression_pipeline - 9248 - INFO : mse:0.2542264035198314
+2023-07-11 16:37:07 - sinData_linearRegression_pipeline - 3928 - INFO : model:SGDRegressor(alpha=0)
+2023-07-11 16:37:07 - sinData_linearRegression_pipeline - 3928 - INFO : params:alpha=0
+2023-07-11 16:37:07 - sinData_linearRegression_pipeline - 3928 - INFO : train_score:0.14817434611169678
+2023-07-11 16:37:07 - sinData_linearRegression_pipeline - 3928 - INFO : mse:0.4499929457621672
+2023-07-11 16:37:07 - sinData_linearRegression_pipeline - 3928 - INFO : model:SGDRegressor(alpha=0.5)
+2023-07-11 16:37:07 - sinData_linearRegression_pipeline - 3928 - INFO : params:alpha=0.5
+2023-07-11 16:37:07 - sinData_linearRegression_pipeline - 3928 - INFO : train_score:0.1548763643456399
+2023-07-11 16:37:07 - sinData_linearRegression_pipeline - 3928 - INFO : mse:0.4464524783978921
+2023-07-11 16:37:07 - sinData_linearRegression_pipeline - 3928 - INFO : model:SGDRegressor(alpha=1)
+2023-07-11 16:37:07 - sinData_linearRegression_pipeline - 3928 - INFO : params:alpha=1
+2023-07-11 16:37:07 - sinData_linearRegression_pipeline - 3928 - INFO : train_score:0.15371106175759186
+2023-07-11 16:37:07 - sinData_linearRegression_pipeline - 3928 - INFO : mse:0.4470680714384473
+2023-07-11 16:37:07 - sinData_linearRegression_pipeline - 3928 - INFO : model:SGDRegressor(alpha=10)
+2023-07-11 16:37:07 - sinData_linearRegression_pipeline - 3928 - INFO : params:alpha=10
+2023-07-11 16:37:07 - sinData_linearRegression_pipeline - 3928 - INFO : train_score:0.12421543355220621
+2023-07-11 16:37:07 - sinData_linearRegression_pipeline - 3928 - INFO : mse:0.46264969258669647
+2023-07-11 16:38:37 - sinData_linearRegression_pipeline - 10424 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(alpha=0))])
+2023-07-11 16:38:37 - sinData_linearRegression_pipeline - 10424 - INFO : params:alpha=0
+2023-07-11 16:38:37 - sinData_linearRegression_pipeline - 10424 - INFO : train_score:0.4473643282914207
+2023-07-11 16:38:37 - sinData_linearRegression_pipeline - 10424 - INFO : mse:0.29987121650091836
+2023-07-11 16:38:37 - sinData_linearRegression_pipeline - 10424 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(alpha=0.5))])
+2023-07-11 16:38:37 - sinData_linearRegression_pipeline - 10424 - INFO : params:alpha=0.5
+2023-07-11 16:38:37 - sinData_linearRegression_pipeline - 10424 - INFO : train_score:0.20811839619856953
+2023-07-11 16:38:37 - sinData_linearRegression_pipeline - 10424 - INFO : mse:0.4296908650910505
+2023-07-11 16:38:37 - sinData_linearRegression_pipeline - 10424 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(alpha=1))])
+2023-07-11 16:38:37 - sinData_linearRegression_pipeline - 10424 - INFO : params:alpha=1
+2023-07-11 16:38:37 - sinData_linearRegression_pipeline - 10424 - INFO : train_score:0.17849664570147983
+2023-07-11 16:38:37 - sinData_linearRegression_pipeline - 10424 - INFO : mse:0.4457642219356899
+2023-07-11 16:38:37 - sinData_linearRegression_pipeline - 10424 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(alpha=10))])
+2023-07-11 16:38:37 - sinData_linearRegression_pipeline - 10424 - INFO : params:alpha=10
+2023-07-11 16:38:37 - sinData_linearRegression_pipeline - 10424 - INFO : train_score:0.0829445231217093
+2023-07-11 16:38:37 - sinData_linearRegression_pipeline - 10424 - INFO : mse:0.49761272304430165
+2023-07-11 16:41:27 - sinData_linearRegression_pipeline - 15016 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(alpha=0))])
+2023-07-11 16:41:27 - sinData_linearRegression_pipeline - 15016 - INFO : params:alpha=0
+2023-07-11 16:41:27 - sinData_linearRegression_pipeline - 15016 - INFO : train_score:0.44436810145627403
+2023-07-11 16:41:27 - sinData_linearRegression_pipeline - 15016 - INFO : mse:0.27867271854867554
+2023-07-11 16:41:27 - sinData_linearRegression_pipeline - 15016 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(alpha=0.01))])
+2023-07-11 16:41:27 - sinData_linearRegression_pipeline - 15016 - INFO : params:alpha=0.01
+2023-07-11 16:41:27 - sinData_linearRegression_pipeline - 15016 - INFO : train_score:0.4135669919149584
+2023-07-11 16:41:27 - sinData_linearRegression_pipeline - 15016 - INFO : mse:0.29412076779259144
+2023-07-11 16:41:27 - sinData_linearRegression_pipeline - 15016 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(alpha=0.001))])
+2023-07-11 16:41:27 - sinData_linearRegression_pipeline - 15016 - INFO : params:alpha=0.001
+2023-07-11 16:41:27 - sinData_linearRegression_pipeline - 15016 - INFO : train_score:0.4331221109555342
+2023-07-11 16:41:27 - sinData_linearRegression_pipeline - 15016 - INFO : mse:0.28431305481055613
+2023-07-11 16:41:27 - sinData_linearRegression_pipeline - 15016 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor())])
+2023-07-11 16:41:27 - sinData_linearRegression_pipeline - 15016 - INFO : params:alpha=0.0001
+2023-07-11 16:41:27 - sinData_linearRegression_pipeline - 15016 - INFO : train_score:0.4412331353271548
+2023-07-11 16:41:27 - sinData_linearRegression_pipeline - 15016 - INFO : mse:0.28024503564574893
+2023-07-11 16:46:47 - sinData_linearRegression_pipeline - 8356 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(l1_ratio=0))])
+2023-07-11 16:46:47 - sinData_linearRegression_pipeline - 8356 - INFO : params:l1_ratio=0
+2023-07-11 16:46:47 - sinData_linearRegression_pipeline - 8356 - INFO : train_score:0.4382648766371504
+2023-07-11 16:46:47 - sinData_linearRegression_pipeline - 8356 - INFO : mse:0.296207827690969
+2023-07-11 16:46:47 - sinData_linearRegression_pipeline - 8356 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(l1_ratio=0.1))])
+2023-07-11 16:46:47 - sinData_linearRegression_pipeline - 8356 - INFO : params:l1_ratio=0.1
+2023-07-11 16:46:47 - sinData_linearRegression_pipeline - 8356 - INFO : train_score:0.4506513374054646
+2023-07-11 16:46:47 - sinData_linearRegression_pipeline - 8356 - INFO : mse:0.28967633894410666
+2023-07-11 16:46:47 - sinData_linearRegression_pipeline - 8356 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(l1_ratio=0.5))])
+2023-07-11 16:46:47 - sinData_linearRegression_pipeline - 8356 - INFO : params:l1_ratio=0.5
+2023-07-11 16:46:47 - sinData_linearRegression_pipeline - 8356 - INFO : train_score:0.42858544028225964
+2023-07-11 16:46:47 - sinData_linearRegression_pipeline - 8356 - INFO : mse:0.30131187886510785
+2023-07-11 16:46:47 - sinData_linearRegression_pipeline - 8356 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(l1_ratio=0.95))])
+2023-07-11 16:46:47 - sinData_linearRegression_pipeline - 8356 - INFO : params:l1_ratio=0.95
+2023-07-11 16:46:47 - sinData_linearRegression_pipeline - 8356 - INFO : train_score:0.45641144121997934
+2023-07-11 16:46:47 - sinData_linearRegression_pipeline - 8356 - INFO : mse:0.2866389859867952
+2023-07-11 16:49:34 - sinData_linearRegression_pipeline - 11344 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(alpha=0))])
+2023-07-11 16:49:34 - sinData_linearRegression_pipeline - 11344 - INFO : params:alpha=0
+2023-07-11 16:49:34 - sinData_linearRegression_pipeline - 11344 - INFO : train_score:0.4324277605110666
+2023-07-11 16:49:34 - sinData_linearRegression_pipeline - 11344 - INFO : mse:0.3028576865311436
+2023-07-11 16:49:34 - sinData_linearRegression_pipeline - 11344 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(alpha=0.5))])
+2023-07-11 16:49:34 - sinData_linearRegression_pipeline - 11344 - INFO : params:alpha=0.5
+2023-07-11 16:49:34 - sinData_linearRegression_pipeline - 11344 - INFO : train_score:0.2295404971363828
+2023-07-11 16:49:34 - sinData_linearRegression_pipeline - 11344 - INFO : mse:0.4111187376135928
+2023-07-11 16:49:34 - sinData_linearRegression_pipeline - 11344 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(alpha=1))])
+2023-07-11 16:49:34 - sinData_linearRegression_pipeline - 11344 - INFO : params:alpha=1
+2023-07-11 16:49:34 - sinData_linearRegression_pipeline - 11344 - INFO : train_score:0.2005761037810707
+2023-07-11 16:49:34 - sinData_linearRegression_pipeline - 11344 - INFO : mse:0.42657419606107894
+2023-07-11 16:49:34 - sinData_linearRegression_pipeline - 11344 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(alpha=10))])
+2023-07-11 16:49:34 - sinData_linearRegression_pipeline - 11344 - INFO : params:alpha=10
+2023-07-11 16:49:34 - sinData_linearRegression_pipeline - 11344 - INFO : train_score:0.08399749207075458
+2023-07-11 16:49:34 - sinData_linearRegression_pipeline - 11344 - INFO : mse:0.4887807773297304
+2023-07-11 16:55:30 - sinData_linearRegression_pipeline - 14520 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=3)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(alpha=0))])
+2023-07-11 16:55:30 - sinData_linearRegression_pipeline - 14520 - INFO : params:alpha=0
+2023-07-11 16:55:30 - sinData_linearRegression_pipeline - 14520 - INFO : train_score:0.22586549700166036
+2023-07-11 16:55:30 - sinData_linearRegression_pipeline - 14520 - INFO : mse:0.4062786528984983
+2023-07-11 16:55:30 - sinData_linearRegression_pipeline - 14520 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=3)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(alpha=0.5))])
+2023-07-11 16:55:30 - sinData_linearRegression_pipeline - 14520 - INFO : params:alpha=0.5
+2023-07-11 16:55:30 - sinData_linearRegression_pipeline - 14520 - INFO : train_score:0.1992717158699786
+2023-07-11 16:55:30 - sinData_linearRegression_pipeline - 14520 - INFO : mse:0.42023551121163355
+2023-07-11 16:55:30 - sinData_linearRegression_pipeline - 14520 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=3)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(alpha=0.95))])
+2023-07-11 16:55:30 - sinData_linearRegression_pipeline - 14520 - INFO : params:alpha=0.95
+2023-07-11 16:55:30 - sinData_linearRegression_pipeline - 14520 - INFO : train_score:0.17666777772587616
+2023-07-11 16:55:30 - sinData_linearRegression_pipeline - 14520 - INFO : mse:0.43209843361570915
+2023-07-11 16:55:30 - sinData_linearRegression_pipeline - 14520 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=3)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor())])
+2023-07-11 16:55:30 - sinData_linearRegression_pipeline - 14520 - INFO : params:alpha=0.0001
+2023-07-11 16:55:30 - sinData_linearRegression_pipeline - 14520 - INFO : train_score:0.2261627931708985
+2023-07-11 16:55:30 - sinData_linearRegression_pipeline - 14520 - INFO : mse:0.4061226269279698
+2023-07-11 16:57:33 - sinData_linearRegression_pipeline - 14080 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(alpha=0))])
+2023-07-11 16:57:33 - sinData_linearRegression_pipeline - 14080 - INFO : params:alpha=0
+2023-07-11 16:57:33 - sinData_linearRegression_pipeline - 14080 - INFO : train_score:0.4361684465630119
+2023-07-11 16:57:33 - sinData_linearRegression_pipeline - 14080 - INFO : mse:0.3139908737021013
+2023-07-11 16:57:33 - sinData_linearRegression_pipeline - 14080 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(alpha=0.1))])
+2023-07-11 16:57:33 - sinData_linearRegression_pipeline - 14080 - INFO : params:alpha=0.1
+2023-07-11 16:57:33 - sinData_linearRegression_pipeline - 14080 - INFO : train_score:0.31811920698532914
+2023-07-11 16:57:33 - sinData_linearRegression_pipeline - 14080 - INFO : mse:0.37973104671816815
+2023-07-11 16:57:33 - sinData_linearRegression_pipeline - 14080 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(alpha=0.001))])
+2023-07-11 16:57:33 - sinData_linearRegression_pipeline - 14080 - INFO : params:alpha=0.001
+2023-07-11 16:57:33 - sinData_linearRegression_pipeline - 14080 - INFO : train_score:0.43136978483087296
+2023-07-11 16:57:33 - sinData_linearRegression_pipeline - 14080 - INFO : mse:0.3166631895395007
+2023-07-11 16:57:33 - sinData_linearRegression_pipeline - 14080 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_sgd', SGDRegressor(alpha=1e-05))])
+2023-07-11 16:57:33 - sinData_linearRegression_pipeline - 14080 - INFO : params:alpha=1e-05
+2023-07-11 16:57:33 - sinData_linearRegression_pipeline - 14080 - INFO : train_score:0.4541626019376507
+2023-07-11 16:57:33 - sinData_linearRegression_pipeline - 14080 - INFO : mse:0.3039701493684363
+2023-07-11 17:02:41 - sinData_linearRegression_pipeline - 14940 - INFO : model:SGDRegressor(alpha=0)
+2023-07-11 17:02:41 - sinData_linearRegression_pipeline - 14940 - INFO : params:alpha=0
+2023-07-11 17:02:41 - sinData_linearRegression_pipeline - 14940 - INFO : train_score:0.15593620559013166
+2023-07-11 17:02:41 - sinData_linearRegression_pipeline - 14940 - INFO : mse:0.46504629518889257
+2023-07-11 17:02:41 - sinData_linearRegression_pipeline - 14940 - INFO : model:SGDRegressor(alpha=0.1)
+2023-07-11 17:02:41 - sinData_linearRegression_pipeline - 14940 - INFO : params:alpha=0.1
+2023-07-11 17:02:41 - sinData_linearRegression_pipeline - 14940 - INFO : train_score:0.15607860074086355
+2023-07-11 17:02:41 - sinData_linearRegression_pipeline - 14940 - INFO : mse:0.4649678410036292
+2023-07-11 17:02:41 - sinData_linearRegression_pipeline - 14940 - INFO : model:SGDRegressor(alpha=0.001)
+2023-07-11 17:02:41 - sinData_linearRegression_pipeline - 14940 - INFO : params:alpha=0.001
+2023-07-11 17:02:41 - sinData_linearRegression_pipeline - 14940 - INFO : train_score:0.15351522331386414
+2023-07-11 17:02:41 - sinData_linearRegression_pipeline - 14940 - INFO : mse:0.4663801621853834
+2023-07-11 17:02:41 - sinData_linearRegression_pipeline - 14940 - INFO : model:SGDRegressor(alpha=1e-05)
+2023-07-11 17:02:41 - sinData_linearRegression_pipeline - 14940 - INFO : params:alpha=1e-05
+2023-07-11 17:02:41 - sinData_linearRegression_pipeline - 14940 - INFO : train_score:0.15767991398625836
+2023-07-11 17:02:41 - sinData_linearRegression_pipeline - 14940 - INFO : mse:0.46408557973719444
+2023-07-11 17:20:45 - sinData_linearRegression_pipeline - 9432 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_Lasso', Lasso(alpha=0))])
+2023-07-11 17:20:45 - sinData_linearRegression_pipeline - 9432 - INFO : params:alpha=0
+2023-07-11 17:20:45 - sinData_linearRegression_pipeline - 9432 - INFO : train_score:0.9435183197651269
+2023-07-11 17:20:45 - sinData_linearRegression_pipeline - 9432 - INFO : mse:0.029909679948370863
+2023-07-11 17:20:45 - sinData_linearRegression_pipeline - 9432 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_Lasso', Lasso(alpha=0.1))])
+2023-07-11 17:20:45 - sinData_linearRegression_pipeline - 9432 - INFO : params:alpha=0.1
+2023-07-11 17:20:45 - sinData_linearRegression_pipeline - 9432 - INFO : train_score:0.24058156988989488
+2023-07-11 17:20:45 - sinData_linearRegression_pipeline - 9432 - INFO : mse:0.40214742367850753
+2023-07-11 17:20:45 - sinData_linearRegression_pipeline - 9432 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_Lasso', Lasso(alpha=0.001))])
+2023-07-11 17:20:45 - sinData_linearRegression_pipeline - 9432 - INFO : params:alpha=0.001
+2023-07-11 17:20:45 - sinData_linearRegression_pipeline - 9432 - INFO : train_score:0.9217737542620125
+2023-07-11 17:20:45 - sinData_linearRegression_pipeline - 9432 - INFO : mse:0.041424439992867254
+2023-07-11 17:20:45 - sinData_linearRegression_pipeline - 9432 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_Lasso', Lasso(alpha=1e-05))])
+2023-07-11 17:20:45 - sinData_linearRegression_pipeline - 9432 - INFO : params:alpha=1e-05
+2023-07-11 17:20:45 - sinData_linearRegression_pipeline - 9432 - INFO : train_score:0.9433545663229985
+2023-07-11 17:20:45 - sinData_linearRegression_pipeline - 9432 - INFO : mse:0.02999639502172095
+2023-07-11 17:22:35 - sinData_linearRegression_pipeline - 17068 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_Lasso', Lasso(alpha=0.1))])
+2023-07-11 17:22:35 - sinData_linearRegression_pipeline - 17068 - INFO : params:alpha=0.1
+2023-07-11 17:22:35 - sinData_linearRegression_pipeline - 17068 - INFO : train_score:0.22552586239819883
+2023-07-11 17:22:35 - sinData_linearRegression_pipeline - 17068 - INFO : mse:0.42653306789057766
+2023-07-11 17:22:35 - sinData_linearRegression_pipeline - 17068 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_Lasso', Lasso(alpha=0.001))])
+2023-07-11 17:22:35 - sinData_linearRegression_pipeline - 17068 - INFO : params:alpha=0.001
+2023-07-11 17:22:35 - sinData_linearRegression_pipeline - 17068 - INFO : train_score:0.9186976103946258
+2023-07-11 17:22:35 - sinData_linearRegression_pipeline - 17068 - INFO : mse:0.04477639211116582
+2023-07-11 17:22:35 - sinData_linearRegression_pipeline - 17068 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_Lasso', Lasso(alpha=0.0001))])
+2023-07-11 17:22:35 - sinData_linearRegression_pipeline - 17068 - INFO : params:alpha=0.0001
+2023-07-11 17:22:35 - sinData_linearRegression_pipeline - 17068 - INFO : train_score:0.9384434553623264
+2023-07-11 17:22:35 - sinData_linearRegression_pipeline - 17068 - INFO : mse:0.033901586325855826
+2023-07-11 17:22:35 - sinData_linearRegression_pipeline - 17068 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_Lasso', Lasso(alpha=0))])
+2023-07-11 17:22:35 - sinData_linearRegression_pipeline - 17068 - INFO : params:alpha=0
+2023-07-11 17:22:35 - sinData_linearRegression_pipeline - 17068 - INFO : train_score:0.9401764595018075
+2023-07-11 17:22:35 - sinData_linearRegression_pipeline - 17068 - INFO : mse:0.03294715345793739
+2023-07-11 17:25:13 - sinData_linearRegression_pipeline - 15064 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_Lasso', Lasso(alpha=0.1))])
+2023-07-11 17:25:13 - sinData_linearRegression_pipeline - 15064 - INFO : params:alpha=0.1
+2023-07-11 17:25:13 - sinData_linearRegression_pipeline - 15064 - INFO : train_score:0.22356137495707318
+2023-07-11 17:25:13 - sinData_linearRegression_pipeline - 15064 - INFO : mse:0.4285394436857452
+2023-07-11 17:25:14 - sinData_linearRegression_pipeline - 15064 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_Lasso', Lasso(alpha=0.05))])
+2023-07-11 17:25:14 - sinData_linearRegression_pipeline - 15064 - INFO : params:alpha=0.05
+2023-07-11 17:25:14 - sinData_linearRegression_pipeline - 15064 - INFO : train_score:0.3041580595445873
+2023-07-11 17:25:14 - sinData_linearRegression_pipeline - 15064 - INFO : mse:0.3840557494669791
+2023-07-11 17:25:14 - sinData_linearRegression_pipeline - 15064 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_Lasso', Lasso(alpha=0.001))])
+2023-07-11 17:25:14 - sinData_linearRegression_pipeline - 15064 - INFO : params:alpha=0.001
+2023-07-11 17:25:14 - sinData_linearRegression_pipeline - 15064 - INFO : train_score:0.9222148504323037
+2023-07-11 17:25:14 - sinData_linearRegression_pipeline - 15064 - INFO : mse:0.04293192487804187
+2023-07-11 17:25:14 - sinData_linearRegression_pipeline - 15064 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_Lasso', Lasso(alpha=0))])
+2023-07-11 17:25:14 - sinData_linearRegression_pipeline - 15064 - INFO : params:alpha=0
+2023-07-11 17:25:14 - sinData_linearRegression_pipeline - 15064 - INFO : train_score:0.9440973043732915
+2023-07-11 17:25:14 - sinData_linearRegression_pipeline - 15064 - INFO : mse:0.030854351279959485
+2023-07-11 17:37:58 - sinData_linearRegression_pipeline - 1436 - INFO : model:ElasticNet(alpha=0.1, l1_ratio=0)
+2023-07-11 17:37:58 - sinData_linearRegression_pipeline - 1436 - INFO : params:l1_ratio=0
+2023-07-11 17:37:58 - sinData_linearRegression_pipeline - 1436 - INFO : train_score:0.15177769642691796
+2023-07-11 17:37:58 - sinData_linearRegression_pipeline - 1436 - INFO : mse:0.44360347169152387
+2023-07-11 17:37:58 - sinData_linearRegression_pipeline - 1436 - INFO : model:ElasticNet(alpha=0.1, l1_ratio=0.25)
+2023-07-11 17:37:58 - sinData_linearRegression_pipeline - 1436 - INFO : params:l1_ratio=0.25
+2023-07-11 17:37:58 - sinData_linearRegression_pipeline - 1436 - INFO : train_score:0.15164992650145215
+2023-07-11 17:37:58 - sinData_linearRegression_pipeline - 1436 - INFO : mse:0.4436702928329577
+2023-07-11 17:37:58 - sinData_linearRegression_pipeline - 1436 - INFO : model:ElasticNet(alpha=0.1, l1_ratio=0.75)
+2023-07-11 17:37:58 - sinData_linearRegression_pipeline - 1436 - INFO : params:l1_ratio=0.75
+2023-07-11 17:37:58 - sinData_linearRegression_pipeline - 1436 - INFO : train_score:0.1509299951467158
+2023-07-11 17:37:58 - sinData_linearRegression_pipeline - 1436 - INFO : mse:0.44404680267830765
+2023-07-11 17:37:58 - sinData_linearRegression_pipeline - 1436 - INFO : model:ElasticNet(alpha=0.1, l1_ratio=1)
+2023-07-11 17:37:58 - sinData_linearRegression_pipeline - 1436 - INFO : params:l1_ratio=1
+2023-07-11 17:37:58 - sinData_linearRegression_pipeline - 1436 - INFO : train_score:0.1503343094389029
+2023-07-11 17:37:58 - sinData_linearRegression_pipeline - 1436 - INFO : mse:0.44435833451012774
+2023-07-11 17:40:04 - sinData_linearRegression_pipeline - 17916 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_ElasticNet', ElasticNet(alpha=0.1, l1_ratio=0))])
+2023-07-11 17:40:04 - sinData_linearRegression_pipeline - 17916 - INFO : params:l1_ratio=0
+2023-07-11 17:40:04 - sinData_linearRegression_pipeline - 17916 - INFO : train_score:0.3956315255006091
+2023-07-11 17:40:04 - sinData_linearRegression_pipeline - 17916 - INFO : mse:0.3205843789101842
+2023-07-11 17:40:04 - sinData_linearRegression_pipeline - 17916 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_ElasticNet', ElasticNet(alpha=0.1, l1_ratio=0.25))])
+2023-07-11 17:40:04 - sinData_linearRegression_pipeline - 17916 - INFO : params:l1_ratio=0.25
+2023-07-11 17:40:04 - sinData_linearRegression_pipeline - 17916 - INFO : train_score:0.33098386317265993
+2023-07-11 17:40:04 - sinData_linearRegression_pipeline - 17916 - INFO : mse:0.3548764234986578
+2023-07-11 17:40:04 - sinData_linearRegression_pipeline - 17916 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_ElasticNet', ElasticNet(alpha=0.1, l1_ratio=0.75))])
+2023-07-11 17:40:04 - sinData_linearRegression_pipeline - 17916 - INFO : params:l1_ratio=0.75
+2023-07-11 17:40:04 - sinData_linearRegression_pipeline - 17916 - INFO : train_score:0.23270197212884414
+2023-07-11 17:40:04 - sinData_linearRegression_pipeline - 17916 - INFO : mse:0.40700958452182073
+2023-07-11 17:40:04 - sinData_linearRegression_pipeline - 17916 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_ElasticNet', ElasticNet(alpha=0.1, l1_ratio=1))])
+2023-07-11 17:40:04 - sinData_linearRegression_pipeline - 17916 - INFO : params:l1_ratio=1
+2023-07-11 17:40:04 - sinData_linearRegression_pipeline - 17916 - INFO : train_score:0.22651675202866206
+2023-07-11 17:40:04 - sinData_linearRegression_pipeline - 17916 - INFO : mse:0.4102905050660005

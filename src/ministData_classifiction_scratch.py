@@ -156,7 +156,7 @@ def run(model_name, task):
 
         model_path = r"scikit-learn/model/digits_svm.pkl"
 
-    if model_name == "sgd":
+    elif model_name == "sgd":
 
         pre_model = SGDClassifier()
         param_grid = {
@@ -174,10 +174,10 @@ def run(model_name, task):
         pre_model = pre_model.set_params(**best_params)
         model.train(pre_model, xtrain, ytrain)
 
-    if task == "test":
+    elif task == "test":
         model.test(xtest, ytest)
 
-    if task == "predict":
+    elif task == "predict":
         model.predict(xtest[0:10])
 
 
