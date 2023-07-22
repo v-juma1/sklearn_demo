@@ -86,6 +86,7 @@ clf_rbf1 = svm.SVC(C=1.0, kernel="rbf", gamma=0.1)
 clfs = [clf_linear, clf_poly, clf_rbf, clf_rbf1]
 
 #画出四个模型的分割超平面和支持向量
+
 titles = [
     'Linear Kernel', 'Polynomial Kernel with Degree=3',
     'Gaussian Kernel with $\gamma=0.5$', 'Gaussian Kernel with $\gamma=0.1$'
