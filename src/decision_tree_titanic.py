@@ -5,7 +5,7 @@ from __future__ import print_function
 import logging
 import logging.config
 #读取日志配置文件
-logging.config.fileConfig("scikit-learn/conf/logging.conf")
+logging.config.fileConfig("scikit-learn/conf/logging.conf", encoding="utf8")
 
 #选择配置在[loggers]中的选项
 logger = logging.getLogger("fileAndConsole")
@@ -62,6 +62,7 @@ x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2)
 
 #找出得分最高的max_depth，并画出其和模型评分的关系
 def max_depth_score():
+
     def cv_score(d):
         clf = DecisionTreeClassifier(max_depth=d)
         clf.fit(x_train, y_train)
@@ -93,6 +94,7 @@ def max_depth_score():
 
 #找出得分最高的min_impurity_split，并画出其和模型评分的关系
 def min_impurity_split_score():
+
     def cv_score(val):
         clf = DecisionTreeClassifier(criterion="gini", min_impurity_split=val)
         clf.fit(x_train, y_train)

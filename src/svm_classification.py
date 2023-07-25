@@ -5,27 +5,91 @@ from __future__ import print_function
 import logging
 import logging.config
 #读取日志配置文件
-logging.config.fileConfig("scikit-learn/conf/logging.conf")
+logging.config.fileConfig("scikit-learn/conf/logging.conf", encoding="utf8")
 
 #选择配置在[loggers]中的选项
 logger = logging.getLogger("fileAndConsole")
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.datasets import load_breast_cancer
+from sklearn import svm
+from sklearn.datasets import make_blobs
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
 from sklearn.svm import SVC
 from sklearn.model_selection import ShuffleSplit
 from sklearn.model_selection import learning_curve
+from sklearn.datasets import make_blobs
 """
-乳腺癌预测的svm模型
+通过生成的数据了解SVM基本参数
 """
 
-#数据
-cancer = load_breast_cancer()
-x = cancer.data
-y = cancer.target
-x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2)
+
+#生成数据100个点，分三类
+def generate_data(random_state=0):
+
+    x, y = make_blobs(n_samples=100,
+                      centers=3,
+                      random_state=random_state,
+                      cluster_std=0.8)
+    return x, y
+
+
+#画出支持向量
+def plot_hyperplane(clf, X, y, h=0.02, draw_sv=True, title='hyperplan'):
+    # create a mesh to plot in
+    x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
+    y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1
+    xx, yy = np.meshgrid(np.arange(x_min, x_max, h),
+                         np.arange(y_min, y_max, h))
+
+    plt.title(title)
+    plt.xlim(xx.min(), xx.max())
+    plt.ylim(yy.min(), yy.max())
+    plt.xticks(())
+    plt.yticks(())
+
+    Z = clf.predict(np.c_[xx.ravel(), yy.ravel()])
+    # Put the result into a color plot
+    Z = Z.reshape(xx.shape)
+    plt.contourf(xx, yy, Z, cmap='hot', alpha=0.5)
+
+    markers = ['o', 's', '^']
+    colors = ['b', 'r', 'c']
+    labels = np.unique(y)
+    for label in labels:
+        plt.scatter(X[y == label][:, 0],
+                    X[y == label][:, 1],
+                    c=colors[label],
+                    marker=markers[label])
+    if draw_sv:
+        sv = clf.support_vectors_
+        plt.scatter(sv[:, 0], sv[:, 1], c='y', marker='x')
+
+
+#选择不同的核来构建四个不同的模型
+def get_4models():
+    clf_linear = svm.SVC(C=1.0, kernel="linear")
+    clf_poly = svm.SVC(C=1.0, kernel="poly", degree=3)
+    clf_rbf = svm.SVC(C=1.0, kernel="rbf", gamma=0.5)
+    clf_rbf1 = svm.SVC(C=1.0, kernel="rbf", gamma=0.1)
+
+    clfs = [clf_linear, clf_poly, clf_rbf, clf_rbf1]
+    return clfs
+
+
+#画出四个模型的分割超平面和支持向量
+def plt_4models(models, x, y):
+    titles = [
+        'Linear Kernel', 'Polynomial Kernel with Degree=3',
+        'Gaussian Kernel with $\gamma=0.5$',
+        'Gaussian Kernel with $\gamma=0.1$'
+    ]
+    plt.figure(figsize=(10, 10), dpi=144)
+    for clf, i in zip(models, range(len(models))):
+        clf.fit(x, y)
+        plt.subplot(2, 2, i + 1)
+        plot_hyperplane(clf, x, y, title=titles[i])
+    plt.savefig("scikit-learn/log/4-model.png")
 
 
 #画出模型评分随某些参数变化的曲线图
@@ -118,7 +182,7 @@ def plot_learning_curve(plt,
 
 
 #高斯核SVM
-def rbf_model():
+def rbf_model(x, y):
     #使用高斯核，用GridSearchCV确定最优的gamma值
     gammas = np.linspace(0, 0.0003, 30)
     param = {"gamma": gammas}
@@ -145,7 +209,7 @@ def rbf_model():
 
 
 #多项式核SVM
-def poly_model():
+def poly_model(x, y):
     #画出一阶多项式核、二阶多项式核的拟合情况
     cv = ShuffleSplit(n_splits=5, test_size=0.2, random_state=0)
     title = "degree={0}"
@@ -166,4 +230,13 @@ def poly_model():
     plt.savefig("scikit-learn/log/poly.png")
 
 
-poly_model()
+def run():
+    x, y = generate_data()
+    models = get_4models()
+    plt_4models(models, x, y)
+    poly_model(x, y)
+    rbf_model(x, y)
+
+
+if __name__ == "__main__":
+    run()
