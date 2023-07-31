@@ -1314,3 +1314,60 @@ comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
   212   0]
  [ 16   0   0   0   0   0   0   0   0   0   0   0   0   0   0  12   4   1
     4 134]]
+2023-07-30 15:08:00 - ensemble_VotingClassifier - 3512 - INFO : model:LogisticRegression , accuracy:0.864
+2023-07-30 15:08:00 - ensemble_VotingClassifier - 3512 - INFO : model:RandomForestClassifier , accuracy:0.896
+2023-07-30 15:08:00 - ensemble_VotingClassifier - 3512 - INFO : model:SVC , accuracy:0.896
+2023-07-30 15:08:00 - ensemble_VotingClassifier - 3512 - INFO : model:VotingClassifier , accuracy:0.912
+2023-07-30 17:59:36 - ensemble_bagging_decisionTree - 8872 - INFO : 0.904
+2023-07-30 18:00:56 - ensemble_bagging_decisionTree - 13032 - INFO : 0.904
+2023-07-30 18:00:56 - ensemble_bagging_decisionTree - 13032 - INFO : 0.856
+2023-07-30 18:06:52 - ensemble_bagging_decisionTree - 11160 - INFO : 0.904
+2023-07-30 18:06:52 - ensemble_bagging_decisionTree - 11160 - INFO : 0.856
+2023-07-30 18:07:28 - ensemble_bagging_decisionTree - 13776 - INFO : 0.904
+2023-07-30 18:07:28 - ensemble_bagging_decisionTree - 13776 - INFO : 0.856
+2023-07-30 18:09:54 - ensemble_bagging_decisionTree - 12392 - INFO : 0.904
+2023-07-30 18:09:54 - ensemble_bagging_decisionTree - 12392 - INFO : 0.856
+2023-07-30 18:10:27 - ensemble_bagging_decisionTree - 9360 - INFO : 0.904
+2023-07-30 18:10:27 - ensemble_bagging_decisionTree - 9360 - INFO : 0.856
+2023-07-30 18:57:28 - ensemble_bagging_decisionTree - 12212 - INFO : 0.9253333333333333
+2023-07-30 18:57:28 - ensemble_bagging_decisionTree - 12212 - INFO : 0.904
+2023-07-30 18:57:28 - ensemble_bagging_decisionTree - 12212 - INFO : 0.856
+2023-07-30 18:58:03 - ensemble_bagging_decisionTree - 13632 - INFO : 0.904
+2023-07-30 18:58:03 - ensemble_bagging_decisionTree - 13632 - INFO : 0.856
+2023-07-30 19:00:01 - ensemble_bagging_decisionTree - 11392 - INFO : bag_oob_score: 0.9253333333333333
+2023-07-30 19:00:01 - ensemble_bagging_decisionTree - 11392 - INFO : bag_test_score: 0.904
+2023-07-30 19:00:01 - ensemble_bagging_decisionTree - 11392 - INFO : single_tree_score: 0.856
+2023-07-30 20:14:33 - ensemble_bagging_decisionTree - 13332 - INFO :  RandomForest_test_score: 0.912
+2023-07-30 20:14:49 - ensemble_bagging_decisionTree - 10092 - INFO :  RandomForest_test_score: 0.912
+2023-07-30 20:14:49 - ensemble_bagging_decisionTree - 10092 - INFO : single_tree_score: 0.872
+2023-07-30 21:23:12 - ensemble_VotingClassifier - 13988 - INFO : model:LogisticRegression , accuracy:0.864
+2023-07-30 21:23:12 - ensemble_VotingClassifier - 13988 - INFO : model:RandomForestClassifier , accuracy:0.896
+2023-07-30 21:23:12 - ensemble_VotingClassifier - 13988 - INFO : model:SVC , accuracy:0.896
+2023-07-30 21:23:12 - ensemble_VotingClassifier - 13988 - INFO : model:VotingClassifier , accuracy:0.912
+2023-07-30 21:23:44 - ensemble_bagging_decisionTree - 9068 - INFO : bag_oob_score: 0.9253333333333333
+2023-07-30 21:23:44 - ensemble_bagging_decisionTree - 9068 - INFO : bag_test_score: 0.904
+2023-07-30 21:23:44 - ensemble_bagging_decisionTree - 9068 - INFO : single_tree_score: 0.856
+2023-07-30 21:23:59 - ensemble_randomForest - 13512 - INFO :  RandomForest_test_score: 0.912
+2023-07-30 21:23:59 - ensemble_randomForest - 13512 - INFO : single_tree_score: 0.872
+2023-07-30 21:42:40 - ensemble_randomForest - 2636 - INFO :  RandomForest_test_score: 1.0
+2023-07-30 21:42:40 - ensemble_randomForest - 2636 - INFO : single_tree_score: 1.0
+2023-07-30 21:43:32 - ensemble_randomForest - 11132 - INFO :  RandomForest_test_score: 0.912
+2023-07-30 21:43:32 - ensemble_randomForest - 11132 - INFO : single_tree_score: 0.872
+2023-07-30 21:46:26 - ensemble_randomForest - 13960 - INFO : 
+2023-07-30 21:46:27 - ensemble_randomForest - 13960 - INFO :  RandomForest_test_score: 0.912
+2023-07-30 21:46:27 - ensemble_randomForest - 13960 - INFO : single_tree_score: 0.872
+2023-07-30 21:47:56 - ensemble_randomForest - 13856 - INFO : [0.42253629 0.57746371]
+2023-07-30 21:47:56 - ensemble_randomForest - 13856 - INFO :  RandomForest_test_score: 0.912
+2023-07-30 21:47:56 - ensemble_randomForest - 13856 - INFO : single_tree_score: 0.872
+2023-07-30 21:49:35 - ensemble_randomForest - 13848 - INFO : [0.42253629 0.57746371]
+2023-07-30 21:49:35 - ensemble_randomForest - 13848 - INFO :  RandomForest_test_score: 0.912
+2023-07-30 21:49:35 - ensemble_randomForest - 13848 - INFO : single_tree_score: 0.872
+2023-07-31 16:18:35 - ensemble_GradientBoost - 16116 - INFO : [0.75026781]
+2023-07-31 16:22:43 - ensemble_GradientBoost - 12240 - INFO : [0.75026781]
+2023-07-31 16:22:44 - ensemble_GradientBoost - 12240 - INFO : [0.43226222]
+2023-07-31 16:23:10 - ensemble_GradientBoost - 8440 - INFO : [0.75026781]
+2023-07-31 16:23:10 - ensemble_GradientBoost - 8440 - INFO : [0.7379618]
+2023-07-31 16:23:27 - ensemble_GradientBoost - 15564 - INFO : [0.75026781]
+2023-07-31 16:23:27 - ensemble_GradientBoost - 15564 - INFO : [0.33682158]
+2023-07-31 16:23:55 - ensemble_GradientBoost - 13860 - INFO : [0.75026781]
+2023-07-31 16:23:55 - ensemble_GradientBoost - 13860 - INFO : [0.7379618]
