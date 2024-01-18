@@ -1,57 +1,62 @@
 # -*- coding: utf-8 -*-
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
-import logging
-import logging.config
-#读取日志配置文件
-logging.config.fileConfig("scikit-learn/conf/logging.conf")
 
-#选择配置在[loggers]中的选项
+import logging
+import logging.config as log_config
+
+# 读取日志配置文件
+log_config.fileConfig("conf/logging.conf", encoding="utf8")
+
+# 选择配置在[loggers]中的选项
 logger = logging.getLogger("fileAndConsole")
+
 import numpy as np
 from sklearn.decomposition import PCA
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import MinMaxScaler
+
 """
 使用PCA对数据进行降维
 """
 
-a = np.array([[3, 2000], [2, 3000], [4, 5000], [5, 8000], [1, 2000]],
-             dtype='float')
+
+def get_data():
+    data = np.array(
+        [[3, 2000], [2, 3000], [4, 5000], [5, 8000], [1, 2000]], dtype="float"
+    )
+    return data
 
 
-#使用numpy自定义pca函数
+# 使用numpy自定义pca函数
 def pca_fun(a):
-    #数据中两个维度的值不在同一个数量级，采用归一化和缩放提高PCA的效率
-    #归一化：每一维的特征值减去该维特征的均值，使得改维特征最后的均值为0
-    #缩放：在以上的基础上，每一维特征除以该维特征的范围(范围：max-min)
+    # 数据中两个维度的值不在同一个数量级，采用归一化和缩放提高PCA的效率
+    # 归一化：每一维的特征值减去该维特征的均值，使得改维特征最后的均值为0
+    # 缩放：在以上的基础上，每一维特征除以该维特征的范围(范围：max-min)
 
-    #归一化
+    # 归一化
     mean = np.mean(a, axis=0)
     norm = a - mean
 
-    #缩放
+    # 缩放
     scope = np.max(norm, axis=0) - np.min(norm, axis=0)
     norm = norm / scope
     pca_fun(a)
-    #对norm的协方差矩阵进行SVD奇异值分解
-    #np.dot(norm.T,norm)即 a的转置xa 可以将a从矩阵转化为方阵
-    #u中的列向量即为协方差矩阵的特征向量
+    # 对norm的协方差矩阵进行SVD奇异值分解
+    # np.dot(norm.T,norm)即 a的转置xa 可以将a从矩阵转化为方阵
+    # u中的列向量即为协方差矩阵的特征向量
     u, s, v = np.linalg.svd(np.dot(norm.T, norm))
 
-    #从u中选取k列（本例中选一列）构成主成分特征矩阵
+    # 从u中选取k列（本例中选一列）构成主成分特征矩阵
     u_reduce = u[:, 0].reshape(2, 1)
 
-    #使用主成分特征矩阵，对数据进行降维(本例中从二维将到一维)
+    # 使用主成分特征矩阵，对数据进行降维(本例中从二维将到一维)
     r = np.dot(norm, u_reduce)
 
-    #对降维的数据进行还原
+    # 对降维的数据进行还原
     z = np.dot(r, u_reduce.T)
     origin = np.multiply(z, scope) + mean
 
 
-#使用sklearn进行pca降维
+# 使用sklearn进行pca降维
 def sk_pca(a):
     scaler = MinMaxScaler()
 
@@ -79,13 +84,19 @@ def sk_pca(a):
     p = PCA(n_components=1)
     pipe = Pipeline([("scaler", scaler), ("pca", p)])
 
-    #降维结果
+    # 降维结果
     r = pipe.fit_transform(a)
 
-    #数据恢复
+    # 数据恢复
     origin = p.inverse_transform(r)
 
     logger.info(origin)
 
 
-sk_pca(a)
+def run():
+    data = get_data()
+    sk_pca(data)
+
+
+if __name__ == "__main__":
+    run()

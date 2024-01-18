@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
-import logging
-import logging.config
-#读取日志配置文件
-logging.config.fileConfig("scikit-learn/conf/logging.conf", encoding="utf8")
 
-#选择配置在[loggers]中的选项
+import logging
+import logging.config as log_config
+
+# 读取日志配置文件
+log_config.fileConfig("conf/logging.conf", encoding="utf8")
+
+# 选择配置在[loggers]中的选项
 logger = logging.getLogger("fileAndConsole")
 
 import numpy as np
@@ -29,10 +28,7 @@ def plot_svm_regression(svm_reg, X, y, axes):
     plt.plot(x1s, y_pred, "k-", linewidth=2, label=r"$\hat{y}$")
     plt.plot(x1s, y_pred + svm_reg.epsilon, "k--")
     plt.plot(x1s, y_pred - svm_reg.epsilon, "k--")
-    plt.scatter(X[svm_reg.support_],
-                y[svm_reg.support_],
-                s=180,
-                facecolors='#FFAAAA')
+    plt.scatter(X[svm_reg.support_], y[svm_reg.support_], s=180, facecolors="#FFAAAA")
     plt.plot(X, y, "bo")
     plt.xlabel(r"$x_1$", fontsize=18)
     plt.legend(loc="upper left", fontsize=18)
@@ -40,32 +36,30 @@ def plot_svm_regression(svm_reg, X, y, axes):
 
 
 def plot_regression(X, y):
-    svm_poly_reg1 = SVR(kernel="poly",
-                        degree=2,
-                        C=100,
-                        epsilon=0.1,
-                        gamma="scale")
-    svm_poly_reg2 = SVR(kernel="poly",
-                        degree=2,
-                        C=0.01,
-                        epsilon=0.1,
-                        gamma="scale")
+    svm_poly_reg1 = SVR(kernel="poly", degree=2, C=100, epsilon=0.1, gamma="scale")
+    svm_poly_reg2 = SVR(kernel="poly", degree=2, C=0.01, epsilon=0.1, gamma="scale")
     svm_poly_reg1.fit(X, y)
     svm_poly_reg2.fit(X, y)
 
     fig, axes = plt.subplots(ncols=2, figsize=(9, 4), sharey=True)
     plt.sca(axes[0])
     plot_svm_regression(svm_poly_reg1, X, y, [-1, 1, 0, 1])
-    plt.title(r"$degree={}, C={}, \epsilon = {}$".format(
-        svm_poly_reg1.degree, svm_poly_reg1.C, svm_poly_reg1.epsilon),
-              fontsize=18)
+    plt.title(
+        r"$degree={}, C={}, \epsilon = {}$".format(
+            svm_poly_reg1.degree, svm_poly_reg1.C, svm_poly_reg1.epsilon
+        ),
+        fontsize=18,
+    )
     plt.ylabel(r"$y$", fontsize=18, rotation=0)
     plt.sca(axes[1])
     plot_svm_regression(svm_poly_reg2, X, y, [-1, 1, 0, 1])
-    plt.title(r"$degree={}, C={}, \epsilon = {}$".format(
-        svm_poly_reg2.degree, svm_poly_reg2.C, svm_poly_reg2.epsilon),
-              fontsize=18)
-    plt.savefig("scikit-learn/log/svm_polynomial_kernel.png")
+    plt.title(
+        r"$degree={}, C={}, \epsilon = {}$".format(
+            svm_poly_reg2.degree, svm_poly_reg2.C, svm_poly_reg2.epsilon
+        ),
+        fontsize=18,
+    )
+    plt.savefig("pics/svm_polynomial_kernel.png")
 
 
 def run():

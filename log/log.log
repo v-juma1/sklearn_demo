@@ -450,25 +450,25 @@ Name: median_house_value, dtype: float64
 2023-07-08 15:50:20 - ministData_classifiction_scratch - 11420 - INFO : 0.9554827117327118
 2023-07-08 15:51:12 - ministData_classifiction_scratch - 12976 - INFO : {'alpha': 0.001, 'penalty': 'l1'}
 2023-07-08 15:51:12 - ministData_classifiction_scratch - 12976 - INFO : 0.9554827117327118
-2023-07-08 15:58:07 - ministData_classifiction_scratch - 18560 - INFO : ◊Óº—≤Œ ˝£∫
-2023-07-08 16:00:38 - ministData_classifiction_scratch - 18880 - INFO : ◊Óº—≤Œ ˝:{{'alpha': 0.001, 'penalty': 'l1'}}
-2023-07-08 16:03:00 - ministData_classifiction_scratch - 13104 - INFO : ◊Óº—≤Œ ˝:{{'alpha': 0.001, 'penalty': 'l1'}}
-2023-07-08 16:03:00 - ministData_classifiction_scratch - 13104 - INFO : ƒ£–Õ∆Ωæ˘accuracy:{0.9478146853146854}
-2023-07-08 16:27:47 - ministData_classifiction_scratch - 12196 - INFO : ◊Óº—≤Œ ˝:{{'alpha': 0.001, 'penalty': 'l1'}}
-2023-07-08 16:27:47 - ministData_classifiction_scratch - 12196 - INFO : ƒ£–Õ∆Ωæ˘accuracy:{0.9478146853146854}
-2023-07-08 16:36:10 - ministData_classifiction_scratch - 11476 - INFO : ◊Óº—≤Œ ˝:{{'alpha': 0.0001, 'penalty': 'l1'}}
-2023-07-08 16:36:10 - ministData_classifiction_scratch - 11476 - INFO : ƒ£–Õ∆Ωæ˘accuracy:{0.9443473193473194}
-2023-07-08 17:23:15 - ministData_classifiction_scratch - 12260 - INFO : ◊Óº—≤Œ ˝:{{'alpha': 0.0001, 'penalty': 'elasticnet'}}
-2023-07-08 17:23:16 - ministData_classifiction_scratch - 12260 - INFO : ƒ£–Õ∆Ωæ˘accuracy:{0.9561625874125873}
-2023-07-08 17:26:15 - ministData_classifiction_scratch - 18896 - INFO : ◊Óº—≤Œ ˝:{{'alpha': 0.0001, 'penalty': 'l1'}}
-2023-07-08 17:26:15 - ministData_classifiction_scratch - 18896 - INFO : ƒ£–Õ∆Ωæ˘accuracy:{0.9492132867132866}
-2023-07-08 17:28:27 - ministData_classifiction_scratch - 16200 - INFO : ◊Óº—≤Œ ˝:{{'alpha': 0.01, 'penalty': 'l2'}}
-2023-07-08 17:28:27 - ministData_classifiction_scratch - 16200 - INFO : ¿‡–Õ:{<class 'dict'>}
-2023-07-08 17:28:28 - ministData_classifiction_scratch - 16200 - INFO : ƒ£–Õ∆Ωæ˘accuracy:{0.950592463092463}
-2023-07-08 17:49:52 - ministData_classifiction_scratch - 18252 - INFO : ◊Óº—≤Œ ˝:{{'alpha': 0.01, 'penalty': 'l2'}}
-2023-07-08 17:49:52 - ministData_classifiction_scratch - 18252 - INFO : ƒ£–Õ∆Ωæ˘accuracy:{0.9492132867132866}
-2023-07-08 17:55:40 - ministData_classifiction_scratch - 13784 - INFO : ◊Óº—≤Œ ˝:{{'alpha': 0.0001, 'penalty': 'l1'}}
-2023-07-08 17:55:40 - ministData_classifiction_scratch - 13784 - INFO : ƒ£–Õ∆Ωæ˘accuracy:{0.9485285547785546}
+2023-07-08 15:58:07 - ministData_classifiction_scratch - 18560 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩÔøΩÔøΩ
+2023-07-08 16:00:38 - ministData_classifiction_scratch - 18880 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'alpha': 0.001, 'penalty': 'l1'}}
+2023-07-08 16:03:00 - ministData_classifiction_scratch - 13104 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'alpha': 0.001, 'penalty': 'l1'}}
+2023-07-08 16:03:00 - ministData_classifiction_scratch - 13104 - INFO : ƒ£ÔøΩÔøΩ∆ΩÔøΩÔøΩaccuracy:{0.9478146853146854}
+2023-07-08 16:27:47 - ministData_classifiction_scratch - 12196 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'alpha': 0.001, 'penalty': 'l1'}}
+2023-07-08 16:27:47 - ministData_classifiction_scratch - 12196 - INFO : ƒ£ÔøΩÔøΩ∆ΩÔøΩÔøΩaccuracy:{0.9478146853146854}
+2023-07-08 16:36:10 - ministData_classifiction_scratch - 11476 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'alpha': 0.0001, 'penalty': 'l1'}}
+2023-07-08 16:36:10 - ministData_classifiction_scratch - 11476 - INFO : ƒ£ÔøΩÔøΩ∆ΩÔøΩÔøΩaccuracy:{0.9443473193473194}
+2023-07-08 17:23:15 - ministData_classifiction_scratch - 12260 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'alpha': 0.0001, 'penalty': 'elasticnet'}}
+2023-07-08 17:23:16 - ministData_classifiction_scratch - 12260 - INFO : ƒ£ÔøΩÔøΩ∆ΩÔøΩÔøΩaccuracy:{0.9561625874125873}
+2023-07-08 17:26:15 - ministData_classifiction_scratch - 18896 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'alpha': 0.0001, 'penalty': 'l1'}}
+2023-07-08 17:26:15 - ministData_classifiction_scratch - 18896 - INFO : ƒ£ÔøΩÔøΩ∆ΩÔøΩÔøΩaccuracy:{0.9492132867132866}
+2023-07-08 17:28:27 - ministData_classifiction_scratch - 16200 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'alpha': 0.01, 'penalty': 'l2'}}
+2023-07-08 17:28:27 - ministData_classifiction_scratch - 16200 - INFO : ÔøΩÔøΩÔøΩÔøΩ:{<class 'dict'>}
+2023-07-08 17:28:28 - ministData_classifiction_scratch - 16200 - INFO : ƒ£ÔøΩÔøΩ∆ΩÔøΩÔøΩaccuracy:{0.950592463092463}
+2023-07-08 17:49:52 - ministData_classifiction_scratch - 18252 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'alpha': 0.01, 'penalty': 'l2'}}
+2023-07-08 17:49:52 - ministData_classifiction_scratch - 18252 - INFO : ƒ£ÔøΩÔøΩ∆ΩÔøΩÔøΩaccuracy:{0.9492132867132866}
+2023-07-08 17:55:40 - ministData_classifiction_scratch - 13784 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'alpha': 0.0001, 'penalty': 'l1'}}
+2023-07-08 17:55:40 - ministData_classifiction_scratch - 13784 - INFO : ƒ£ÔøΩÔøΩ∆ΩÔøΩÔøΩaccuracy:{0.9485285547785546}
 2023-07-08 17:55:40 - ministData_classifiction_scratch - 13784 - INFO : 0.988169798190675
 2023-07-08 17:55:41 - ministData_classifiction_scratch - 13784 - INFO : [[145   0   0   0   1   0   0   0   0   0]
  [  0 131   0   0   0   1   0   1   7   3]
@@ -485,8 +485,8 @@ Name: median_house_value, dtype: float64
 2023-07-08 17:56:12 - ministData_classifiction_scratch - 16236 - INFO : 0.9616031606583932
 2023-07-08 17:56:12 - ministData_classifiction_scratch - 16236 - INFO : 0.9599417690279687
 2023-07-08 17:56:27 - ministData_classifiction_scratch - 14504 - INFO : [7 3 1 8 1 1 5 6 2 7]
-2023-07-08 17:57:26 - ministData_classifiction_scratch - 8840 - INFO : ◊Óº—≤Œ ˝:{{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}}
-2023-07-08 17:57:26 - ministData_classifiction_scratch - 8840 - INFO : ƒ£–Õ∆Ωæ˘accuracy:{0.9867861305361305}
+2023-07-08 17:57:26 - ministData_classifiction_scratch - 8840 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}}
+2023-07-08 17:57:26 - ministData_classifiction_scratch - 8840 - INFO : ƒ£ÔøΩÔøΩ∆ΩÔøΩÔøΩaccuracy:{0.9867861305361305}
 2023-07-08 17:57:27 - ministData_classifiction_scratch - 8840 - INFO : 1.0
 2023-07-08 17:57:27 - ministData_classifiction_scratch - 8840 - INFO : [[148   0   0   0   0   0   0   0   0   0]
  [  0 139   0   0   0   0   0   0   2   0]
@@ -503,8 +503,8 @@ Name: median_house_value, dtype: float64
 2023-07-08 17:58:07 - ministData_classifiction_scratch - 16656 - INFO : 0.9916534181240063
 2023-07-08 17:58:07 - ministData_classifiction_scratch - 16656 - INFO : 0.9915260787736763
 2023-07-08 17:58:19 - ministData_classifiction_scratch - 10912 - INFO : [7 3 1 8 1 1 5 6 2 7]
-2023-07-08 18:00:32 - ministData_classifiction_scratch - 13668 - INFO : ◊Óº—≤Œ ˝:{{'alpha': 0.001, 'penalty': 'elasticnet'}}
-2023-07-08 18:00:32 - ministData_classifiction_scratch - 13668 - INFO : ƒ£–Õ∆Ωæ˘accuracy:{0.9353049728049727}
+2023-07-08 18:00:32 - ministData_classifiction_scratch - 13668 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'alpha': 0.001, 'penalty': 'elasticnet'}}
+2023-07-08 18:00:32 - ministData_classifiction_scratch - 13668 - INFO : ƒ£ÔøΩÔøΩ∆ΩÔøΩÔøΩaccuracy:{0.9353049728049727}
 2023-07-08 18:00:32 - ministData_classifiction_scratch - 13668 - INFO : 0.9721642310368824
 2023-07-08 18:00:33 - ministData_classifiction_scratch - 13668 - INFO : [[146   0   0   0   0   0   0   0   0   0]
  [  0 128   1   0   0   0   0   1   7   1]
@@ -516,8 +516,8 @@ Name: median_house_value, dtype: float64
  [  0   0   0   1   1   1   0 143   1   1]
  [  0   8   0   4   2   1   1   0 124   2]
  [  0   1   0   2   1   4   0   1   0 134]]
-2023-07-08 18:01:44 - ministData_classifiction_scratch - 15332 - INFO : ◊Óº—≤Œ ˝:{{'alpha': 0.0001, 'penalty': 'elasticnet'}}
-2023-07-08 18:01:45 - ministData_classifiction_scratch - 15332 - INFO : ƒ£–Õ∆Ωæ˘accuracy:{0.9450466200466201}
+2023-07-08 18:01:44 - ministData_classifiction_scratch - 15332 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'alpha': 0.0001, 'penalty': 'elasticnet'}}
+2023-07-08 18:01:45 - ministData_classifiction_scratch - 15332 - INFO : ƒ£ÔøΩÔøΩ∆ΩÔøΩÔøΩaccuracy:{0.9450466200466201}
 2023-07-08 18:01:45 - ministData_classifiction_scratch - 15332 - INFO : 0.9819067501739736
 2023-07-08 18:01:46 - ministData_classifiction_scratch - 15332 - INFO : [[146   0   0   0   1   0   0   0   0   1]
  [  0 134   2   0   2   2   1   2  13   4]
@@ -529,8 +529,8 @@ Name: median_house_value, dtype: float64
  [  0   0   1   1   1   1   0 142   0   2]
  [  0   1   1   5   1   0   1   0 114   2]
  [  0   1   0   0   1   1   0   2   1 132]]
-2023-07-08 18:08:19 - ministData_classifiction_scratch - 10168 - INFO : ◊Óº—≤Œ ˝:{{'alpha': 0.001, 'penalty': 'elasticnet'}}
-2023-07-08 18:08:20 - ministData_classifiction_scratch - 10168 - INFO : ƒ£–Õ∆Ωæ˘accuracy:{0.9435994560994561}
+2023-07-08 18:08:19 - ministData_classifiction_scratch - 10168 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'alpha': 0.001, 'penalty': 'elasticnet'}}
+2023-07-08 18:08:20 - ministData_classifiction_scratch - 10168 - INFO : ƒ£ÔøΩÔøΩ∆ΩÔøΩÔøΩaccuracy:{0.9435994560994561}
 2023-07-08 18:08:20 - ministData_classifiction_scratch - 10168 - INFO : 0.9812108559498957
 2023-07-08 18:08:21 - ministData_classifiction_scratch - 10168 - INFO : [[144   0   0   0   1   0   0   0   0   0]
  [  0 135   0   0   1   0   2   0   8   3]
@@ -546,8 +546,8 @@ Name: median_house_value, dtype: float64
 2023-07-08 18:15:14 - ministData_classifiction_scratch - 18956 - INFO : 0.9611998027439205
 2023-07-08 18:15:14 - ministData_classifiction_scratch - 18956 - INFO : 0.9610217481997425
 2023-07-08 18:15:14 - ministData_classifiction_scratch - 18956 - INFO : 0.9604869250053355
-2023-07-08 18:15:47 - ministData_classifiction_scratch - 15252 - INFO : ◊Óº—≤Œ ˝:{{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}}
-2023-07-08 18:15:47 - ministData_classifiction_scratch - 15252 - INFO : ƒ£–Õ∆Ωæ˘accuracy:{0.9888694638694637}
+2023-07-08 18:15:47 - ministData_classifiction_scratch - 15252 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}}
+2023-07-08 18:15:47 - ministData_classifiction_scratch - 15252 - INFO : ƒ£ÔøΩÔøΩ∆ΩÔøΩÔøΩaccuracy:{0.9888694638694637}
 2023-07-08 18:15:47 - ministData_classifiction_scratch - 15252 - INFO : 1.0
 2023-07-08 18:15:48 - ministData_classifiction_scratch - 15252 - INFO : [[145   0   0   0   0   0   0   0   0   0]
  [  0 154   0   0   0   0   1   0   2   1]
@@ -563,16 +563,16 @@ Name: median_house_value, dtype: float64
 2023-07-08 18:16:22 - ministData_classifiction_scratch - 2208 - INFO : 0.9876143790849673
 2023-07-08 18:16:22 - ministData_classifiction_scratch - 2208 - INFO : 0.9861566541510222
 2023-07-08 18:16:22 - ministData_classifiction_scratch - 2208 - INFO : 0.9868050255206742
-2023-07-08 19:17:15 - houseData_regression_pipeline - 18472 - INFO : ◊Óº—≤Œ ˝:{{'max_features': 8, 'n_estimators': 30}}
-2023-07-08 19:18:57 - houseData_regression_pipeline - 11556 - INFO : ◊Óº—≤Œ ˝:{{'max_features': 6, 'n_estimators': 30}}
-2023-07-08 19:20:54 - houseData_regression_pipeline - 12608 - INFO : ◊Óº—≤Œ ˝:{{'max_features': 6, 'n_estimators': 30}}
-2023-07-08 19:22:15 - houseData_regression_pipeline - 12608 - INFO : ƒ£–Õmean_score:{50756.537311310865}
+2023-07-08 19:17:15 - houseData_regression_pipeline - 18472 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'max_features': 8, 'n_estimators': 30}}
+2023-07-08 19:18:57 - houseData_regression_pipeline - 11556 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'max_features': 6, 'n_estimators': 30}}
+2023-07-08 19:20:54 - houseData_regression_pipeline - 12608 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'max_features': 6, 'n_estimators': 30}}
+2023-07-08 19:22:15 - houseData_regression_pipeline - 12608 - INFO : ƒ£ÔøΩÔøΩmean_score:{50756.537311310865}
 2023-07-08 19:22:18 - houseData_regression_pipeline - 12608 - INFO : MSE:365725553.814918, rmse:19123.952359
-2023-07-08 19:25:38 - houseData_regression_pipeline - 17380 - INFO : ◊Óº—≤Œ ˝:{{'max_features': 8, 'n_estimators': 30}}
-2023-07-08 19:27:03 - houseData_regression_pipeline - 17380 - INFO : ◊Óº—≤Œ ˝ƒ£–Õmean_score:{50692.08162259714}
+2023-07-08 19:25:38 - houseData_regression_pipeline - 17380 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'max_features': 8, 'n_estimators': 30}}
+2023-07-08 19:27:03 - houseData_regression_pipeline - 17380 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩƒ£ÔøΩÔøΩmean_score:{50692.08162259714}
 2023-07-08 19:27:07 - houseData_regression_pipeline - 17380 - INFO : MSE:377168176.812097, rmse:19420.818129
-2023-07-08 19:30:48 - ministData_classifiction_scratch - 9052 - INFO : ◊Óº—≤Œ ˝:{{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}}
-2023-07-08 19:32:17 - ministData_classifiction_scratch - 9052 - INFO : ◊Óº—≤Œ ˝ƒ£–Õ∆Ωæ˘accuracy:{0.9916569541569542}
+2023-07-08 19:30:48 - ministData_classifiction_scratch - 9052 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}}
+2023-07-08 19:32:17 - ministData_classifiction_scratch - 9052 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩƒ£ÔøΩÔøΩ∆ΩÔøΩÔøΩaccuracy:{0.9916569541569542}
 2023-07-08 19:32:17 - ministData_classifiction_scratch - 9052 - INFO : 1.0
 2023-07-08 19:32:18 - ministData_classifiction_scratch - 9052 - INFO : [[145   0   0   0   0   0   0   0   0   0]
  [  0 154   0   0   0   0   1   0   2   1]
@@ -588,8 +588,8 @@ Name: median_house_value, dtype: float64
 2023-07-08 19:33:01 - ministData_classifiction_scratch - 14832 - INFO : 0.9876143790849673
 2023-07-08 19:33:01 - ministData_classifiction_scratch - 14832 - INFO : 0.9861566541510222
 2023-07-08 19:33:01 - ministData_classifiction_scratch - 14832 - INFO : 0.9868050255206742
-2023-07-08 19:33:44 - ministData_classifiction_scratch - 13188 - INFO : ◊Óº—≤Œ ˝:{{'gamma': 'scale', 'kernel': 'poly'}}
-2023-07-08 19:34:12 - ministData_classifiction_scratch - 13188 - INFO : ◊Óº—≤Œ ˝ƒ£–Õ∆Ωæ˘accuracy:{0.9888743201243202}
+2023-07-08 19:33:44 - ministData_classifiction_scratch - 13188 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'gamma': 'scale', 'kernel': 'poly'}}
+2023-07-08 19:34:12 - ministData_classifiction_scratch - 13188 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩƒ£ÔøΩÔøΩ∆ΩÔøΩÔøΩaccuracy:{0.9888743201243202}
 2023-07-08 19:34:12 - ministData_classifiction_scratch - 13188 - INFO : 0.9979123173277662
 2023-07-08 19:34:12 - ministData_classifiction_scratch - 13188 - INFO : [[144   0   0   0   0   0   0   0   0   0]
  [  0 154   0   0   0   0   1   0   3   0]
@@ -601,14 +601,14 @@ Name: median_house_value, dtype: float64
  [  0   0   0   1   0   0   0 145   0   0]
  [  0   0   0   1   0   0   1   0 141   0]
  [  0   0   0   0   0   3   0   0   0 137]]
-2023-07-08 19:36:03 - houseData_regression_pipeline - 14956 - INFO : ◊Óº—≤Œ ˝:{{'max_features': 6, 'n_estimators': 30}}
-2023-07-08 19:39:42 - houseData_regression_pipeline - 14956 - INFO : ◊Óº—≤Œ ˝ƒ£–Õmean_score:{50414.58802302332}
+2023-07-08 19:36:03 - houseData_regression_pipeline - 14956 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'max_features': 6, 'n_estimators': 30}}
+2023-07-08 19:39:42 - houseData_regression_pipeline - 14956 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩƒ£ÔøΩÔøΩmean_score:{50414.58802302332}
 2023-07-08 19:39:45 - houseData_regression_pipeline - 14956 - INFO : MSE:373610854.948724, rmse:19329.015882
-2023-07-08 19:43:13 - houseData_regression_pipeline - 13044 - INFO : ◊Óº—≤Œ ˝:{{'max_features': 8, 'n_estimators': 30}}
-2023-07-08 19:43:25 - houseData_regression_pipeline - 13044 - INFO : ◊Óº—≤Œ ˝ƒ£–Õmean_score:{50197.01502133384}
+2023-07-08 19:43:13 - houseData_regression_pipeline - 13044 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'max_features': 8, 'n_estimators': 30}}
+2023-07-08 19:43:25 - houseData_regression_pipeline - 13044 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩƒ£ÔøΩÔøΩmean_score:{50197.01502133384}
 2023-07-08 19:43:28 - houseData_regression_pipeline - 13044 - INFO : MSE:375037075.768089, rmse:19365.874000
-2023-07-08 19:44:43 - ministData_classifiction_scratch - 8220 - INFO : ◊Óº—≤Œ ˝:{{'gamma': 'scale', 'kernel': 'poly'}}
-2023-07-08 19:44:44 - ministData_classifiction_scratch - 8220 - INFO : ◊Óº—≤Œ ˝ƒ£–Õ∆Ωæ˘accuracy:{0.9902632090132091}
+2023-07-08 19:44:43 - ministData_classifiction_scratch - 8220 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'gamma': 'scale', 'kernel': 'poly'}}
+2023-07-08 19:44:44 - ministData_classifiction_scratch - 8220 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩƒ£ÔøΩÔøΩ∆ΩÔøΩÔøΩaccuracy:{0.9902632090132091}
 2023-07-08 19:44:44 - ministData_classifiction_scratch - 8220 - INFO : 0.9979123173277662
 2023-07-08 19:44:44 - ministData_classifiction_scratch - 8220 - INFO : [[144   0   0   0   0   0   0   0   0   0]
  [  0 154   0   0   0   0   1   0   3   0]
@@ -652,8 +652,8 @@ Name: median_house_value, dtype: float64}
 2023-07-08 19:49:58 - houseData_regression_pipeline - 9516 - INFO : predicted_label:{[301323.33333333 278893.33333333 150106.66666667  82786.66666667
  240203.33333333 289530.         371483.6        289976.73333333
  173656.66666667 440537.03333333]}
-2023-07-08 20:05:58 - houseData_regression_pipeline - 15652 - INFO : ◊Óº—≤Œ ˝:{{'lr__fit_intercept': True, 'pf__degree': 1}}
-2023-07-08 20:05:58 - houseData_regression_pipeline - 15652 - INFO : ◊Óº—≤Œ ˝ƒ£–Õmean_score:{69342.67601675255}
+2023-07-08 20:05:58 - houseData_regression_pipeline - 15652 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'lr__fit_intercept': True, 'pf__degree': 1}}
+2023-07-08 20:05:58 - houseData_regression_pipeline - 15652 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩƒ£ÔøΩÔøΩmean_score:{69342.67601675255}
 2023-07-08 20:05:58 - houseData_regression_pipeline - 15652 - INFO : MSE:4715746728.186327, rmse:68671.294790
 2023-07-08 20:08:09 - houseData_regression_pipeline - 10328 - INFO : MSE:4555304276.295716, rmse:67492.994276
 2023-07-08 20:08:09 - houseData_regression_pipeline - 10328 - INFO : Confidence_interval:[65656.15583884 69281.15005582]
@@ -668,8 +668,8 @@ Name: median_house_value, dtype: float64}
 2023-07-08 20:08:09 - houseData_regression_pipeline - 10328 - INFO : {454100.0},{289806.954353738}
 2023-07-08 20:08:09 - houseData_regression_pipeline - 10328 - INFO : {160600.0},{155984.05118924027}
 2023-07-08 20:08:09 - houseData_regression_pipeline - 10328 - INFO : {340400.0},{333834.095391947}
-2023-07-08 20:09:02 - houseData_regression_pipeline - 9600 - INFO : ◊Óº—≤Œ ˝:{{'lr__fit_intercept': True, 'pf__degree': 1}}
-2023-07-08 20:09:03 - houseData_regression_pipeline - 9600 - INFO : ◊Óº—≤Œ ˝ƒ£–Õmean_score:{69342.67601675255}
+2023-07-08 20:09:02 - houseData_regression_pipeline - 9600 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩ:{{'lr__fit_intercept': True, 'pf__degree': 1}}
+2023-07-08 20:09:03 - houseData_regression_pipeline - 9600 - INFO : ÔøΩÔøΩ—≤ÔøΩÔøΩÔøΩƒ£ÔøΩÔøΩmean_score:{69342.67601675255}
 2023-07-08 20:09:03 - houseData_regression_pipeline - 9600 - INFO : MSE:4715746728.186327, rmse:68671.294790
 2023-07-08 20:09:18 - houseData_regression_pipeline - 18848 - INFO : predicted_label:{[311326.62983737 275537.03314661 160059.23368184 143200.55113318
  243920.30737442 266945.80637207 288962.42094411 289806.95435374
@@ -1377,3 +1377,413 @@ comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
 2023-08-01 16:37:42 - k_neighbour_classifier - 12520 - INFO : [('knn', 0.6937334743521946), ('knn_weights', 0.6692755156002115), ('knn_radius', 0.6447382337387625)]
 2023-08-01 16:50:29 - k_neighbour_classifier - 14656 - INFO : [('knn', 0.7035959809624537), ('knn_weights', 0.677472236911687), ('knn_radius', 0.6465362242199892)]
 2023-08-01 16:50:31 - k_neighbour_classifier - 14656 - INFO : [('knn', 0.7312268640930724), ('knn_weights', 0.6988101533580116), ('knn_radius', 0.6481491274457958)]
+2024-01-13 16:30:02 - houseData_regression_pipeline - 4310631808 - INFO : ÊúÄ‰Ω≥ÂèÇÊï∞:{{'lr__fit_intercept': True, 'pf__degree': 2}}
+2024-01-13 16:30:04 - houseData_regression_pipeline - 4310631808 - INFO : ÊúÄ‰Ω≥ÂèÇÊï∞Ê®°Âûãmean_score:{496218.37075899367}
+2024-01-13 16:30:04 - houseData_regression_pipeline - 4310631808 - INFO : MSE:3650519339.616367, rmse:60419.527800
+2024-01-13 16:30:26 - houseData_regression_pipeline - 4302783872 - INFO : predicted_label:{[305993.75047667 293688.49592526 216052.43831956 137253.59926017
+ 239044.45895632 254727.13734116 326049.22774879 299298.23317316
+  86454.94270487 369635.85561493]}
+2024-01-13 19:22:36 - houseData_regression_pipeline - 4306666880 - INFO : ÊúÄ‰Ω≥ÂèÇÊï∞:{{'max_features': 8, 'n_estimators': 30}}
+2024-01-13 19:22:42 - houseData_regression_pipeline - 4306666880 - INFO : ÊúÄ‰Ω≥ÂèÇÊï∞Ê®°Âûãmean_score:{50381.15690932631}
+2024-01-13 19:22:44 - houseData_regression_pipeline - 4306666880 - INFO : MSE:377299795.735021, rmse:19424.206438
+2024-01-13 19:25:48 - houseData_regression_pipeline - 4347348352 - INFO : predicted_label:{[305993.75047667 293688.49592526 216052.43831956 137253.59926017
+ 239044.45895632 254727.13734116 326049.22774879 299298.23317316
+  86454.94270487 369635.85561493]}
+2024-01-13 19:26:17 - houseData_regression_pipeline - 4336977280 - INFO : ÊúÄ‰Ω≥ÂèÇÊï∞:{{'lr__fit_intercept': True, 'pf__degree': 2}}
+2024-01-13 19:26:18 - houseData_regression_pipeline - 4336977280 - INFO : ÊúÄ‰Ω≥ÂèÇÊï∞Ê®°Âûãmean_score:{496218.37075899367}
+2024-01-13 19:26:18 - houseData_regression_pipeline - 4336977280 - INFO : MSE:3650519339.616367, rmse:60419.527800
+2024-01-13 20:30:58 - houseData_regression_pipeline - 4310402432 - INFO : ÊúÄ‰Ω≥ÂèÇÊï∞:{{'max_features': 8, 'n_estimators': 30}}
+2024-01-13 20:31:05 - houseData_regression_pipeline - 4310402432 - INFO : ÊúÄ‰Ω≥ÂèÇÊï∞Ê®°Âûãmean_score:{50227.78185412494}
+2024-01-13 20:31:06 - houseData_regression_pipeline - 4310402432 - INFO : MSE:376247478.125442, rmse:19397.099735
+2024-01-13 22:18:33 - houseData_regression_pipeline - 4312139136 - INFO :    longitude  latitude  housing_median_age  total_rooms  total_bedrooms  population  households  median_income  median_house_value ocean_proximity
+0    -122.23     37.88                41.0        880.0           129.0       322.0       126.0         8.3252            452600.0        NEAR BAY
+1    -122.22     37.86                21.0       7099.0          1106.0      2401.0      1138.0         8.3014            358500.0        NEAR BAY
+2    -122.24     37.85                52.0       1467.0           190.0       496.0       177.0         7.2574            352100.0        NEAR BAY
+3    -122.25     37.85                52.0       1274.0           235.0       558.0       219.0         5.6431            341300.0        NEAR BAY
+4    -122.25     37.85                52.0       1627.0           280.0       565.0       259.0         3.8462            342200.0        NEAR BAY
+2024-01-13 22:19:34 - houseData_regression_pipeline - 4297328000 - INFO :    longitude  latitude  housing_median_age  total_rooms  total_bedrooms  population  households  median_income  median_house_value ocean_proximity
+0    -122.23     37.88                41.0        880.0           129.0       322.0       126.0         8.3252            452600.0        NEAR BAY
+1    -122.22     37.86                21.0       7099.0          1106.0      2401.0      1138.0         8.3014            358500.0        NEAR BAY
+2    -122.24     37.85                52.0       1467.0           190.0       496.0       177.0         7.2574            352100.0        NEAR BAY
+3    -122.25     37.85                52.0       1274.0           235.0       558.0       219.0         5.6431            341300.0        NEAR BAY
+4    -122.25     37.85                52.0       1627.0           280.0       565.0       259.0         3.8462            342200.0        NEAR BAY \n
+2024-01-13 22:20:05 - houseData_regression_pipeline - 4366304640 - INFO :    longitude  latitude  housing_median_age  total_rooms  total_bedrooms  population  households  median_income  median_house_value ocean_proximity
+
+    longitude   latitude   housing_median_age  total_rooms  total_bedrooms  population  households  median_income  median_house_value ocean_proximity
+0    -122.23     37.88                41.0        880.0           129.0       322.0       126.0         8.3252            452600.0        NEAR BAY
+1    -122.22     37.86                21.0       7099.0          1106.0      2401.0      1138.0         8.3014            358500.0        NEAR BAY
+2    -122.24     37.85                52.0       1467.0           190.0       496.0       177.0         7.2574            352100.0        NEAR BAY
+3    -122.25     37.85                52.0       1274.0           235.0       558.0       219.0         5.6431            341300.0        NEAR BAY
+4    -122.25     37.85                52.0       1627.0           280.0       565.0       259.0         3.8462            342200.0        NEAR BAY\n
+2024-01-13 22:21:48 - houseData_regression_pipeline - 4369237376 - INFO :    longitude  latitude  housing_median_age  total_rooms  total_bedrooms  population  households  median_income  median_house_value ocean_proximity
+
+   longitude    latitude    housing_median_age  total_rooms  total_bedrooms  population  households  median_income  median_house_value ocean_proximity
+0    -122.23     37.88                41.0        880.0           129.0       322.0       126.0         8.3252            452600.0        NEAR BAY
+1    -122.22     37.86                21.0       7099.0          1106.0      2401.0      1138.0         8.3014            358500.0        NEAR BAY
+2    -122.24     37.85                52.0       1467.0           190.0       496.0       177.0         7.2574            352100.0        NEAR BAY
+3    -122.25     37.85                52.0       1274.0           235.0       558.0       219.0         5.6431            341300.0        NEAR BAY
+4    -122.25     37.85                52.0       1627.0           280.0       565.0       259.0         3.8462            342200.0        NEAR BAY
+5    -122.25     37.85                52.0        919.0           213.0       413.0       193.0         4.0368            269700.0        NEAR BAY
+6    -122.25     37.84                52.0       2535.0           489.0      1094.0       514.0         3.6591            299200.0        NEAR BAY
+7    -122.25     37.84                52.0       3104.0           687.0      1157.0       647.0         3.1200            241400.0        NEAR BAY
+8    -122.26     37.84                42.0       2555.0           665.0      1206.0       595.0         2.0804            226700.0        NEAR BAY
+9    -122.25     37.84                52.0       3549.0           707.0      1551.0       714.0         3.6912            261100.0        NEAR BAY
+2024-01-15 10:23:01 - houseData_regression_pipeline - 4302800256 - INFO : None
+2024-01-15 10:37:25 - houseData_regression_pipeline - 4376429952 - INFO : ocean_proximity
+<1H OCEAN     9136
+INLAND        6551
+NEAR OCEAN    2658
+NEAR BAY      2290
+ISLAND           5
+Name: count, dtype: int64
+2024-01-15 11:35:32 - houseData_regression_pipeline - 4380902784 - INFO :           longitude      latitude  housing_median_age   total_rooms  total_bedrooms    population    households  median_income  median_house_value
+
+         longitude      latitude    housing_median_age  total_rooms  total_bedrooms    population    households  median_income  median_house_value
+count  20640.000000  20640.000000        20640.000000  20640.000000    20433.000000  20640.000000  20640.000000   20640.000000        20640.000000
+mean    -119.569704     35.631861           28.639486   2635.763081      537.870553   1425.476744    499.539680       3.870671       206855.816909
+std        2.003532      2.135952           12.585558   2181.615252      421.385070   1132.462122    382.329753       1.899822       115395.615874
+min     -124.350000     32.540000            1.000000      2.000000        1.000000      3.000000      1.000000       0.499900        14999.000000
+25%     -121.800000     33.930000           18.000000   1447.750000      296.000000    787.000000    280.000000       2.563400       119600.000000
+50%     -118.490000     34.260000           29.000000   2127.000000      435.000000   1166.000000    409.000000       3.534800       179700.000000
+75%     -118.010000     37.710000           37.000000   3148.000000      647.000000   1725.000000    605.000000       4.743250       264725.000000
+max     -114.310000     41.950000           52.000000  39320.000000     6445.000000  35682.000000   6082.000000      15.000100       500001.000000
+2024-01-15 15:13:45 - houseData_regression_pipeline - 4381033856 - INFO : latitude             -0.142983
+longitude            -0.046349
+population           -0.026032
+total_bedrooms        0.047980
+households            0.063714
+housing_median_age    0.103706
+total_rooms           0.133989
+median_income         0.690647
+median_house_value    1.000000
+Name: median_house_value, dtype: float64
+2024-01-15 15:26:07 - houseData_regression_pipeline - 4378412416 - INFO : [[<Axes: xlabel='median_house_value', ylabel='median_house_value'>
+  <Axes: xlabel='median_income', ylabel='median_house_value'>
+  <Axes: xlabel='total_rooms', ylabel='median_house_value'>
+  <Axes: xlabel='housing_median_age', ylabel='median_house_value'>]
+ [<Axes: xlabel='median_house_value', ylabel='median_income'>
+  <Axes: xlabel='median_income', ylabel='median_income'>
+  <Axes: xlabel='total_rooms', ylabel='median_income'>
+  <Axes: xlabel='housing_median_age', ylabel='median_income'>]
+ [<Axes: xlabel='median_house_value', ylabel='total_rooms'>
+  <Axes: xlabel='median_income', ylabel='total_rooms'>
+  <Axes: xlabel='total_rooms', ylabel='total_rooms'>
+  <Axes: xlabel='housing_median_age', ylabel='total_rooms'>]
+ [<Axes: xlabel='median_house_value', ylabel='housing_median_age'>
+  <Axes: xlabel='median_income', ylabel='housing_median_age'>
+  <Axes: xlabel='total_rooms', ylabel='housing_median_age'>
+  <Axes: xlabel='housing_median_age', ylabel='housing_median_age'>]]
+2024-01-15 15:58:54 - houseData_regression_pipeline - 4366271872 - INFO : latitude               -0.142983
+longitude              -0.046349
+population             -0.026032
+population_per_house   -0.022030
+total_bedrooms          0.047980
+households              0.063714
+housing_median_age      0.103706
+total_rooms             0.133989
+rooms_per_house         0.158485
+median_income           0.690647
+median_house_value      1.000000
+Name: median_house_value, dtype: float64
+2024-01-15 17:46:12 - houseData_regression_pipeline - 4373054848 - INFO : ÊúÄ‰Ω≥ÂèÇÊï∞:{{'max_features': 6, 'n_estimators': 30}}
+2024-01-15 17:46:17 - houseData_regression_pipeline - 4373054848 - INFO : ÊúÄ‰Ω≥ÂèÇÊï∞Ê®°Âûãmean_score:{50262.525853637}
+2024-01-15 17:46:18 - houseData_regression_pipeline - 4373054848 - INFO : MSE:376246724.731098, rmse:19397.080315
+2024-01-17 11:08:22 - k_neighbour_classifier - 4307404160 - INFO : [('knn', 0.6970121628767847), ('knn_weights', 0.6772342675832893), ('knn_radius', 0.667741935483871)]
+2024-01-17 11:08:23 - k_neighbour_classifier - 4307404160 - INFO : [('knn', 0.7344262295081967), ('knn_weights', 0.7050766790058172), ('knn_radius', 0.667741935483871)]
+2024-01-17 11:10:26 - k_neighbour_classifier - 4335748480 - INFO : [('knn', 0.6905076679005817), ('knn_weights', 0.6679005817028028), ('knn_radius', 0.6402168164992068)]
+2024-01-17 11:10:27 - k_neighbour_classifier - 4335748480 - INFO : [('knn', 0.6970650449497622), ('knn_weights', 0.6806980433632999), ('knn_radius', 0.6434955050237969)]
+2024-01-17 11:10:53 - k_neighbour_classifier - 4299638144 - INFO : [('knn', 0.6954257006874669), ('knn_weights', 0.6758328926493917), ('knn_radius', 0.6513220518244316)]
+2024-01-17 11:10:53 - k_neighbour_classifier - 4299638144 - INFO : [('knn', 0.721390798519302), ('knn_weights', 0.6808566895822317), ('knn_radius', 0.6529349550502379)]
+2024-01-18 07:31:16 - k_neighbour_classifier - 4302587264 - INFO : [('knn', 0.6971708090957165), ('knn_weights', 0.6547593865679534), ('knn_radius', 0.6466684294024325)]
+2024-01-18 07:31:16 - k_neighbour_classifier - 4302587264 - INFO : [('knn', 0.6972501322051825), ('knn_weights', 0.674537281861449), ('knn_radius', 0.6466419883659439)]
+2024-01-18 12:16:20 - bayes_classifier_text - 4336043392 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-18 12:16:20 - bayes_classifier_text - 4336043392 - INFO : [[224   0   0   0   0   0   0   0   0   0   0   0   0   0   2   5   0   0
+    1  13]
+ [  1 267   5   5   2   8   1   1   0   0   0   2   3   2   1   0   0   0
+    0   0]
+ [  1  13 230  24   4  10   5   0   0   0   0   1   2   1   0   0   0   0
+    1   0]
+ [  0   9  21 242   7   2  10   1   0   0   1   1   7   0   0   0   0   0
+    0   0]
+ [  0   1   5   5 233   2   2   2   1   0   0   3   1   0   1   0   0   0
+    0   0]
+ [  0  20   6   3   1 260   0   0   0   2   0   1   0   0   2   0   2   0
+    0   0]
+ [  0   2   5  12   3   1 235  10   2   3   1   0   7   0   2   0   2   1
+    4   0]
+ [  0   1   0   0   1   0   8 300   4   1   0   0   1   2   3   0   2   0
+    1   0]
+ [  0   1   0   0   0   2   2   3 283   0   0   0   1   0   0   0   0   0
+    1   1]
+ [  0   1   1   0   1   2   1   2   0 297   8   1   0   1   0   0   0   0
+    0   0]
+ [  0   0   0   0   0   0   0   0   2   2 298   0   0   0   0   0   0   0
+    0   0]
+ [  0   1   2   0   0   1   1   0   0   0   0 284   2   1   0   0   2   1
+    2   0]
+ [  0  11   3   5   4   2   4   5   1   1   0   4 266   1   4   0   1   0
+    1   0]
+ [  1   1   0   1   0   2   1   0   0   0   0   0   1 266   2   1   0   0
+    1   0]
+ [  0   3   0   0   1   1   0   0   0   0   0   1   0   1 296   0   1   0
+    1   0]
+ [  3   1   0   1   0   0   0   0   0   0   1   0   0   2   1 280   0   1
+    1   2]
+ [  1   0   2   0   0   0   0   0   1   0   0   0   0   0   0   0 236   1
+    4   1]
+ [  1   0   0   0   0   1   0   0   0   0   0   0   0   0   0   3   0 290
+    1   0]
+ [  2   1   0   0   1   1   0   1   0   0   0   0   0   0   0   1  10   7
+  212   0]
+ [ 16   0   0   0   0   0   0   0   0   0   0   0   0   0   0  12   4   1
+    4 134]]
+2024-01-18 14:40:44 - decision_tree_iris - 4368303488 - INFO : [1]
+2024-01-18 14:40:45 - decision_tree_iris - 4368303488 - INFO : [[0. 1. 0.]]
+2024-01-18 14:40:46 - decision_tree_iris - 4368303488 - INFO : [1.]
+2024-01-18 14:44:34 - decision_tree_iris - 4339238272 - INFO : [1]
+2024-01-18 14:44:36 - decision_tree_iris - 4339238272 - INFO : [[0. 1. 0.]]
+2024-01-18 14:44:36 - decision_tree_iris - 4339238272 - INFO : [1.]
+2024-01-18 14:48:55 - ensemble_bagging_decisionTree - 4299572608 - INFO : bag_oob_score: 0.9253333333333333
+2024-01-18 14:48:55 - ensemble_bagging_decisionTree - 4299572608 - INFO : bag_test_score: 0.904
+2024-01-18 14:48:55 - ensemble_bagging_decisionTree - 4299572608 - INFO : single_tree_score: 0.856
+2024-01-18 14:49:21 - ensemble_GradientBoost - 4374496640 - INFO : [0.75026781]
+2024-01-18 14:49:21 - ensemble_GradientBoost - 4374496640 - INFO : [0.7379618]
+2024-01-18 14:50:11 - ensemble_randomForest - 4344104320 - INFO : [0.42253629 0.57746371]
+2024-01-18 14:50:11 - ensemble_randomForest - 4344104320 - INFO :  RandomForest_test_score: 0.912
+2024-01-18 14:50:11 - ensemble_randomForest - 4344104320 - INFO : single_tree_score: 0.872
+2024-01-18 14:50:53 - ensemble_VotingClassifier - 4301178240 - INFO : model:LogisticRegression , accuracy:0.864
+2024-01-18 14:50:53 - ensemble_VotingClassifier - 4301178240 - INFO : model:RandomForestClassifier , accuracy:0.896
+2024-01-18 14:50:53 - ensemble_VotingClassifier - 4301178240 - INFO : model:SVC , accuracy:0.896
+2024-01-18 14:50:53 - ensemble_VotingClassifier - 4301178240 - INFO : model:VotingClassifier , accuracy:0.912
+2024-01-18 15:25:10 - ministData_classification_scratch - 4335814016 - INFO : ÊúÄ‰Ω≥ÂèÇÊï∞:{{'gamma': 'scale', 'kernel': 'poly'}}
+2024-01-18 15:25:10 - ministData_classification_scratch - 4335814016 - INFO : ÊúÄ‰Ω≥ÂèÇÊï∞Ê®°ÂûãÂπ≥Âùáaccuracy:{0.9902632090132091}
+2024-01-18 15:25:10 - ministData_classification_scratch - 4335814016 - INFO : 0.9979123173277662
+2024-01-18 15:25:10 - ministData_classification_scratch - 4335814016 - INFO : [[144   0   0   0   0   0   0   0   0   0]
+ [  0 154   0   0   0   0   1   0   3   0]
+ [  0   0 144   0   0   0   0   0   0   0]
+ [  0   0   0 147   0   0   0   0   0   1]
+ [  1   0   0   0 135   0   0   0   0   0]
+ [  0   0   0   0   0 132   0   0   0   2]
+ [  0   0   0   0   0   0 144   0   0   0]
+ [  0   0   0   1   0   0   0 145   0   0]
+ [  0   0   0   1   0   0   1   0 141   0]
+ [  0   0   0   0   0   3   0   0   0 137]]
+2024-01-18 15:26:01 - ministData_classification_scratch - 4337173888 - INFO : ÊúÄ‰Ω≥ÂèÇÊï∞:{{'gamma': 'scale', 'kernel': 'poly'}}
+2024-01-18 15:26:01 - ministData_classification_scratch - 4337173888 - INFO : ÊúÄ‰Ω≥ÂèÇÊï∞Ê®°ÂûãÂπ≥Âùáaccuracy:{0.9902632090132091}
+2024-01-18 15:26:01 - ministData_classification_scratch - 4337173888 - INFO : 0.9979123173277662
+2024-01-18 15:26:01 - ministData_classification_scratch - 4337173888 - INFO : [[144   0   0   0   0   0   0   0   0   0]
+ [  0 154   0   0   0   0   1   0   3   0]
+ [  0   0 144   0   0   0   0   0   0   0]
+ [  0   0   0 147   0   0   0   0   0   1]
+ [  1   0   0   0 135   0   0   0   0   0]
+ [  0   0   0   0   0 132   0   0   0   2]
+ [  0   0   0   0   0   0 144   0   0   0]
+ [  0   0   0   1   0   0   0 145   0   0]
+ [  0   0   0   1   0   0   1   0 141   0]
+ [  0   0   0   0   0   3   0   0   0 137]]
+2024-01-18 15:26:23 - ministData_classification_scratch - 4340680064 - INFO : ÊúÄ‰Ω≥ÂèÇÊï∞:{{'alpha': 0.001, 'penalty': 'l1'}}
+2024-01-18 15:26:25 - ministData_classification_scratch - 4340680064 - INFO : ÊúÄ‰Ω≥ÂèÇÊï∞Ê®°ÂûãÂπ≥Âùáaccuracy:{0.954040404040404}
+2024-01-18 15:26:25 - ministData_classification_scratch - 4340680064 - INFO : 0.977731384829506
+2024-01-18 15:26:27 - ministData_classification_scratch - 4340680064 - INFO : [[143   0   0   0   1   0   0   0   0   1]
+ [  0 141   0   0   2   0   3   0   7   3]
+ [  0   1 143   0   0   0   0   0   1   0]
+ [  0   2   0 139   0   0   0   0   2   2]
+ [  1   0   0   0 130   0   0   1   0   0]
+ [  1   0   0   3   0 131   0   0   0   2]
+ [  0   2   0   0   0   0 142   0   2   0]
+ [  0   0   0   2   0   1   0 140   0   1]
+ [  0   7   1   3   1   1   1   2 132   4]
+ [  0   1   0   2   1   2   0   2   0 127]]
+2024-01-18 15:27:29 - ministData_classification_scratch - 4376249728 - INFO : ÊúÄ‰Ω≥ÂèÇÊï∞:{{'alpha': 0.001, 'penalty': 'l1'}}
+2024-01-18 15:27:31 - ministData_classification_scratch - 4376249728 - INFO : ÊúÄ‰Ω≥ÂèÇÊï∞Ê®°ÂûãÂπ≥Âùáaccuracy:{0.9526466588966589}
+2024-01-18 15:27:31 - ministData_classification_scratch - 4376249728 - INFO : 0.9791231732776617
+2024-01-18 15:27:33 - ministData_classification_scratch - 4376249728 - INFO : [[144   0   0   0   1   0   0   0   0   1]
+ [  0 140   0   0   2   0   3   1   8   3]
+ [  0   1 142   1   0   0   0   0   1   0]
+ [  0   2   0 139   0   0   0   0   1   2]
+ [  1   1   0   0 129   1   1   1   1   0]
+ [  0   0   0   3   0 130   0   1   0   3]
+ [  0   2   0   0   0   0 141   0   0   0]
+ [  0   0   1   1   1   1   0 139   0   1]
+ [  0   6   1   4   1   1   1   2 132   3]
+ [  0   2   0   1   1   2   0   1   1 127]]
+2024-01-18 15:27:46 - ministData_classification_scratch - 4343448960 - INFO : ÊúÄ‰Ω≥ÂèÇÊï∞:{{'gamma': 'scale', 'kernel': 'poly'}}
+2024-01-18 15:27:46 - ministData_classification_scratch - 4343448960 - INFO : ÊúÄ‰Ω≥ÂèÇÊï∞Ê®°ÂûãÂπ≥Âùáaccuracy:{0.9902632090132091}
+2024-01-18 15:27:46 - ministData_classification_scratch - 4343448960 - INFO : 0.9979123173277662
+2024-01-18 15:27:46 - ministData_classification_scratch - 4343448960 - INFO : [[144   0   0   0   0   0   0   0   0   0]
+ [  0 154   0   0   0   0   1   0   3   0]
+ [  0   0 144   0   0   0   0   0   0   0]
+ [  0   0   0 147   0   0   0   0   0   1]
+ [  1   0   0   0 135   0   0   0   0   0]
+ [  0   0   0   0   0 132   0   0   0   2]
+ [  0   0   0   0   0   0 144   0   0   0]
+ [  0   0   0   1   0   0   0 145   0   0]
+ [  0   0   0   1   0   0   1   0 141   0]
+ [  0   0   0   0   0   3   0   0   0 137]]
+2024-01-18 15:30:22 - PCA_basic - 4335994240 - INFO : [[ 0.33390904  0.15282575]
+ [ 0.30233521  0.11851132]
+ [ 0.69766479  0.54815534]
+ [ 1.06142055  0.94348493]
+ [ 0.10467041 -0.09631069]]
+2024-01-18 15:40:04 - PCA_picture - 4372399488 - INFO :               precision    recall  f1-score   support
+
+           0       0.33      1.00      0.50         1
+           1       1.00      0.67      0.80         3
+           2       1.00      0.50      0.67         2
+           3       1.00      1.00      1.00         1
+           4       1.00      1.00      1.00         1
+           5       1.00      1.00      1.00         1
+           6       1.00      0.75      0.86         4
+           7       1.00      1.00      1.00         2
+           8       1.00      1.00      1.00         4
+           9       1.00      1.00      1.00         2
+          10       1.00      1.00      1.00         1
+          12       1.00      1.00      1.00         4
+          13       1.00      1.00      1.00         4
+          14       1.00      1.00      1.00         1
+          15       1.00      1.00      1.00         1
+          16       0.75      1.00      0.86         3
+          17       1.00      1.00      1.00         2
+          18       1.00      1.00      1.00         2
+          19       1.00      1.00      1.00         2
+          20       1.00      1.00      1.00         1
+          21       1.00      1.00      1.00         2
+          22       0.75      1.00      0.86         3
+          23       1.00      1.00      1.00         2
+          24       1.00      1.00      1.00         3
+          25       1.00      0.67      0.80         3
+          26       1.00      1.00      1.00         2
+          27       1.00      1.00      1.00         2
+          29       1.00      1.00      1.00         2
+          30       1.00      1.00      1.00         2
+          31       1.00      1.00      1.00         3
+          32       1.00      1.00      1.00         2
+          33       1.00      1.00      1.00         2
+          35       1.00      1.00      1.00         2
+          36       1.00      1.00      1.00         3
+          37       1.00      1.00      1.00         1
+          38       1.00      1.00      1.00         2
+          39       1.00      1.00      1.00         2
+
+    accuracy                           0.95        80
+   macro avg       0.97      0.96      0.96        80
+weighted avg       0.97      0.95      0.95        80
+
+2024-01-18 15:42:43 - PCA_picture - 4298065280 - INFO :               precision    recall  f1-score   support
+
+           0       0.50      1.00      0.67         1
+           1       1.00      0.67      0.80         3
+           2       1.00      0.50      0.67         2
+           3       1.00      1.00      1.00         1
+           4       1.00      1.00      1.00         1
+           5       1.00      1.00      1.00         1
+           6       1.00      0.75      0.86         4
+           7       1.00      1.00      1.00         2
+           8       1.00      1.00      1.00         4
+           9       1.00      1.00      1.00         2
+          10       1.00      1.00      1.00         1
+          12       1.00      1.00      1.00         4
+          13       1.00      1.00      1.00         4
+          14       1.00      1.00      1.00         1
+          15       1.00      1.00      1.00         1
+          16       0.75      1.00      0.86         3
+          17       1.00      1.00      1.00         2
+          18       1.00      1.00      1.00         2
+          19       1.00      1.00      1.00         2
+          20       1.00      1.00      1.00         1
+          21       1.00      1.00      1.00         2
+          22       1.00      1.00      1.00         3
+          23       1.00      1.00      1.00         2
+          24       1.00      1.00      1.00         3
+          25       0.75      1.00      0.86         3
+          26       1.00      1.00      1.00         2
+          27       1.00      1.00      1.00         2
+          29       1.00      1.00      1.00         2
+          30       1.00      1.00      1.00         2
+          31       1.00      1.00      1.00         3
+          32       1.00      1.00      1.00         2
+          33       1.00      1.00      1.00         2
+          35       1.00      1.00      1.00         2
+          36       1.00      1.00      1.00         3
+          37       1.00      1.00      1.00         1
+          38       1.00      1.00      1.00         2
+          39       1.00      1.00      1.00         2
+
+    accuracy                           0.96        80
+   macro avg       0.97      0.97      0.96        80
+weighted avg       0.97      0.96      0.96        80
+
+2024-01-18 15:46:04 - sinData_linearRegression_pipeline - 4337255808 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_ElasticNet', ElasticNet(alpha=0.1, l1_ratio=0))])
+2024-01-18 15:46:04 - sinData_linearRegression_pipeline - 4337255808 - INFO : params:l1_ratio=0
+2024-01-18 15:46:04 - sinData_linearRegression_pipeline - 4337255808 - INFO : train_score:0.3695026796804126
+2024-01-18 15:46:04 - sinData_linearRegression_pipeline - 4337255808 - INFO : mse:0.35490519066116083
+2024-01-18 15:46:04 - sinData_linearRegression_pipeline - 4337255808 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_ElasticNet', ElasticNet(alpha=0.1, l1_ratio=0.25))])
+2024-01-18 15:46:04 - sinData_linearRegression_pipeline - 4337255808 - INFO : params:l1_ratio=0.25
+2024-01-18 15:46:04 - sinData_linearRegression_pipeline - 4337255808 - INFO : train_score:0.29403970654927325
+2024-01-18 15:46:04 - sinData_linearRegression_pipeline - 4337255808 - INFO : mse:0.39738308866933897
+2024-01-18 15:46:04 - sinData_linearRegression_pipeline - 4337255808 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_ElasticNet', ElasticNet(alpha=0.1, l1_ratio=0.75))])
+2024-01-18 15:46:04 - sinData_linearRegression_pipeline - 4337255808 - INFO : params:l1_ratio=0.75
+2024-01-18 15:46:04 - sinData_linearRegression_pipeline - 4337255808 - INFO : train_score:0.2265340501958335
+2024-01-18 15:46:04 - sinData_linearRegression_pipeline - 4337255808 - INFO : mse:0.4353818351615214
+2024-01-18 15:46:04 - sinData_linearRegression_pipeline - 4337255808 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_ElasticNet', ElasticNet(alpha=0.1, l1_ratio=1))])
+2024-01-18 15:46:04 - sinData_linearRegression_pipeline - 4337255808 - INFO : params:l1_ratio=1
+2024-01-18 15:46:04 - sinData_linearRegression_pipeline - 4337255808 - INFO : train_score:0.22074552580871087
+2024-01-18 15:46:04 - sinData_linearRegression_pipeline - 4337255808 - INFO : mse:0.4386401794637893
+2024-01-18 15:47:00 - sinData_linearRegression_pipeline - 4345496960 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_ElasticNet', ElasticNet(alpha=0.1, l1_ratio=0))])
+2024-01-18 15:47:00 - sinData_linearRegression_pipeline - 4345496960 - INFO : params:l1_ratio=0
+2024-01-18 15:47:00 - sinData_linearRegression_pipeline - 4345496960 - INFO : train_score:0.37761025311581065
+2024-01-18 15:47:00 - sinData_linearRegression_pipeline - 4345496960 - INFO : mse:0.328910481362315
+2024-01-18 15:47:00 - sinData_linearRegression_pipeline - 4345496960 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_ElasticNet', ElasticNet(alpha=0.1, l1_ratio=0.25))])
+2024-01-18 15:47:00 - sinData_linearRegression_pipeline - 4345496960 - INFO : params:l1_ratio=0.25
+2024-01-18 15:47:00 - sinData_linearRegression_pipeline - 4345496960 - INFO : train_score:0.30434429786804984
+2024-01-18 15:47:00 - sinData_linearRegression_pipeline - 4345496960 - INFO : mse:0.36762889009036687
+2024-01-18 15:47:00 - sinData_linearRegression_pipeline - 4345496960 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_ElasticNet', ElasticNet(alpha=0.1, l1_ratio=0.75))])
+2024-01-18 15:47:00 - sinData_linearRegression_pipeline - 4345496960 - INFO : params:l1_ratio=0.75
+2024-01-18 15:47:00 - sinData_linearRegression_pipeline - 4345496960 - INFO : train_score:0.22504283228196464
+2024-01-18 15:47:00 - sinData_linearRegression_pipeline - 4345496960 - INFO : mse:0.40953684784390254
+2024-01-18 15:47:00 - sinData_linearRegression_pipeline - 4345496960 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_ElasticNet', ElasticNet(alpha=0.1, l1_ratio=1))])
+2024-01-18 15:47:00 - sinData_linearRegression_pipeline - 4345496960 - INFO : params:l1_ratio=1
+2024-01-18 15:47:00 - sinData_linearRegression_pipeline - 4345496960 - INFO : train_score:0.2187865005088938
+2024-01-18 15:47:00 - sinData_linearRegression_pipeline - 4345496960 - INFO : mse:0.4128430930147857
