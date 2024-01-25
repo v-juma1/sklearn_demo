@@ -1787,3 +1787,1254 @@ weighted avg       0.97      0.96      0.96        80
 2024-01-18 15:47:00 - sinData_linearRegression_pipeline - 4345496960 - INFO : params:l1_ratio=1
 2024-01-18 15:47:00 - sinData_linearRegression_pipeline - 4345496960 - INFO : train_score:0.2187865005088938
 2024-01-18 15:47:00 - sinData_linearRegression_pipeline - 4345496960 - INFO : mse:0.4128430930147857
+2024-01-18 17:34:17 - bayes_classifier_text - 4337681792 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-18 17:34:17 - bayes_classifier_text - 4337681792 - INFO : [[224   0   0   0   0   0   0   0   0   0   0   0   0   0   2   5   0   0
+    1  13]
+ [  1 267   5   5   2   8   1   1   0   0   0   2   3   2   1   0   0   0
+    0   0]
+ [  1  13 230  24   4  10   5   0   0   0   0   1   2   1   0   0   0   0
+    1   0]
+ [  0   9  21 242   7   2  10   1   0   0   1   1   7   0   0   0   0   0
+    0   0]
+ [  0   1   5   5 233   2   2   2   1   0   0   3   1   0   1   0   0   0
+    0   0]
+ [  0  20   6   3   1 260   0   0   0   2   0   1   0   0   2   0   2   0
+    0   0]
+ [  0   2   5  12   3   1 235  10   2   3   1   0   7   0   2   0   2   1
+    4   0]
+ [  0   1   0   0   1   0   8 300   4   1   0   0   1   2   3   0   2   0
+    1   0]
+ [  0   1   0   0   0   2   2   3 283   0   0   0   1   0   0   0   0   0
+    1   1]
+ [  0   1   1   0   1   2   1   2   0 297   8   1   0   1   0   0   0   0
+    0   0]
+ [  0   0   0   0   0   0   0   0   2   2 298   0   0   0   0   0   0   0
+    0   0]
+ [  0   1   2   0   0   1   1   0   0   0   0 284   2   1   0   0   2   1
+    2   0]
+ [  0  11   3   5   4   2   4   5   1   1   0   4 266   1   4   0   1   0
+    1   0]
+ [  1   1   0   1   0   2   1   0   0   0   0   0   1 266   2   1   0   0
+    1   0]
+ [  0   3   0   0   1   1   0   0   0   0   0   1   0   1 296   0   1   0
+    1   0]
+ [  3   1   0   1   0   0   0   0   0   0   1   0   0   2   1 280   0   1
+    1   2]
+ [  1   0   2   0   0   0   0   0   1   0   0   0   0   0   0   0 236   1
+    4   1]
+ [  1   0   0   0   0   1   0   0   0   0   0   0   0   0   0   3   0 290
+    1   0]
+ [  2   1   0   0   1   1   0   1   0   0   0   0   0   0   0   1  10   7
+  212   0]
+ [ 16   0   0   0   0   0   0   0   0   0   0   0   0   0   0  12   4   1
+    4 134]]
+2024-01-19 17:04:08 - bayes_classifier_text - 4340745600 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-19 17:04:08 - bayes_classifier_text - 4340745600 - INFO : [[224   0   0   0   0   0   0   0   0   0   0   0   0   0   2   5   0   0
+    1  13]
+ [  1 267   5   5   2   8   1   1   0   0   0   2   3   2   1   0   0   0
+    0   0]
+ [  1  13 230  24   4  10   5   0   0   0   0   1   2   1   0   0   0   0
+    1   0]
+ [  0   9  21 242   7   2  10   1   0   0   1   1   7   0   0   0   0   0
+    0   0]
+ [  0   1   5   5 233   2   2   2   1   0   0   3   1   0   1   0   0   0
+    0   0]
+ [  0  20   6   3   1 260   0   0   0   2   0   1   0   0   2   0   2   0
+    0   0]
+ [  0   2   5  12   3   1 235  10   2   3   1   0   7   0   2   0   2   1
+    4   0]
+ [  0   1   0   0   1   0   8 300   4   1   0   0   1   2   3   0   2   0
+    1   0]
+ [  0   1   0   0   0   2   2   3 283   0   0   0   1   0   0   0   0   0
+    1   1]
+ [  0   1   1   0   1   2   1   2   0 297   8   1   0   1   0   0   0   0
+    0   0]
+ [  0   0   0   0   0   0   0   0   2   2 298   0   0   0   0   0   0   0
+    0   0]
+ [  0   1   2   0   0   1   1   0   0   0   0 284   2   1   0   0   2   1
+    2   0]
+ [  0  11   3   5   4   2   4   5   1   1   0   4 266   1   4   0   1   0
+    1   0]
+ [  1   1   0   1   0   2   1   0   0   0   0   0   1 266   2   1   0   0
+    1   0]
+ [  0   3   0   0   1   1   0   0   0   0   0   1   0   1 296   0   1   0
+    1   0]
+ [  3   1   0   1   0   0   0   0   0   0   1   0   0   2   1 280   0   1
+    1   2]
+ [  1   0   2   0   0   0   0   0   1   0   0   0   0   0   0   0 236   1
+    4   1]
+ [  1   0   0   0   0   1   0   0   0   0   0   0   0   0   0   3   0 290
+    1   0]
+ [  2   1   0   0   1   1   0   1   0   0   0   0   0   0   0   1  10   7
+  212   0]
+ [ 16   0   0   0   0   0   0   0   0   0   0   0   0   0   0  12   4   1
+    4 134]]
+2024-01-19 17:07:59 - bayes_classifier_text - 4373890432 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-19 17:07:59 - bayes_classifier_text - 4373890432 - INFO : [[224   0   0   0   0   0   0   0   0   0   0   0   0   0   2   5   0   0
+    1  13]
+ [  1 267   5   5   2   8   1   1   0   0   0   2   3   2   1   0   0   0
+    0   0]
+ [  1  13 230  24   4  10   5   0   0   0   0   1   2   1   0   0   0   0
+    1   0]
+ [  0   9  21 242   7   2  10   1   0   0   1   1   7   0   0   0   0   0
+    0   0]
+ [  0   1   5   5 233   2   2   2   1   0   0   3   1   0   1   0   0   0
+    0   0]
+ [  0  20   6   3   1 260   0   0   0   2   0   1   0   0   2   0   2   0
+    0   0]
+ [  0   2   5  12   3   1 235  10   2   3   1   0   7   0   2   0   2   1
+    4   0]
+ [  0   1   0   0   1   0   8 300   4   1   0   0   1   2   3   0   2   0
+    1   0]
+ [  0   1   0   0   0   2   2   3 283   0   0   0   1   0   0   0   0   0
+    1   1]
+ [  0   1   1   0   1   2   1   2   0 297   8   1   0   1   0   0   0   0
+    0   0]
+ [  0   0   0   0   0   0   0   0   2   2 298   0   0   0   0   0   0   0
+    0   0]
+ [  0   1   2   0   0   1   1   0   0   0   0 284   2   1   0   0   2   1
+    2   0]
+ [  0  11   3   5   4   2   4   5   1   1   0   4 266   1   4   0   1   0
+    1   0]
+ [  1   1   0   1   0   2   1   0   0   0   0   0   1 266   2   1   0   0
+    1   0]
+ [  0   3   0   0   1   1   0   0   0   0   0   1   0   1 296   0   1   0
+    1   0]
+ [  3   1   0   1   0   0   0   0   0   0   1   0   0   2   1 280   0   1
+    1   2]
+ [  1   0   2   0   0   0   0   0   1   0   0   0   0   0   0   0 236   1
+    4   1]
+ [  1   0   0   0   0   1   0   0   0   0   0   0   0   0   0   3   0 290
+    1   0]
+ [  2   1   0   0   1   1   0   1   0   0   0   0   0   0   0   1  10   7
+  212   0]
+ [ 16   0   0   0   0   0   0   0   0   0   0   0   0   0   0  12   4   1
+    4 134]]
+2024-01-19 17:13:55 - bayes_classifier_text - 4298704256 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-19 17:14:52 - bayes_classifier_text - 4313318784 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-19 17:17:02 - bayes_classifier_text - 4368975232 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-19 17:18:37 - bayes_classifier_text - 4308911488 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-19 17:27:25 - bayes_classifier_text - 4340024704 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-19 17:27:41 - bayes_classifier_text - 4343350656 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-19 17:28:00 - bayes_classifier_text - 4375020928 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-19 17:29:02 - bayes_classifier_text - 4337878400 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-19 17:29:46 - bayes_classifier_text - 4305470848 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-19 17:30:10 - bayes_classifier_text - 4330669440 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-19 17:32:15 - bayes_classifier_text - 4381164928 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-19 17:32:34 - bayes_classifier_text - 4379215232 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-19 23:59:09 - bayes_classifier_text - 4311188864 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-20 00:04:07 - bayes_classifier_text - 4379772288 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-20 00:04:08 - bayes_classifier_text - 4379772288 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.86      0.89      0.87       245
+           comp.graphics       0.89      0.86      0.87       298
+ comp.os.ms-windows.misc       0.85      0.89      0.87       292
+comp.sys.ibm.pc.hardware       0.78      0.80      0.79       301
+   comp.sys.mac.hardware       0.92      0.90      0.91       256
+          comp.windows.x       0.93      0.90      0.91       297
+            misc.forsale       0.91      0.81      0.86       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.94      0.98      0.96       294
+      rec.sport.baseball       0.97      0.97      0.97       315
+        rec.sport.hockey       0.95      1.00      0.97       302
+               sci.crypt       0.90      0.98      0.94       297
+         sci.electronics       0.93      0.81      0.87       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.92      0.97      0.95       305
+  soc.religion.christian       0.84      0.97      0.90       293
+      talk.politics.guns       0.80      0.98      0.88       246
+   talk.politics.mideast       0.92      0.99      0.95       296
+      talk.politics.misc       0.97      0.77      0.86       236
+      talk.religion.misc       0.93      0.51      0.66       171
+
+                accuracy                           0.90      5648
+               macro avg       0.90      0.89      0.89      5648
+            weighted avg       0.91      0.90      0.90      5648
+
+2024-01-20 00:04:59 - bayes_classifier_text - 4300899712 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-20 00:04:59 - bayes_classifier_text - 4300899712 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.86      0.89      0.87       245
+           comp.graphics       0.89      0.86      0.87       298
+ comp.os.ms-windows.misc       0.85      0.89      0.87       292
+comp.sys.ibm.pc.hardware       0.78      0.80      0.79       301
+   comp.sys.mac.hardware       0.92      0.90      0.91       256
+          comp.windows.x       0.93      0.90      0.91       297
+            misc.forsale       0.91      0.81      0.86       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.94      0.98      0.96       294
+      rec.sport.baseball       0.97      0.97      0.97       315
+        rec.sport.hockey       0.95      1.00      0.97       302
+               sci.crypt       0.90      0.98      0.94       297
+         sci.electronics       0.93      0.81      0.87       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.92      0.97      0.95       305
+  soc.religion.christian       0.84      0.97      0.90       293
+      talk.politics.guns       0.80      0.98      0.88       246
+   talk.politics.mideast       0.92      0.99      0.95       296
+      talk.politics.misc       0.97      0.77      0.86       236
+      talk.religion.misc       0.93      0.51      0.66       171
+
+                accuracy                           0.90      5648
+               macro avg       0.90      0.89      0.89      5648
+            weighted avg       0.91      0.90      0.90      5648
+
+2024-01-20 00:05:38 - bayes_classifier_text - 4365731200 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-20 00:05:39 - bayes_classifier_text - 4365731200 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.86      0.89      0.87       245
+           comp.graphics       0.89      0.86      0.87       298
+ comp.os.ms-windows.misc       0.85      0.89      0.87       292
+comp.sys.ibm.pc.hardware       0.78      0.80      0.79       301
+   comp.sys.mac.hardware       0.92      0.90      0.91       256
+          comp.windows.x       0.93      0.90      0.91       297
+            misc.forsale       0.91      0.81      0.86       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.94      0.98      0.96       294
+      rec.sport.baseball       0.97      0.97      0.97       315
+        rec.sport.hockey       0.95      1.00      0.97       302
+               sci.crypt       0.90      0.98      0.94       297
+         sci.electronics       0.93      0.81      0.87       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.92      0.97      0.95       305
+  soc.religion.christian       0.84      0.97      0.90       293
+      talk.politics.guns       0.80      0.98      0.88       246
+   talk.politics.mideast       0.92      0.99      0.95       296
+      talk.politics.misc       0.97      0.77      0.86       236
+      talk.religion.misc       0.93      0.51      0.66       171
+
+                accuracy                           0.90      5648
+               macro avg       0.90      0.89      0.89      5648
+            weighted avg       0.91      0.90      0.90      5648
+
+2024-01-20 00:08:04 - bayes_classifier_text - 4349298048 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-20 00:08:05 - bayes_classifier_text - 4349298048 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.86      0.89      0.87       245
+           comp.graphics       0.89      0.86      0.87       298
+ comp.os.ms-windows.misc       0.85      0.89      0.87       292
+comp.sys.ibm.pc.hardware       0.78      0.80      0.79       301
+   comp.sys.mac.hardware       0.92      0.90      0.91       256
+          comp.windows.x       0.93      0.90      0.91       297
+            misc.forsale       0.91      0.81      0.86       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.94      0.98      0.96       294
+      rec.sport.baseball       0.97      0.97      0.97       315
+        rec.sport.hockey       0.95      1.00      0.97       302
+               sci.crypt       0.90      0.98      0.94       297
+         sci.electronics       0.93      0.81      0.87       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.92      0.97      0.95       305
+  soc.religion.christian       0.84      0.97      0.90       293
+      talk.politics.guns       0.80      0.98      0.88       246
+   talk.politics.mideast       0.92      0.99      0.95       296
+      talk.politics.misc       0.97      0.77      0.86       236
+      talk.religion.misc       0.93      0.51      0.66       171
+
+                accuracy                           0.90      5648
+               macro avg       0.90      0.89      0.89      5648
+            weighted avg       0.91      0.90      0.90      5648
+
+2024-01-20 00:08:19 - bayes_classifier_text - 4299261312 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-20 00:08:19 - bayes_classifier_text - 4299261312 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.86      0.89      0.87       245
+           comp.graphics       0.89      0.86      0.87       298
+ comp.os.ms-windows.misc       0.85      0.89      0.87       292
+comp.sys.ibm.pc.hardware       0.78      0.80      0.79       301
+   comp.sys.mac.hardware       0.92      0.90      0.91       256
+          comp.windows.x       0.93      0.90      0.91       297
+            misc.forsale       0.91      0.81      0.86       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.94      0.98      0.96       294
+      rec.sport.baseball       0.97      0.97      0.97       315
+        rec.sport.hockey       0.95      1.00      0.97       302
+               sci.crypt       0.90      0.98      0.94       297
+         sci.electronics       0.93      0.81      0.87       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.92      0.97      0.95       305
+  soc.religion.christian       0.84      0.97      0.90       293
+      talk.politics.guns       0.80      0.98      0.88       246
+   talk.politics.mideast       0.92      0.99      0.95       296
+      talk.politics.misc       0.97      0.77      0.86       236
+      talk.religion.misc       0.93      0.51      0.66       171
+
+                accuracy                           0.90      5648
+               macro avg       0.90      0.89      0.89      5648
+            weighted avg       0.91      0.90      0.90      5648
+
+2024-01-20 00:09:47 - bayes_classifier_text - 4346955136 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-20 00:09:48 - bayes_classifier_text - 4346955136 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.86      0.89      0.87       245
+           comp.graphics       0.89      0.86      0.87       298
+ comp.os.ms-windows.misc       0.85      0.89      0.87       292
+comp.sys.ibm.pc.hardware       0.78      0.80      0.79       301
+   comp.sys.mac.hardware       0.92      0.90      0.91       256
+          comp.windows.x       0.93      0.90      0.91       297
+            misc.forsale       0.91      0.81      0.86       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.94      0.98      0.96       294
+      rec.sport.baseball       0.97      0.97      0.97       315
+        rec.sport.hockey       0.95      1.00      0.97       302
+               sci.crypt       0.90      0.98      0.94       297
+         sci.electronics       0.93      0.81      0.87       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.92      0.97      0.95       305
+  soc.religion.christian       0.84      0.97      0.90       293
+      talk.politics.guns       0.80      0.98      0.88       246
+   talk.politics.mideast       0.92      0.99      0.95       296
+      talk.politics.misc       0.97      0.77      0.86       236
+      talk.religion.misc       0.93      0.51      0.66       171
+
+                accuracy                           0.90      5648
+               macro avg       0.90      0.89      0.89      5648
+            weighted avg       0.91      0.90      0.90      5648
+
+2024-01-20 00:10:11 - bayes_classifier_text - 4347938176 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-20 00:10:12 - bayes_classifier_text - 4347938176 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.86      0.89      0.87       245
+           comp.graphics       0.89      0.86      0.87       298
+ comp.os.ms-windows.misc       0.85      0.89      0.87       292
+comp.sys.ibm.pc.hardware       0.78      0.80      0.79       301
+   comp.sys.mac.hardware       0.92      0.90      0.91       256
+          comp.windows.x       0.93      0.90      0.91       297
+            misc.forsale       0.91      0.81      0.86       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.94      0.98      0.96       294
+      rec.sport.baseball       0.97      0.97      0.97       315
+        rec.sport.hockey       0.95      1.00      0.97       302
+               sci.crypt       0.90      0.98      0.94       297
+         sci.electronics       0.93      0.81      0.87       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.92      0.97      0.95       305
+  soc.religion.christian       0.84      0.97      0.90       293
+      talk.politics.guns       0.80      0.98      0.88       246
+   talk.politics.mideast       0.92      0.99      0.95       296
+      talk.politics.misc       0.97      0.77      0.86       236
+      talk.religion.misc       0.93      0.51      0.66       171
+
+                accuracy                           0.90      5648
+               macro avg       0.90      0.89      0.89      5648
+            weighted avg       0.91      0.90      0.90      5648
+
+2024-01-20 00:11:35 - bayes_classifier_text - 4306421120 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-20 00:11:35 - bayes_classifier_text - 4306421120 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.86      0.89      0.87       245
+           comp.graphics       0.89      0.86      0.87       298
+ comp.os.ms-windows.misc       0.85      0.89      0.87       292
+comp.sys.ibm.pc.hardware       0.78      0.80      0.79       301
+   comp.sys.mac.hardware       0.92      0.90      0.91       256
+          comp.windows.x       0.93      0.90      0.91       297
+            misc.forsale       0.91      0.81      0.86       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.94      0.98      0.96       294
+      rec.sport.baseball       0.97      0.97      0.97       315
+        rec.sport.hockey       0.95      1.00      0.97       302
+               sci.crypt       0.90      0.98      0.94       297
+         sci.electronics       0.93      0.81      0.87       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.92      0.97      0.95       305
+  soc.religion.christian       0.84      0.97      0.90       293
+      talk.politics.guns       0.80      0.98      0.88       246
+   talk.politics.mideast       0.92      0.99      0.95       296
+      talk.politics.misc       0.97      0.77      0.86       236
+      talk.religion.misc       0.93      0.51      0.66       171
+
+                accuracy                           0.90      5648
+               macro avg       0.90      0.89      0.89      5648
+            weighted avg       0.91      0.90      0.90      5648
+
+2024-01-20 00:12:32 - bayes_classifier_text - 4304979328 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-20 00:12:33 - bayes_classifier_text - 4304979328 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.86      0.89      0.87       245
+           comp.graphics       0.89      0.86      0.87       298
+ comp.os.ms-windows.misc       0.85      0.89      0.87       292
+comp.sys.ibm.pc.hardware       0.78      0.80      0.79       301
+   comp.sys.mac.hardware       0.92      0.90      0.91       256
+          comp.windows.x       0.93      0.90      0.91       297
+            misc.forsale       0.91      0.81      0.86       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.94      0.98      0.96       294
+      rec.sport.baseball       0.97      0.97      0.97       315
+        rec.sport.hockey       0.95      1.00      0.97       302
+               sci.crypt       0.90      0.98      0.94       297
+         sci.electronics       0.93      0.81      0.87       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.92      0.97      0.95       305
+  soc.religion.christian       0.84      0.97      0.90       293
+      talk.politics.guns       0.80      0.98      0.88       246
+   talk.politics.mideast       0.92      0.99      0.95       296
+      talk.politics.misc       0.97      0.77      0.86       236
+      talk.religion.misc       0.93      0.51      0.66       171
+
+                accuracy                           0.90      5648
+               macro avg       0.90      0.89      0.89      5648
+            weighted avg       0.91      0.90      0.90      5648
+
+2024-01-20 00:12:46 - bayes_classifier_text - 4343874944 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-20 00:12:47 - bayes_classifier_text - 4343874944 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.86      0.89      0.87       245
+           comp.graphics       0.89      0.86      0.87       298
+ comp.os.ms-windows.misc       0.85      0.89      0.87       292
+comp.sys.ibm.pc.hardware       0.78      0.80      0.79       301
+   comp.sys.mac.hardware       0.92      0.90      0.91       256
+          comp.windows.x       0.93      0.90      0.91       297
+            misc.forsale       0.91      0.81      0.86       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.94      0.98      0.96       294
+      rec.sport.baseball       0.97      0.97      0.97       315
+        rec.sport.hockey       0.95      1.00      0.97       302
+               sci.crypt       0.90      0.98      0.94       297
+         sci.electronics       0.93      0.81      0.87       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.92      0.97      0.95       305
+  soc.religion.christian       0.84      0.97      0.90       293
+      talk.politics.guns       0.80      0.98      0.88       246
+   talk.politics.mideast       0.92      0.99      0.95       296
+      talk.politics.misc       0.97      0.77      0.86       236
+      talk.religion.misc       0.93      0.51      0.66       171
+
+                accuracy                           0.90      5648
+               macro avg       0.90      0.89      0.89      5648
+            weighted avg       0.91      0.90      0.90      5648
+
+2024-01-20 00:12:48 - bayes_classifier_text - 4343874944 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.89      0.46      0.60       245
+           comp.graphics       0.83      0.41      0.55       298
+ comp.os.ms-windows.misc       0.93      0.14      0.24       292
+comp.sys.ibm.pc.hardware       0.63      0.71      0.67       301
+   comp.sys.mac.hardware       0.26      0.90      0.40       256
+          comp.windows.x       0.91      0.55      0.69       297
+            misc.forsale       0.32      0.92      0.47       290
+               rec.autos       0.92      0.78      0.84       324
+         rec.motorcycles       0.77      0.90      0.83       294
+      rec.sport.baseball       0.93      0.87      0.90       315
+        rec.sport.hockey       0.98      0.84      0.91       302
+               sci.crypt       0.88      0.83      0.85       297
+         sci.electronics       0.94      0.64      0.76       313
+                 sci.med       0.86      0.73      0.79       277
+               sci.space       0.95      0.76      0.84       305
+  soc.religion.christian       0.61      0.82      0.70       293
+      talk.politics.guns       0.74      0.76      0.75       246
+   talk.politics.mideast       0.94      0.61      0.74       296
+      talk.politics.misc       0.89      0.30      0.44       236
+      talk.religion.misc       1.00      0.01      0.02       171
+
+                accuracy                           0.67      5648
+               macro avg       0.81      0.65      0.65      5648
+            weighted avg       0.81      0.67      0.67      5648
+
+2024-01-20 00:18:19 - bayes_classifier_text - 4331931008 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.00      0.00      0.00       245
+           comp.graphics       0.00      0.00      0.00       298
+ comp.os.ms-windows.misc       0.00      0.00      0.00       292
+comp.sys.ibm.pc.hardware       0.00      0.00      0.00       301
+   comp.sys.mac.hardware       0.00      0.00      0.00       256
+          comp.windows.x       0.00      0.00      0.00       297
+            misc.forsale       0.00      0.00      0.00       290
+               rec.autos       0.00      0.00      0.00       324
+         rec.motorcycles       0.00      0.00      0.00       294
+      rec.sport.baseball       0.00      0.00      0.00       315
+        rec.sport.hockey       0.00      0.00      0.00       302
+               sci.crypt       0.00      0.00      0.00       297
+         sci.electronics       0.00      0.00      0.00       313
+                 sci.med       0.05      1.00      0.09       277
+               sci.space       0.00      0.00      0.00       305
+  soc.religion.christian       0.00      0.00      0.00       293
+      talk.politics.guns       0.00      0.00      0.00       246
+   talk.politics.mideast       0.00      0.00      0.00       296
+      talk.politics.misc       0.00      0.00      0.00       236
+      talk.religion.misc       0.00      0.00      0.00       171
+
+                accuracy                           0.05      5648
+               macro avg       0.00      0.05      0.00      5648
+            weighted avg       0.00      0.05      0.00      5648
+
+2024-01-20 00:24:20 - bayes_classifier_text - 4381246848 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.90      0.91      0.91       245
+           comp.graphics       0.80      0.90      0.85       298
+ comp.os.ms-windows.misc       0.82      0.79      0.80       292
+comp.sys.ibm.pc.hardware       0.81      0.80      0.81       301
+   comp.sys.mac.hardware       0.90      0.91      0.91       256
+          comp.windows.x       0.88      0.88      0.88       297
+            misc.forsale       0.87      0.81      0.84       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.96      0.96      0.96       294
+      rec.sport.baseball       0.97      0.94      0.96       315
+        rec.sport.hockey       0.96      0.99      0.98       302
+               sci.crypt       0.95      0.96      0.95       297
+         sci.electronics       0.91      0.85      0.88       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.94      0.97      0.96       305
+  soc.religion.christian       0.93      0.96      0.94       293
+      talk.politics.guns       0.91      0.96      0.93       246
+   talk.politics.mideast       0.96      0.98      0.97       296
+      talk.politics.misc       0.90      0.90      0.90       236
+      talk.religion.misc       0.89      0.78      0.83       171
+
+                accuracy                           0.91      5648
+               macro avg       0.91      0.91      0.91      5648
+            weighted avg       0.91      0.91      0.91      5648
+
+2024-01-20 00:24:21 - bayes_classifier_text - 4381246848 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.86      0.89      0.87       245
+           comp.graphics       0.89      0.86      0.87       298
+ comp.os.ms-windows.misc       0.85      0.89      0.87       292
+comp.sys.ibm.pc.hardware       0.78      0.80      0.79       301
+   comp.sys.mac.hardware       0.92      0.90      0.91       256
+          comp.windows.x       0.93      0.90      0.91       297
+            misc.forsale       0.91      0.81      0.86       290
+               rec.autos       0.92      0.93      0.92       324
+         rec.motorcycles       0.94      0.98      0.96       294
+      rec.sport.baseball       0.97      0.97      0.97       315
+        rec.sport.hockey       0.95      1.00      0.97       302
+               sci.crypt       0.90      0.98      0.94       297
+         sci.electronics       0.93      0.81      0.87       313
+                 sci.med       0.96      0.96      0.96       277
+               sci.space       0.92      0.97      0.95       305
+  soc.religion.christian       0.84      0.97      0.90       293
+      talk.politics.guns       0.80      0.98      0.88       246
+   talk.politics.mideast       0.92      0.99      0.95       296
+      talk.politics.misc       0.97      0.77      0.86       236
+      talk.religion.misc       0.93      0.51      0.66       171
+
+                accuracy                           0.90      5648
+               macro avg       0.90      0.89      0.89      5648
+            weighted avg       0.91      0.90      0.90      5648
+
+2024-01-20 00:24:22 - bayes_classifier_text - 4381246848 - INFO :                           precision    recall  f1-score   support
+
+             alt.atheism       0.89      0.46      0.60       245
+           comp.graphics       0.83      0.41      0.55       298
+ comp.os.ms-windows.misc       0.93      0.14      0.24       292
+comp.sys.ibm.pc.hardware       0.63      0.71      0.67       301
+   comp.sys.mac.hardware       0.26      0.90      0.40       256
+          comp.windows.x       0.91      0.55      0.69       297
+            misc.forsale       0.32      0.92      0.47       290
+               rec.autos       0.92      0.78      0.84       324
+         rec.motorcycles       0.77      0.90      0.83       294
+      rec.sport.baseball       0.93      0.87      0.90       315
+        rec.sport.hockey       0.98      0.84      0.91       302
+               sci.crypt       0.88      0.83      0.85       297
+         sci.electronics       0.94      0.64      0.76       313
+                 sci.med       0.86      0.73      0.79       277
+               sci.space       0.95      0.76      0.84       305
+  soc.religion.christian       0.61      0.82      0.70       293
+      talk.politics.guns       0.74      0.76      0.75       246
+   talk.politics.mideast       0.94      0.61      0.74       296
+      talk.politics.misc       0.89      0.30      0.44       236
+      talk.religion.misc       1.00      0.01      0.02       171
+
+                accuracy                           0.67      5648
+               macro avg       0.81      0.65      0.65      5648
+            weighted avg       0.81      0.67      0.67      5648
+
+2024-01-25 14:55:59 - sinData_linearRegression_pipeline - 4371006848 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_ElasticNet', ElasticNet(alpha=0.1, l1_ratio=0))])
+2024-01-25 14:55:59 - sinData_linearRegression_pipeline - 4371006848 - INFO : params:l1_ratio=0
+2024-01-25 14:55:59 - sinData_linearRegression_pipeline - 4371006848 - INFO : train_score:0.37510982280660954
+2024-01-25 14:55:59 - sinData_linearRegression_pipeline - 4371006848 - INFO : mse:0.347868996204216
+2024-01-25 14:55:59 - sinData_linearRegression_pipeline - 4371006848 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_ElasticNet', ElasticNet(alpha=0.1, l1_ratio=0.25))])
+2024-01-25 14:55:59 - sinData_linearRegression_pipeline - 4371006848 - INFO : params:l1_ratio=0.25
+2024-01-25 14:55:59 - sinData_linearRegression_pipeline - 4371006848 - INFO : train_score:0.29504863560266503
+2024-01-25 14:55:59 - sinData_linearRegression_pipeline - 4371006848 - INFO : mse:0.39243811545752566
+2024-01-25 14:55:59 - sinData_linearRegression_pipeline - 4371006848 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_ElasticNet', ElasticNet(alpha=0.1, l1_ratio=0.75))])
+2024-01-25 14:55:59 - sinData_linearRegression_pipeline - 4371006848 - INFO : params:l1_ratio=0.75
+2024-01-25 14:55:59 - sinData_linearRegression_pipeline - 4371006848 - INFO : train_score:0.22027169699264726
+2024-01-25 14:55:59 - sinData_linearRegression_pipeline - 4371006848 - INFO : mse:0.4340655558028406
+2024-01-25 14:55:59 - sinData_linearRegression_pipeline - 4371006848 - INFO : model:Pipeline(steps=[('poly_features', PolynomialFeatures(degree=10)),
+                ('std_scaler', StandardScaler()),
+                ('regul_ElasticNet', ElasticNet(alpha=0.1, l1_ratio=1))])
+2024-01-25 14:55:59 - sinData_linearRegression_pipeline - 4371006848 - INFO : params:l1_ratio=1
+2024-01-25 14:55:59 - sinData_linearRegression_pipeline - 4371006848 - INFO : train_score:0.21436990612491136
+2024-01-25 14:55:59 - sinData_linearRegression_pipeline - 4371006848 - INFO : mse:0.4373510132158336
