@@ -107,16 +107,15 @@ def plot_learning_curve(
     return plt
 
 
-# 构造出一阶多项式，三阶多项式，十阶多项式三个模型的学习曲线
-def plot_curve(x, y):
+def plot_curve(x, y, degrees):
     cv = ShuffleSplit(n_splits=10, test_size=0.2, random_state=0)
     titles = [
         "learning curves_1degree(under fitting)",
         "learning curves_3degree",
         "learning curves_10degree(over fitting)",
     ]
-    degrees = [1, 3, 10]
-    plt.figure(figsize=(18, 4), dpi=200)
+
+    plt.figure(figsize=(18, 4), dpi=400)
 
     for i in range(len(degrees)):
         plt.subplot(1, 3, i + 1)
@@ -124,12 +123,13 @@ def plot_curve(x, y):
             polynomial_model(degrees[i]), titles[i], x, y, ylim=(0.75, 1.01), cv=cv
         )
 
-    plt.savefig("pics/learning_curve.png")
+    plt.savefig("pics/polynomial_learning_curve.png")
 
 
 def run():
     x, y = get_data()
-    plot_curve(x, y)
+    # 构造出一阶多项式，三阶多项式，十阶多项式三个模型的学习曲线
+    plot_curve(x, y, [1, 3, 10])
 
 
 if __name__ == "__main__":

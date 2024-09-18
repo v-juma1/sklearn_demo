@@ -115,7 +115,7 @@ def real_plot(penalty, solver, max_iter, x, y):
     cv = ShuffleSplit(n_splits=10, test_size=0.2, random_state=0)
     title = "degree={0},penalty={1}"
     degree = [1, 2]
-    plt.figure(figsize=(12, 4), dpi=144)
+    plt.figure(figsize=(12, 4), dpi=300)
     for i in range(len(degree)):
         plt.subplot(1, len(degree), i + 1)
         # max_iter 在达到最大迭代次数后，模型收敛程度不够会输出警告信息

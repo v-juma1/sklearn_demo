@@ -17,7 +17,6 @@ from sklearn.linear_model import (
     SGDRegressor,
     Lasso,
     ElasticNet,
-    LogisticRegression,
 )
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import PolynomialFeatures, StandardScaler
